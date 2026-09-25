@@ -3,6 +3,7 @@
 
 # Caches de traducao temporarios
 cache_*.json
+*.zip
 
 # Arquivos temporarios e lixo do Windows
 *.tmp
