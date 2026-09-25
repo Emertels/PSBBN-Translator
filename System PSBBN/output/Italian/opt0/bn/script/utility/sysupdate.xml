@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<!-- スクリプト -->
+	<SCRIPT id="main" src="sysupdate" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="dialog" src="../parts/dialog" type="binary/small"/>
+	<SCRIPT id="textarea" src="../parts/textarea" type="binary/small"/>
+
+	<!-- リンク -->
+	<LINK id="bg" href="../common/bg.xml"/>
+	<LINK id="top" href="../top.xml"/>
+	<LINK id="utility_top" href="../top.xml"/>
+	<LINK id="init_setup" href="init_setup.xml"/>
+	<LINK id="ispconf" href="ispconf.xml"/>
+
+	<!-- dialog:アップデート開始確認 -->
+	<dialog id="sysupdate_start" type="confirm">
+		<msg id="msgutil_sysupdate_check"/>
+		<btn id="msgutil_sysupdate_start"/>
+	</dialog>
+
+	<!-- dialog:アップデート確認 -->
+	<dialog id="sysupdate_ask" type="confirm">
+		<msg id="msgutil_sysupdate_ask"/>
+		<btn id="msgutil_common_yes"/>
+		<btn id="msgutil_common_no"/>
+	</dialog>
+
+	<!-- dialog:使用許諾確認 -->
+	<dialog id="sysupdate_eura" type="confirm" mode="textarea">
+		<title id="msgutil_sysupdate_start_term"/>
+		<btn id="msgutil_sysupdate_start_term_yes"/>
+		<btn id="msgutil_sysupdate_start_term_no"/>
+	</dialog>
+
+	<!-- dialog:再起動(システムアップデート) -->
+	<dialog id="sysupdate_system_reboot" type="confirm">
+		<msg id="msgutil_sysupdate_complete_reboot"/>
+		<btn id="msgutil_sysupdate_reboot"/>
+	</dialog>
+
+	<!-- dialog:再起動(CD-ROMアップデート) -->
+	<dialog id="sysupdate_cdrom_reboot" type="confirm">
+		<msg id="msgutil_sysupdate_disc_copycomplete"/>
+		<btn id="msgutil_sysupdate_reboot"/>
+	</dialog>
+
+	<!-- dialog:バージョンチェック -->
+	<dialog id="sysupdate_checking" type="progress">
+		<msg id="msgutil_sysupdate_checking"/>
+		<cancel id="msgutil_common_cancel"/>
+	</dialog>
+
+	<!-- dialog:使用許諾ダウンロード中 -->
+	<dialog id="sysupdate_geteura" type="progress">
+		<msg id="msgutil_sysupdate_start_term_get"/>
+		<cancel id="msgutil_common_cancel"/>
+	</dialog>
+
+	<!-- dialog:ダウンロード中(ネットワーク) -->
+	<dialog id="sysupdate_download" type="progress">
+		<msg id="msgutil_sysupdate_download"/>
+		<cancel id="msgutil_common_cancel"/>
+	</dialog>
+
+	<!-- dialog:ダウンロード中(CD-ROM) -->
+	<dialog id="sysupdate_disccopy" type="progress">
+		<msg id="msgutil_sysupdate_disc_copywait"/>
+		<cancel id="msgutil_common_cancel"/>
+	</dialog>
+
+	<!-- dialog:アップデート中(system) -->
+	<dialog id="sysupdate_updateing" type="progress">
+		<msg id="msgutil_sysupdate_updateing"/>
+	</dialog>
+
+	<!-- dialog:アップデート中(topmenu) -->
+	<dialog id="sysupdate_topmenu" type="progress">
+		<msg id="msgutil_sysupdate_topmenu"/>
+		<cancel id="msgutil_common_cancel"/>
+	</dialog>
+
+	<!-- テキスト -->
+	<TEXT id="msgutil_btn_enter" value="Conferma"/>
+	<TEXT id="msgutil_btn_back" value="Indietro"/>
+	<TEXT id="msgutil_common_yes" value="SÌ"/>
+	<TEXT id="msgutil_common_no" value="NO"/>
+	<TEXT id="msgutil_common_cancel" value="Cancellare"/>
+	<TEXT id="msgutil_common_ok" value="OK"/>
+	<TEXT id="msgutil_sysupdate_check" value="Controlla l'aggiornamento di PlayStation®BB Navigator."/>
+	<TEXT id="msgutil_sysupdate_start" value="Inizio"/>
+	<TEXT id="msgutil_sysupdate_checking" value="Recupero delle informazioni sulla versione in corso..."/>
+	<TEXT id="msgutil_sysupdate_check_cancel" value="Il recupero delle informazioni sulla versione è stato interrotto."/>
+	<TEXT id="msgutil_sysupdate_error_notnetsetting" value="Informazioni sul server non recuperate.\n\nPer ottenere informazioni sul server, andare su\n&quot;Verifica/Cambia&quot; nel menu delle impostazioni di rete."/>
+	<TEXT id="msgutil_sysupdate_error_notgetver" value="Impossibile ottenere informazioni sulla versione. \nControlla le impostazioni di rete."/>
+	<TEXT id="msgutil_sysupdate_latestver" value="È installata la versione più recente.\n\nNon è necessario aggiornare."/>
+	<TEXT id="msgutil_sysupdate_error_nospace" value="Spazio insufficiente per aggiornare PlayStation®BB Navigator.\n\nContatta il Centro informazioni di Sony Computer Entertainment Inc."/>
+	<TEXT id="msgutil_sysupdate_ask" value="Avvia l'aggiornamento. Sei sicuro?"/>
+	<TEXT id="msgutil_sysupdate_download" value="Download di PlayStation®BB Navigator in corso...\n\nNon spegnere la PlayStation®2 o la connessione di rete."/>
+	<TEXT id="msgutil_sysupdate_error_download" value="Impossibile scaricare PlayStation®BB Navigator."/>
+	<TEXT id="msgutil_sysupdate_fail_download" value="Impossibile aggiornare PlayStation®BB Navigator.\n\nSpazio libero insufficiente. Elimina i giochi non necessari."/>
+	<TEXT id="msgutil_sysupdate_download_cancel" value="Il download di PlayStation®BB Navigator è stato interrotto."/>
+	<TEXT id="msgutil_sysupdate_updateing" value="Aggiornamento di PlayStation®BB Navigator...\n\nNon spegnere la PlayStation®2."/>
+	<TEXT id="msgutil_sysupdate_fail_update" value="Impossibile aggiornare PlayStation®BB Navigator.\n\nSpazio libero insufficiente. Elimina i giochi non necessari."/>
+	<TEXT id="msgutil_sysupdate_fail" value="Aggiornamento non riuscito. I contenuti di PlayStation®BB Navigator potrebbero essere incoerenti. Dopo aver reinstallato dal disco di installazione, aggiornare di nuovo."/>
+	<TEXT id="msgutil_sysupdate_cannot" value="Le informazioni sulla versione non sono corrette.\n\nContattare il Centro informazioni di Sony Computer Entertainment Inc."/>
+	<TEXT id="msgutil_sysupdate_complete" value="Aggiornamento completato."/>
+	<TEXT id="msgutil_sysupdate_complete_reboot" value="Aggiornamento completato. Un riavvio attiva la nuova versione."/>
+	<TEXT id="msgutil_sysupdate_reboot" value="Riavviare"/>
+	<TEXT id="msgutil_sysupdate_rebootwait" value="Attendi l'avvio di PlayStation®BB Navigator. Non spegnere la PlayStation®2."/>
+	<TEXT id="msgutil_sysupdate_disc" value="Impossibile aggiornare su questo disco."/>
+	<TEXT id="msgutil_sysupdate_disc_copywait" value="Non aprire il disco durante la copia di PlayStation®BB Navigator. Si prega di non spegnere la PlayStation®2."/>
+	<TEXT id="msgutil_sysupdate_disc_copycancel" value="La copia di PlayStation®BB Navigator è stata interrotta."/>
+	<TEXT id="msgutil_sysupdate_disc_copyfailnospace" value="Impossibile copiare PlayStation®BB Navigator. Lo spazio libero non è sufficiente. Rimuovi i filmati o le immagini non necessari."/>
+	<TEXT id="msgutil_sysupdate_disc_copyfail" value="Impossibile copiare PlayStation®BB Navigator."/>
+	<TEXT id="msgutil_sysupdate_disc_copycomplete" value="L'aggiornamento è stato completato. La nuova versione avrà effetto quando si riavvia e si espelle il disco."/>
+	<TEXT id="msgutil_sysupdate_topmenu" value="Menù in aggiornamento. Non scollegare la rete e l'alimentazione della PlayStation®2"/>
+	<TEXT id="msgutil_sysupdate_topmenu_cancel" value="L'aggiornamento è stato interrotto."/>
+	<TEXT id="msgutil_sysupdate_topmenu_fail" value="Impossibile aggiornare."/>
+	<TEXT id="msgutil_sysupdate_start_term" value="Contratto di licenza"/>
+	<TEXT id="msgutil_sysupdate_start_term_yes" value="Essere d'accordo"/>
+	<TEXT id="msgutil_sysupdate_start_term_no" value="Non sono d'accordo"/>
+	<TEXT id="msgutil_sysupdate_start_term_get" value="Ottenere i termini della licenza..."/>
+	<TEXT id="msgutil_sysupdate_start_term_get_fail" value="Impossibile ottenere i termini della licenza."/>
+	<TEXT id="msgutil_sysupdate_start_term_get_cancel" value="L'acquisizione del contratto di licenza è stata interrotta."/>
+
+</RESOURCE>

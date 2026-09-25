@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="false" width="346.0" visible="13" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Per uscire da un gioco PlayStation, premi L1 +</LINE>
+	<LINE>SELECT + START, quindi scegli "Sì" e premi ○.</LINE>
+	<LINE></LINE>
+	<LINE>Per uscire da un gioco PlayStation 2 (quando usi OPL</LINE>
+	<LINE>come launcher del gioco), premi L1 + L2 + R1 + R2 +</LINE>
+	<LINE>SELECT + START. In alternativa, puoi premere L1 + L2</LINE>
+	<LINE>+ L3 + R1 + R2 + R3 per mettere la console in</LINE>
+	<LINE>modalità standby.</LINE>
+	<LINE></LINE>
+	<LINE>Se non sei sicuro su come uscire, fai riferimento a</LINE>
+	<LINE>"Spegni la PlayStation 2" in "Operazioni di base" in</LINE>
+	<LINE>questa Guida operativa per mettere la console in</LINE>
+	<LINE>modalità standby.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_15.xml" LnkNum="3"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Esci da un gioco" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

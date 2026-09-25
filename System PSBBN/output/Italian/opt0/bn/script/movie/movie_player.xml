@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+	<SCRIPT id="main" src="movie_player" type="binary/small"/>
+
+	<SCRIPT id="general_menu" src="../parts/general_menu" type="binary/small"/>
+	<SCRIPT id="label_item" src="../parts/label_item" type="binary/small"/>
+	<SCRIPT id="album_item" src="../parts/album_item" type="binary/small"/>
+	<SCRIPT id="thumb_item" src="thumb_item" type="binary/small"/>
+	<SCRIPT id="scroll_bar" src="../parts/scroll_bar" type="binary/small"/>
+	<SCRIPT id="radio_button_v" src="../parts/radio_button_v" type="binary/small"/>
+	<SCRIPT id="toolbar" src="../parts/toolbar" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="focus_box" src="../parts/focus_box" type="binary/small"/>
+	<SCRIPT id="progress_bar" src="../parts/progress_bar" type="binary/small"/>
+	<SCRIPT id="confirm_ok" src="../parts/confirm_ok" type="binary/small"/>
+	<SCRIPT id="confirm_yesno" src="../parts/confirm_yesno" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="../parts/confirm_d" type="binary/small"/>
+	<SCRIPT id="progress_window" src="progress_window" type="binary/small"/>
+	<SCRIPT id="window" src="../parts/window" type="binary/small"/>
+	<SCRIPT id="edit_box" src="../parts/edit_box" type="binary/small"/>
+	<SCRIPT id="device_image" src="../parts/device_image" type="binary/small"/>
+	<SCRIPT id="movie_dialog" src="movie_dialog" type="binary/small"/>
+
+	<IMG id="default_icon" group="" src="../../data/tex/default_icon/Movie.tm2"/>
+
+	<LINK id="bg" href="../common/bg.xml" />
+	<LINK id="movie" href="file://opt0/bn/script/movie/movie.xml"/>
+	<LINK id="top" href="../top.xml"/>
+	<LINK id="help" href="../help/help.xml"/>
+	<LINK id="info" href="../bn/info.xml"/>
+	<LINK id="infomenu" href="infomenu.xml" />
+	<LINK id="movie_player" href="movie_player.xml" />
+
+	<MENUGROUP id="optmenu1" datatype="xml" menutype="label" menustyle="right" >
+		<TITLE id="optmenu1_title" label="Opzioni" />
+		<ITEM id="optmenu_fav" label="Aggiungi ai preferiti" />
+		<ITEM id="optmenu_move" label="Mossa" />
+		<ITEM id="optmenu_delete" label="Eliminare" />
+		<ITEM id="optmenu_info" label="Informazioni" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu3" datatype="xml" menutype="label" menustyle="right" >
+		<TITLE id="optmenu3_title" label="Opzioni" />
+		<ITEM id="optmenu_delete" label="Elimina dai preferiti" />
+		<ITEM id="optmenu_info" label="Informazioni" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu_favorite" datatype="xml" menutype="label" menustyle="right" >
+		<TITLE id="optmenu_favorite_title" label="Seleziona Destinazione" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu_move" datatype="xml" menutype="label" menustyle="right" >
+		<TITLE id="optmenu_move_title" label="Seleziona Destinazione" />
+	</MENUGROUP>
+
+	<TEXT id="msgmovie_menu_hdd" group="albummenu" value="Collezione" />
+	<TEXT id="msgmovie_menu_dvd" group="albummenu" value="Disco" />
+	<TEXT id="msgmovie_menu_fav" group="albummenu" value="Preferiti" />
+	<TEXT id="msgmovie_favalbum"	value="Preferito" />
+	<TEXT id="msgmovie_libalbum"	value="Album" />
+	<TEXT id="msgmovie_albumname"	value="Nome dell'album" />
+	<TEXT id="msgmovie_album_del_ask"	value="Eliminare tutti i film in questo album?" />
+	<TEXT id="msgmovie_album_del_ask_entity" value="Elimina l'album dall'unità PlayStation®BB. Contemporaneamente vengono eliminati anche i filmati registrati come preferiti." /> 
+	<TEXT id="msgmovie_album_del_ask_entity2" value="Sei sicuro?" /> 
+	<TEXT id="msgmovie_album_del" value="Eliminazione..." /> 
+	<TEXT id="msgmovie_album_del_complete" value="Eliminazione completata." /> 
+	<TEXT id="msgmovie_album_del_fail" value="Eliminazione non riuscita." /> 
+	<TEXT id="msgmovie_regmovie_empty" value="Nessun film da aggiungere." /> 
+	<TEXT id="msgmovie_move_noalbum"	value="Nessuna destinazione." />
+
+	<TEXT id="msgmovie_btn_enter"	value="Conferma" />
+	<TEXT id="msgmovie_btn_back"	value="Indietro" />
+	<TEXT id="msgmovie_btn_option"	value="Opzioni" />
+	<TEXT id="msgmovie_btn_display"	value="Canale" />
+	<TEXT id="msgmovie_common_yes"	value="SÌ" />
+	<TEXT id="msgmovie_common_no"	value="NO" />
+	<TEXT id="msgmovie_common_cancel"	value="Cancellare" />
+	<TEXT id="msgmovie_common_ok"	value="OK" />
+	<TEXT id="msgmovie_ch_movie"	value="Canale del cinema" />
+	<TEXT id="MOVIE-FAVORITE"	value="Preferiti" />
+	<TEXT id="MOVIE-NEWCOMMER"	value="Nuovo" />
+	<TEXT id="msgmovie_menu_hdd"	value="Collezione" />
+	<TEXT id="msgmovie_menu_dvd"	value="Disco" />
+	<TEXT id="msgmovie_menuhdd_option"	value="Opzioni" />
+	<TEXT id="msgmovie_menuhdd_add_favorite"	value="Aggiungi ai preferiti" />
+	<TEXT id="msgmovie_menuhdd_move"	value="Mossa" />
+	<TEXT id="msgmovie_menuhdd_delete"	value="Eliminare" />
+	<TEXT id="msgmovie_menuhdd_info"	value="Informazioni" />
+	<TEXT id="msgmovie_movie_del_ask"	value="Vuoi eliminare il film?" />
+	<TEXT id="msgmovie_movie_del_ask_entity"	value="Elimina il film dall'unità PlayStation®BB. Contemporaneamente vengono eliminati anche i filmati registrati come preferiti." />
+	<TEXT id="msgmovie_movie_del_ask_entity2"	value="Sei sicuro?" />
+	<TEXT id="msgmovie_movie_del_ask_wrong"	value="Sei sicuro di voler eliminare questi dati danneggiati?" />
+	<TEXT id="msgmovie_movie_del"	value="Eliminazione..." />
+	<TEXT id="msgmovie_movie_del_complete"	value="Eliminazione completata." />
+	<TEXT id="msgmovie_movie_del_fail"	value="Eliminazione non riuscita." />
+	<TEXT id="msgmovie_movie_del_cannot"	value="Impossibile eliminare il film." />
+	<TEXT id="msgmovie_album_del_ask"	value="Eliminare tutti i film in questo album?" />
+	<TEXT id="msgmovie_album_del_ask_entity1"	value="Elimina l'album dall'unità PlayStation®BB. Contemporaneamente vengono eliminati anche i filmati registrati come preferiti." />
+	<TEXT id="msgmovie_album_del_ask_entity2"	value="Sei sicuro?" />
+	<TEXT id="msgmovie_album_del"	value="Eliminazione..." />
+	<TEXT id="msgmovie_album_del_complete"	value="Eliminazione completata." />
+	<TEXT id="msgmovie_album_del_fail"	value="Eliminazione non riuscita." />
+	<TEXT id="msgmovie_move_title"	value="Seleziona Destinazione" />
+	<TEXT id="msgmovie_move_ask"	value="Mossa?" />
+	<TEXT id="msgmovie_move"	value="Muoversi..." />
+	<TEXT id="msgmovie_move_complete"	value="Spostamento completato." />
+	<TEXT id="msgmovie_move_fail"	value="Spostamento non riuscito." />
+	<TEXT id="msgmovie_move_fail_max"	value="Impossibile muoversi. Elimina i filmati non necessari dall'album di destinazione." />
+	<TEXT id="msgmovie_move_nodevice"	value="Nessun dispositivo." />
+	<TEXT id="msgmovie_add_title"	value="Seleziona Destinazione" />
+	<TEXT id="msgmovie_add"	value="Aggiunta..." />
+	<TEXT id="msgmovie_add_complete"	value="Aggiunto ai preferiti." />
+	<TEXT id="msgmovie_add_fail"	value="Aggiunta non riuscita." />
+	<TEXT id="msgmovie_add_warn_filemax"	value="Impossibile aggiungere. Elimina i film indesiderati dai tuoi Preferiti." />
+	<TEXT id="msgmovie_add_warn_data_none"	value="Nessun film da aggiungere." />
+	<TEXT id="msgmovie_add_album_title"	value="Crea album" />
+	<TEXT id="msgmovie_add_album"	value="Creazione dell'album..." />
+	<TEXT id="msgmovie_add_album_complete"	value="Album creato." />
+	<TEXT id="msgmovie_add_album_fail"	value="Creazione dell'album non riuscita." />
+	<TEXT id="msgmovie_add_album_fail_max"	value="Impossibile creare più album. Elimina gli album non necessari." />
+	<TEXT id="msgmovie_add_album_new"	value="Nuovo album" />
+	<TEXT id="msgmovie_hdd_reading"	value="Caricamento dati..." />
+	<TEXT id="msgmovie_hdd_none"	value="Nessun dato." />
+	<TEXT id="msgmovie_hdd_none_album"	value="Questo album non contiene dati." />
+	<TEXT id="msgmovie_hdd_corrupt"	value="È stato trovato un film corrotto." />
+	<TEXT id="msgmovie_hdd_nosupport"	value="Questo formato non è supportato." />
+	<TEXT id="msgmovie_execdisc_dataerr1"	value="Ci sono problemi con i dati." />
+	<TEXT id="msgmovie_execdisc_dataerr2"	value="Per favore cancella." />
+	<TEXT id="msgmovie_dvd_reading"	value="Lettura del disco..." />
+	<TEXT id="msgmovie_dvd_none"	value="Nessun disco." />
+	<TEXT id="msgmovie_dvd_error"	value="Impossibile leggere il disco." />
+	<TEXT id="msgmovie_dvd_notplay"	value="Non è possibile riprodurre il disco." />
+	<TEXT id="msgmovie_dvd_noboot"	value="Impossibile avviare il lettore DVD." />
+	<TEXT id="msgmovie_warn_wait"	value="Si prega di attendere l'inizio del film." />
+	<TEXT id="msgmovie_warn_wait2"	value="" />
+	<TEXT id="msgmovie_warn_console_power"	value="Non spegnere la PlayStation®2." />
+	<TEXT id="msgmovie_warn_console_disctray"	value="Non aprire il vassoio del disco." />
+	<TEXT id="msgmovie_input_fail_noname"	value="Nessun nome inserito." />
+	<TEXT id="msgmovie_input_trackname"	value="Inserisci le informazioni sul film." />
+	<TEXT id="msgmovie_input_movie_name"	value="Inserisci il nome del film." />
+	<TEXT id="msgmovie_input_fail_charcter"	value="Contiene caratteri non validi." />
+	<TEXT id="msgmovie_input_fail_longname"	value="Nome troppo lungo" />
+	<TEXT id="msgmovie_input_fail_none"	value="Non è entrato nulla." />
+	<TEXT id="msgmovie_input_fail_nochange"	value="Questo articolo non può essere modificato." />
+	<TEXT id="msgmovie_hddimport_copy_found1"	value="Scaricato dalla rete." />
+	<TEXT id="msgmovie_hddimport_copy_found2"	value="Contenuto trovato." />
+	<TEXT id="msgmovie_hddimport_copy_ask1"	value="Vuoi importare?" />
+	<TEXT id="msgmovie_hddimport_copy"	value="Importazione..." />
+	<TEXT id="msgmovie_hddimport_copy_complete"	value="Importazione completata." />
+	<TEXT id="msgmovie_hddimport_copy_fail"	value="Importazione non riuscita." />
+	<TEXT id="msgmovie_dev_dvdvideo"	value="DVD video" />
+	<TEXT id="msgmovie_dev_dvdplayer"	value="Lettore DVD" />
+	<TEXT id="msgmovie_add_ask"	value="# Aggiungi ai preferiti?" />
+	<TEXT id="msgmovie_add_album_ask"	value="# Vuoi creare un album?" />
+	<TEXT id="msgmovie_del_favorite_ask"	value="Eliminare dai preferiti?" />
+</RESOURCE>

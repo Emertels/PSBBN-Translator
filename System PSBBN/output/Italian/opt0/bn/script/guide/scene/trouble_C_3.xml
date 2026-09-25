@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="false" width="380.0" visible="10" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.01 Impossibile avviare il gioco installato sulla</LINE>
+	<LINE>"PlayStation BB Unit".</LINE>
+	<LINE></LINE>
+	<LINE>A.01</LINE>
+	<LINE>  ・Una "PlayStation BB Unit" è collegata a una</LINE>
+	<LINE>  "PlayStation 2" diversa da quella utilizzata al</LINE>
+	<LINE>  momento dell'installazione del gioco. →Il gioco</LINE>
+	<LINE>  installato sulla "PlayStation BB Unit" può essere</LINE>
+	<LINE>  avviato solo sulla "PlayStation 2" utilizzata al</LINE>
+	<LINE>  momento dell'installazione del gioco.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="1"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.01" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

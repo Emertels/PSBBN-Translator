@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Puoi modificare o controllare le Impostazioni di</LINE>
+	<LINE>sistema di "PlayStation 2". Quando è installato</LINE>
+	<LINE>"PlayStation BB Navigator", "Inserimento caratteri",</LINE>
+	<LINE>"Tastiera" e "Mouse" vengono aggiunti alle</LINE>
+	<LINE>Impostazioni.</LINE>
+	<LINE></LINE>
+	<LINE>◆Impostazioni di sistema</LINE>
+	<LINE>・Informazioni sulla versione</LINE>
+	<LINE>  "Viene visualizzato il nome del modello dell'unità</LINE>
+	<LINE>  principale "PlayStation 2".</LINE>
+	<LINE>・Indirizzo MAC</LINE>
+	<LINE>  Visualizza l'indirizzo MAC assegnato al connettore</LINE>
+	<LINE>  NETWORK dell'adattatore di rete dedicato</LINE>
+	<LINE>  "PlayStation 2".</LINE>
+	<LINE>・Lettore DVD</LINE>
+	<LINE>  Viene visualizzata la versione del lettore DVD</LINE>
+	<LINE>  dedicato "PlayStation 2".</LINE>
+	<LINE>・Driver PlayStation®</LINE>
+	<LINE>　Viene visualizzata la versione.</LINE>
+	<LINE>·Diagnosi</LINE>
+	<LINE>  Imposta se diagnosticare automaticamente il disco</LINE>
+	<LINE>  per una riproduzione ottimale.</LINE>
+	<LINE></LINE>
+	<LINE>◆Data e ora</LINE>
+	<LINE>・Regolazione dell'orologio</LINE>
+	<LINE>  Imposta l'ora dell'orologio integrato in</LINE>
+	<LINE>  "PlayStation 2".</LINE>
+	<LINE>・Formato ora</LINE>
+	<LINE>  Scegli la visualizzazione 12 ore o 24 ore.</LINE>
+	<LINE>·Data</LINE>
+	<LINE>  Seleziona l'ordine di visualizzazione della data.</LINE>
+	<LINE>・Ora legale</LINE>
+	<LINE>  Selezionare "ora legale" in alcune zone</LINE>
+	<LINE>  all'estero.</LINE>
+	<LINE>·Fuso orario</LINE>
+	<LINE>  Scegli il fuso orario appropriato.</LINE>
+	<LINE></LINE>
+	<LINE>◆Schermo</LINE>
+	<LINE>・Dimensioni dello schermo</LINE>
+	<LINE>・Uscita video componente</LINE>
+	<LINE>  Impostarlo quando si collega a un televisore</LINE>
+	<LINE>  dotato di terminale di ingresso video componente o</LINE>
+	<LINE>  terminale di ingresso multiplo AV che supporta i</LINE>
+	<LINE>  segnali di uscita "PlayStation 2" utilizzando un</LINE>
+	<LINE>  cavo (venduto separatamente). Per i dettagli, fare</LINE>
+	<LINE>  riferimento al manuale di istruzioni di</LINE>
+	<LINE>  "PlayStation 2".</LINE>
+	<LINE></LINE>
+	<LINE>◆Suono</LINE>
+	<LINE>・Uscita digitale (ottica)</LINE>
+	<LINE>  Imposta l'uscita del terminale DIGITAL OUT</LINE>
+	<LINE>  (OPTICAL) di "PlayStation 2". Selezionare "On"</LINE>
+	<LINE>  quando si collega un dispositivo audio, ecc. con</LINE>
+	<LINE>  un cavo di collegamento digitale ottico.</LINE>
+	<LINE></LINE>
+	<LINE>◆Lingua</LINE>
+	<LINE>·Lingua</LINE>
+	<LINE>  Selezionare la lingua utilizzata nel menu</LINE>
+	<LINE>  principale.</LINE>
+	<LINE></LINE>
+	<LINE>◆Inserimento caratteri</LINE>
+	<LINE>・Inserimento giapponese</LINE>
+	<LINE>  Seleziona il metodo per inserire il giapponese con</LINE>
+	<LINE>  una tastiera USB.</LINE>
+	<LINE>・Associazione tasti</LINE>
+	<LINE>  Selezionare il metodo di scelta rapida per</LINE>
+	<LINE>  l'immissione dei caratteri utilizzato con la</LINE>
+	<LINE>  tastiera USB.</LINE>
+	<LINE></LINE>
+	<LINE>◆Tastiera</LINE>
+	<LINE>·Tipo</LINE>
+	<LINE>  Imposta il tipo di tastiera USB.</LINE>
+	<LINE>・Tempo di ripetizione</LINE>
+	<LINE>  Imposta il tempo da quando viene premuto il tasto</LINE>
+	<LINE>  fino all'avvio della ripetizione.</LINE>
+	<LINE>・Velocità di ripetizione</LINE>
+	<LINE>  Imposta la velocità con cui ripetere l'input</LINE>
+	<LINE>  mentre si tiene premuto il tasto.</LINE>
+	<LINE></LINE>
+	<LINE>◆Mouse</LINE>
+	<LINE>·Tipo</LINE>
+	<LINE>  Imposta il pulsante per decidere:</LINE>
+	<LINE>  ・Mancino: seleziona con il pulsante destro</LINE>
+	<LINE>  ・Mano destra: seleziona con il pulsante sinistro</LINE>
+	<LINE>・Velocità del cursore</LINE>
+	<LINE>・Velocità doppio clic</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>A seconda della "PlayStation 2" in uso, potrebbero</LINE>
+	<LINE>essere visualizzate impostazioni diverse da quelle</LINE>
+	<LINE>sopra elencate. Per dettagli su impostazioni</LINE>
+	<LINE>aggiuntive, fare riferimento al manuale di</LINE>
+	<LINE>istruzioni di "PlayStation 2".</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_53.xml" LnkNum="1"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Impostazioni di sistema" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

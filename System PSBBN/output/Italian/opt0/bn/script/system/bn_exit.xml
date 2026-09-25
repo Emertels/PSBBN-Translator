@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<!-- スクリプト -->
+	<SCRIPT id="main" src="bn_exit" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="dialog" src="../parts/dialog" type="binary/small"/>
+
+	<TEXT id="msgsystem_bnexit_rebootwait" value="Attendi qualche secondo affinché PlayStation®BB Navigator si chiuda.\nNon spegnere PlayStation®2."/>
+
+</RESOURCE>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド・用語解説(feega)　2003.5.7  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="12"  valign="center">
+	<LINE>Prima di utilizzare XYZXYZFEEGATOKENXYZUPPERXYZ,</LINE>
+	<LINE>controllare i seguenti punti. Quando si utilizza</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ, "PlayStation 2" deve</LINE>
+	<LINE>essere connessa preventivamente alla rete.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Prepara il tuo indirizzo e-mail◆</LINE>
+	<LINE>È necessario un indirizzo e-mail per consentirci di</LINE>
+	<LINE>notificarti la tua registrazione e altre</LINE>
+	<LINE>informazioni. Puoi registrarti anche con l'indirizzo</LINE>
+	<LINE>e-mail del tuo cellulare, ma a causa di limitazioni</LINE>
+	<LINE>sul numero di caratteri o sulla ricezione, potrebbe</LINE>
+	<LINE>non essere notificato correttamente. Si prega di non</LINE>
+	<LINE>utilizzare, se possibile, l'indirizzo e-mail del</LINE>
+	<LINE>proprio cellulare.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Prepara una carta di credito o WebMoney◆</LINE>
+	<LINE>·Carta di credito</LINE>
+	<LINE>  Dal giugno 2003 sono accettate le carte di credito</LINE>
+	<LINE>  con i loghi VISA, Master, JCB e Diners.</LINE>
+	<LINE>・WebMoney</LINE>
+	<LINE>  WebMoney è moneta elettronica prepagata che può</LINE>
+	<LINE>  essere facilmente utilizzata per i pagamenti su</LINE>
+	<LINE>  Internet. Puoi acquistarlo presso minimarket,</LINE>
+	<LINE>  negozi di computer, negozi di giochi, ecc. vicino</LINE>
+	<LINE>  a te. WebMoney vale 1 punto = 1 yen.</LINE>
+	<LINE></LINE>
+	<LINE>  Per ulteriori informazioni su WebMoney, visitare</LINE>
+	<LINE>  la home page di WebMoney. Home page di WebMoney</LINE>
+	<LINE>  http://www.webmoney.ne.jp/</LINE>
+	<LINE></LINE>
+	<LINE>  In caso di domande su WebMoney, contattare il</LINE>
+	<LINE>  supporto utente WebMoney. Assistenza utenti</LINE>
+	<LINE>  WebMoney Chiamata gratuita 0120-364-033 Orari di</LINE>
+	<LINE>  reception Giorni feriali 10:00-18:00 (esclusi fine</LINE>
+	<LINE>  settimana e festivi) Indirizzo e-mail</LINE>
+	<LINE>  support@webmoney.ne.jp</LINE>
+	<LINE></LINE>
+	<LINE>      Emittente WebMoney WebMoney Co. Ltd. Sede</LINE>
+	<LINE>      centrale 2-24-9 Kamiosaki, Shinagawa-ku, Tokyo</LINE>
+	<LINE></LINE>
+	<LINE>  Impossibile rispondere immediatamente alle</LINE>
+	<LINE>  richieste via e-mail.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Informazioni sulle impostazioni del router◆</LINE>
+	<LINE>Se necessario, effettuare le impostazioni del router</LINE>
+	<LINE>da "PlayStation BB Navigator". Il numero di porta</LINE>
+	<LINE>utilizzato da XYZXYZFEEGATOKENXYZUPPERXYZ è 14020.</LINE>
+	<LINE>Se non riesci a connetterti alla rete, imposta il</LINE>
+	<LINE>router in modo che passi attraverso la porta 14020.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Quando si configurano le impostazioni del router,</LINE>
+	<LINE>potrebbe essere necessario configurare le</LINE>
+	<LINE>impostazioni dal computer. Per i dettagli, fare</LINE>
+	<LINE>riferimento al manuale di istruzioni fornito con il</LINE>
+	<LINE>dispositivo di comunicazione.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_C_3.xml" LnkNum="3"/>
+
+    <TEXT  id="menu_item_03" group="menu_item"  value="Preparazione prima dell'uso" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

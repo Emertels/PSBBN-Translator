@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2003.4.11  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>I dati musicali salvati sull'"Unità PlayStation BB"</LINE>
+	<LINE>possono essere trasferiti (estratti) a un lettore</LINE>
+	<LINE>audio come un dispositivo compatibile con Net MD (di</LINE>
+	<LINE>seguito denominato "Net MD") e ascoltati sul lettore</LINE>
+	<LINE>audio. È inoltre possibile trasferire (check-in) i</LINE>
+	<LINE>dati musicali dal lettore audio alla "PlayStation BB</LINE>
+	<LINE>Unit". Collega il lettore audio alla porta USB sulla</LINE>
+	<LINE>parte anteriore della "PlayStation 2".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Prima di effettuare il check-in/check-out,</LINE>
+	<LINE>  assicurati che il tuo lettore audio sia nei</LINE>
+	<LINE>  seguenti stati:</LINE>
+	<LINE>・L'unità è accesa.</LINE>
+	<LINE>  ・Il supporto scrivibile è inserito.</LINE>
+	<LINE>  ・Non collegare più lettori audio a "PlayStation</LINE>
+	<LINE>  2".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Check-Out◆</LINE>
+	<LINE>Seleziona l'album o il brano che desideri consultare</LINE>
+	<LINE>da "Collezione" o "Preferiti" e premi il pulsante △.</LINE>
+	<LINE>Seleziona "Check-out" nel menu Opzioni. I dati</LINE>
+	<LINE>musicali verranno verificati con la qualità del</LINE>
+	<LINE>suono impostata al momento della registrazione</LINE>
+	<LINE>sull'"Unità PlayStation BB".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Se sono presenti molti brani o i dati musicali</LINE>
+	<LINE>  sono grandi, il processo di pagamento potrebbe</LINE>
+	<LINE>  richiedere del tempo.</LINE>
+	<LINE>  ・Durante il check-out di tutti i brani di un</LINE>
+	<LINE>  album, se c'è un brano che non può essere</LINE>
+	<LINE>  ritirato, il check-out verrà interrotto. Se</LINE>
+	<LINE>  desideri controllare ulteriori tracce, fallo una</LINE>
+	<LINE>  traccia alla volta.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Check-In◆</LINE>
+	<LINE>Seleziona l'album o il brano che desideri archiviare</LINE>
+	<LINE>da "Lettore audio" nella "Raccolta" e premi il</LINE>
+	<LINE>pulsante △, quindi seleziona "Archivia" nel menu</LINE>
+	<LINE>Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・I dati musicali estratti da un'altra "unità</LINE>
+	<LINE>  PlayStation BB" o da un computer non possono</LINE>
+	<LINE>  essere archiviati.</LINE>
+	<LINE>  ・Il check-in non può essere interrotto.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Per i lettori audio compatibili con Music Channel,</LINE>
+	<LINE>consultare la pagina di supporto sul nostro sito</LINE>
+	<LINE>web. (http://www.playstation.jp/info/)</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_22.xml" LnkNum="5"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Check-in/check-out" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

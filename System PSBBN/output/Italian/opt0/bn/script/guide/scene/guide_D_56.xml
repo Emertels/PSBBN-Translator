@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Puoi controllare e gestire i dati di salvataggio in</LINE>
+	<LINE>"Gestione dei dati di salvataggio". I dati di</LINE>
+	<LINE>salvataggio vengono gestiti nei due posti seguenti.</LINE>
+	<LINE></LINE>
+	<LINE>・Scheda di memoria</LINE>
+	<LINE>  Gestisci i dati salvati su una memory card</LINE>
+	<LINE>  dedicata "PlayStation 2" (8 MB) e su una memory</LINE>
+	<LINE>  card PlayStation (SCPH-1020).</LINE>
+	<LINE></LINE>
+	<LINE>·Cartella</LINE>
+	<LINE>  Gestisci i dati salvati nella partizione di</LINE>
+	<LINE>  salvataggio dei dati sull'"Unità PlayStation BB".</LINE>
+	<LINE>  Puoi creare più cartelle ed eseguire il backup dei</LINE>
+	<LINE>  dati di salvataggio.</LINE>
+	<LINE></LINE>
+	<LINE>I dati di salvataggio archiviati in ciascuna</LINE>
+	<LINE>posizione possono essere copiati, spostati o</LINE>
+	<LINE>eliminati con il menu Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Le dimensioni e lo spazio libero vengono</LINE>
+	<LINE>visualizzati nelle seguenti unità:</LINE>
+	<LINE>  ・1 Gigabyte = 1.024 Megabyte</LINE>
+	<LINE>  ・1 megabyte = 1.024 kilobyte</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Alcuni dati non possono essere copiati o</LINE>
+	<LINE>  spostati.</LINE>
+	<LINE>  ・Quando si utilizza una scheda di memoria</LINE>
+	<LINE>  (SCPH-1020), assicurarsi che la spia di</LINE>
+	<LINE>  accensione/standby sulla parte anteriore della</LINE>
+	<LINE>  "PlayStation 2" sia verde (accesa) e che la spia</LINE>
+	<LINE>  di accensione/standby sia rossa (standby) prima di</LINE>
+	<LINE>  scollegarla.</LINE>
+	<LINE>  ・Quando si utilizza il Multitap dedicato</LINE>
+	<LINE>  "PlayStation 2" (SCPH-10090), è possibile</LINE>
+	<LINE>  utilizzare solo gli slot per schede di memoria 1-A</LINE>
+	<LINE>  e 2-A.</LINE>
+	<LINE></LINE>
+	<LINE>Le cartelle possono essere create, copiate,</LINE>
+	<LINE>rinominate o eliminate dal menu Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>Nella schermata che visualizza "Memory Card" e</LINE>
+	<LINE>"Cartelle" sulla sinistra, selezionare "Cartelle" e</LINE>
+	<LINE>premere il pulsante △, scegliere "Crea cartella" dal</LINE>
+	<LINE>menu delle opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>Non è possibile copiare una cartella all'interno di</LINE>
+	<LINE>un'altra cartella.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_53.xml" LnkNum="4"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Salvataggio della gestione dei dati" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

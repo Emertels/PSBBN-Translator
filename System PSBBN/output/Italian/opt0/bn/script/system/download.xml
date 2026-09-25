@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/" screen_w="640" screen_h="480" >
+	<SCRIPT id="main" src="download" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="window" src="../parts/window" type="binary/small"/>
+	<SCRIPT id="confirm_err" src="../parts/confirm_err" type="binary/small"/>
+	<SCRIPT id="confirm_ok" src="../parts/confirm_ok" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="../parts/confirm_d" type="binary/small"/>
+	<SCRIPT id="confirm_yesno" src="../parts/confirm_yesno" type="binary/small"/>
+	<SCRIPT id="progress_bar" src="../parts/progress_bar" type="binary/small"/>
+
+	<LINK id="movie_player" href="../movie/pssmovie.xml" />
+	<LINK id="photo_viewer" href="../photo/slideshow.xml" />
+	<LINK id="music_player" href="../music/music_player.xml" />
+	
+	<TEXT id="text_download_error" value="Download non riuscito." />
+	<TEXT id="text_dlabort_error" value="Impossibile interrompere il download." />
+
+	<TEXT id="text_download_no_space" value="Spazio libero insufficiente per il download. Elimina filmati, immagini o e-mail indesiderati." />
+	<TEXT id="text_download_not_completed" value="Timeout.\n(%ERRORNO)" />
+	<TEXT id="msgcom_error_network_timeout" value="Timeout." />
+	
+	<TEXT id="msgisp_photo_warn_albumcnt_max" value="Impossibile scaricare perché il numero di album nella raccolta Photo Channel supera il limite.\n\nElimina gli album non necessari." />
+	<TEXT id="msgisp_photo_warn_datacnt_max" value="Impossibile scaricare.\n\nElimina le immagini indesiderate dal tuo album Photo Channel %ALBUM." />
+	<TEXT id="msgisp_movie_warn_albumcnt_max" value="Impossibile scaricare perché il numero di album nella raccolta Movie Channel ha superato il limite.\n\nElimina gli album non necessari." />
+	<TEXT id="msgisp_movie_warn_datacnt_max" value="Impossibile scaricare.\n\nElimina i film indesiderati dall'album %ALBUM di Movie Channel." />
+	<TEXT id="msgisp_music_warn_albumcnt_max" value="Impossibile eseguire il download perché il numero di album nella raccolta di Music Channel supera il limite.\n\nElimina gli album non necessari." />
+	<TEXT id="msgisp_music_warn_datacnt_max" value="Impossibile scaricare.\n\nElimina le immagini indesiderate dal tuo album Photo Channel %ALBUM." />
+	
+	<TEXT id="msgcom_error_http" value="Errore HTTP" />
+	<TEXT id="msgcom_error_internal" value="Errore interno" />
+
+	<TEXT id="text_megabyte" value="MB" />
+	<TEXT id="text_kilobyte" value="KB" />
+	<TEXT id="text_download" value="Download in corso..." />
+	<TEXT id="text_download_caution0" value="Non spegnere la PlayStation®2" />
+	<TEXT id="text_download_caution1" value="o disconnettersi dalla rete." />
+	<TEXT id="text_download_cdvd_caution0" value="Non spegnere" />
+	<TEXT id="text_download_cdvd_caution1" value="la PlayStation®2." />
+	<TEXT id="text_lefttime" value="Rimanente:" />
+	<TEXT id="text_hour" value="Ora" />
+	<TEXT id="text_minute" value="Minuti" />
+	<TEXT id="text_second" value="Secondi" />
+	<TEXT id="text_percent" value="％" />
+	<TEXT id="text_default_album_name" value="Scaricamento" />
+
+	<TEXT id="text_install_finished_movie_playnow">Download completato.
+
+Il film è stato aggiunto all'album: "%ALBUM" nel canale dei film.
+
+Ti piacerebbe giocarci adesso?</TEXT>
+	
+	
+	<TEXT id="text_install_finished_photo_playnow">Download completato.
+
+La foto è stata aggiunta all'album: "%ALBUM" nel canale foto.
+
+Ti piacerebbe vederlo adesso?</TEXT>
+
+	<TEXT id="text_install_finished_music_playnow">Download completato.
+
+La traccia è stata aggiunta all'album: "%ALBUM" nel canale musicale.
+
+Ti piacerebbe giocarci adesso?</TEXT>
+
+	<TEXT id="text_confirm_quit">Sei sicuro di voler annullare il download?</TEXT>
+
+	<TEXT id="text_yes" value="SÌ" />
+	<TEXT id="text_no" value="NO" />
+	<TEXT id="text_quit" value="Cancellare" />
+
+	<IMG id="default_icon_movie" src="../../data/tex/default_icon/Movie.tm2" />
+	<IMG id="default_icon_photo" src="../../data/tex/default_icon/Photo.tm2" />
+	<IMG id="default_icon_music" src="../../data/tex/default_icon/Music_Track.tm2" />
+	<IMG id="default_icon_other" src="../../data/tex/default_icon/Game_broken.tm2" />
+
+</RESOURCE>

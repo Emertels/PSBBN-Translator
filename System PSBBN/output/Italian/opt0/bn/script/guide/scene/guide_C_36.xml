@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../menu"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="false" width="346.0" visible="4" x="270" y="240" z="0" align="center" fontsize="15" margin="5" valign="center">
+	<LINE>Cosa puoi fare nel canale dei film Guarda un film</LINE>
+	<LINE>Crea una raccolta dei tuoi film preferiti</LINE>
+	<LINE>Visualizza/modifica informazioni Crea un nuovo album</LINE>
+	<LINE>Sposta un film Elimina album e film</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_B_3.xml" LnkNum="8"/>
+    <LINK id="ln_1"   href="guide_D_36.xml" />
+    <LINK id="ln_2"   href="guide_D_37.xml" />
+    <LINK id="ln_3"   href="guide_D_38.xml" />
+    <LINK id="ln_4"   href="guide_D_39.xml" />
+    <LINK id="ln_5"   href="guide_D_40.xml" />
+    <LINK id="ln_6"   href="guide_D_41.xml" />
+    <LINK id="ln_7"   href="guide_D_42.xml" />
+
+    <TEXT  id="menu_item_01" group="menu_item"  value="Canale del cinema" />
+    <TEXT  id="menu_item_02" group="menu_item"  value="" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

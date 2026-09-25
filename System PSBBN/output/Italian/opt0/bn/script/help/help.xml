@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/" screen_h="480" >
+	<SCRIPT id="main" src="help" type="binary/small"/>
+	<SCRIPT id="help_page" src="help_page" type="binary/small"/>
+	<SCRIPT id="label_texture" src="label_texture" type="binary/small"/>
+	<SCRIPT id="general_menu" src="../parts/general_menu" type="binary/small"/>
+	<SCRIPT id="scroll_bar" src="../parts/scroll_bar" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="dialog" src="../parts/dialog" type="binary/small"/>
+
+	<IMG id="arrow" src="texture/arrow.tm2" />
+
+	<TEXT id="msggame_btn_channel" value="Display" />
+	<TEXT id="msggame_btn_display" value="Canale" />
+
+</RESOURCE>

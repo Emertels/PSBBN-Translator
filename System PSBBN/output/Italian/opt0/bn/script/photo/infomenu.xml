@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+	<SCRIPT id="main" src="infomenu" type="binary/small"/>
+
+	<SCRIPT id="general_menu" src="../parts/general_menu" type="binary/small"/>
+	<SCRIPT id="info_item" src="../parts/info_item" type="binary/small"/>
+	<SCRIPT id="info_thumb" src="../parts/info_thumb" type="binary/small"/>
+	<SCRIPT id="scroll_bar" src="../parts/scroll_bar" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="progress_bar" src="../parts/progress_bar" type="binary/small"/>
+	<SCRIPT id="progress_window" src="../parts/progress_window" type="binary/small"/>
+	<SCRIPT id="confirm_ok" src="../parts/confirm_ok" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="../parts/confirm_d" type="binary/small"/>
+	<SCRIPT id="confirm_yesno" src="../parts/confirm_yesno" type="binary/small"/>
+	<SCRIPT id="window" src="../parts/window" type="binary/small"/>
+
+	<TEXT id="INFO_ALBUM"	group="menu_title"  value="Informazioni"  subgroup="info_album_item" />
+	<TEXT id="INFO_THUMB"	group="menu_title"  value="Informazioni"  subgroup="info_thumb_item" />
+	<TEXT id="INFO_USBTMB"	group="menu_title"  value="Informazioni"  subgroup="info_usbtmb_item" />
+
+	<TEXT id="INFO_ALBUM_TITLE"	group="info_album_item" value="Nome dell'album" edit="string"
+					retgroup="menu_title" retid="info_album" />
+	<TEXT id="INFO_ALBUM_SIZE"	group="info_album_item" value="Misurare" edit="disable"
+					retgroup="menu_title" retid="info_album" />
+	<TEXT id="INFO_ALBUM_DATE"	group="info_album_item" value="Data di creazione" edit="disable"
+					retgroup="menu_title" retid="info_album" />
+	<TEXT id="INFO_ALBUM_NUM"	group="info_album_item" value="N. di immagini" edit="disable"
+					retgroup="menu_title" retid="info_album" />
+
+	<TEXT id="INFO_THUMB_NAME"	group="info_thumb_item" value="Nome dell'immagine" edit="string"
+					retgroup="menu_title" retid="info_thumb" />
+	<TEXT id="INFO_THUMB_TITLE"	group="info_thumb_item" value="Nome dell'album" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+	<TEXT id="INFO_THUMB_SIZE"	group="info_thumb_item" value="Misurare" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+	<TEXT id="INFO_THUMB_RESO"	group="info_thumb_item" value="Risoluzione" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+	<TEXT id="INFO_THUMB_TYPE"	group="info_thumb_item" value="Tipo di file" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+	<TEXT id="INFO_THUMB_DATE"	group="info_thumb_item" value="Data di creazione" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+
+	<TEXT id="INFO_USBTMB_NAME"	group="info_usbtmb_item" value="Nome dell'immagine" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+	<TEXT id="INFO_USBTMB_SIZE"	group="info_usbtmb_item" value="Misurare" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+	<TEXT id="INFO_USBTMB_RESO"	group="info_usbtmb_item" value="Risoluzione" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+	<TEXT id="INFO_USBTMB_TYPE"	group="info_usbtmb_item" value="Tipo di file" edit="disable"
+					retgroup="menu_title" retid="info_thumb" />
+
+	<TEXT id="text_USBMOUNT"	value="file:/mnt/storage0" />
+	<TEXT id="text_USBPSBB"		value="PSBB" />
+	<TEXT id="text_USBPHOTO"	value="FOTO" />
+<!-- -->
+	<TEXT id="msgutil_info_datatype"	value="Tipo (TEST)" />
+<!-- -->
+	<TEXT id="BMP" value="BMP" />	
+	<TEXT id="GIF" value="GIF" />	
+	<TEXT id="PNG" value="PNG" />	
+	<TEXT id="TIFF" value="TIFF" />	
+	<TEXT id="JPEG" value="JPEG" />	
+	<TEXT id="FMT_ERR" value="Errore di formato" />	
+
+  <TEXT id="msgphoto_input_fail_noname" value="Nessun nome inserito." /> 
+  <TEXT id="msgphoto_input_fail_character" value="Contiene caratteri non validi." /> 
+  <TEXT id="msgphoto_input_fail_longname" value="Nome troppo lungo." /> 
+  <TEXT id="msgphoto_input_fail_none" value="Non è stato inserito nulla" /> 
+  <TEXT id="msgphoto_input_fail_nochange" value="Questo articolo non può essere modificato." /> 
+
+  <TEXT id="msgphoto_albuminfo_album" value="Nome dell'album" /> 
+  <TEXT id="msgphoto_albuminfo_date" value="Data di creazione" /> 
+  <TEXT id="msgphoto_albuminfo_time" value="Tempo di creazione" /> 
+  <TEXT id="msgphoto_albuminfo_filesize" value="Misurare" /> 
+  <TEXT id="msgphoto_albuminfo_album_number" value="N. di immagini" /> 
+  <TEXT id="msgphoto_photoinfo_pict" value="Nome dell'immagine" /> 
+  <TEXT id="msgphoto_photoinfo_album" value="Nome dell'album" /> 
+  <TEXT id="msgphoto_photoinfo_data" value="Data di creazione" /> 
+  <TEXT id="msgphoto_photoinfo_size" value="Misurare" /> 
+  <TEXT id="msgphoto_photoinfo_resolution" value="Risoluzione" /> 
+  <TEXT id="msgphoto_photoinfo_pixel" value="Pixel" /> 
+  <TEXT id="msgphoto_photoinfo_fileform" value="Tipo di file" /> 
+  <TEXT id="msgphoto_pict_form_bmp" value="BMP" /> 
+  <TEXT id="msgphoto_pict_form_gif" value="GIF" /> 
+  <TEXT id="msgphoto_pict_form_png" value="PNG" /> 
+  <TEXT id="msgphoto_pict_form_tiff" value="TIFF" /> 
+  <TEXT id="msgphoto_pict_form_jpeg" value="JPEG" /> 
+  <TEXT id="msgphoto_info_size_kbyte1" value="%dKB" /> 
+  <TEXT id="msgphoto_info_size_kbyte2" value="%d,%03dKB" /> 
+  <TEXT id="msgphoto_info_size_mbyte1" value="%d MB" /> 
+  <TEXT id="msgphoto_info_size_mbyte2" value="%d,%03d MB" /> 
+  <TEXT id="msgphoto_info_size_err" value="Errore durante il recupero della taglia" /> 
+  <TEXT id="msgphoto_info_space" value="Capacità" /> 
+  <TEXT id="msgphoto_info_freespace" value="Spazio libero" /> 
+  <TEXT id="msgphoto_info_freespace_kbyte1" value="Spazio libero%4d KB" /> 
+  <TEXT id="msgphoto_info_freespace_kbyte2" value="Spazio libero%d,%03d KB" /> 
+  <TEXT id="msgphoto_info_freespace_mbyte1" value="Spazio libero%4d MB" /> 
+  <TEXT id="msgphoto_info_freespace_mbyte2" value="Spazio libero%d,%03d MB" /> 
+  <TEXT id="msgphoto_info_pict_num" value="%d immagini" /> 
+
+</RESOURCE>

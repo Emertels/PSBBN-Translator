@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>È possibile aggiungere al menu Navigatore fino a 4</LINE>
+	<LINE>collegamenti ai giochi installati sulla "PlayStation</LINE>
+	<LINE>BB Unit". I giochi aggiunti al menu Navigatore</LINE>
+	<LINE>possono essere avviati da qualsiasi punto in cui sia</LINE>
+	<LINE>visualizzato il menu Navigatore.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Aggiunta di una scorciatoia◆</LINE>
+	<LINE>Aggiungi il collegamento al menu Navigatore da</LINE>
+	<LINE>"Collezione" nella "Raccolta di giochi". Seleziona</LINE>
+	<LINE>il gioco a cui vuoi giocare e premi il pulsante △.</LINE>
+	<LINE>Seleziona "Aggiungi al menu Navigatore" nel menu</LINE>
+	<LINE>Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Avvio di giochi da scorciatoie◆</LINE>
+	<LINE>Premere il pulsante SELEZIONA per visualizzare il</LINE>
+	<LINE>menu Navigatore. Seleziona il gioco che desideri</LINE>
+	<LINE>avviare e premi il pulsante ×.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Rimozione di scorciatoie◆</LINE>
+	<LINE>Seleziona il collegamento che desideri rimuovere dal</LINE>
+	<LINE>menu Navigatore e premi il pulsante △. Seleziona</LINE>
+	<LINE>"Rimuovi dal menu Navigatore" nel menu Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Questa azione non elimina il gioco stesso.</LINE>
+	<LINE>  ・Per i giochi che includono una funzione di</LINE>
+	<LINE>  disinstallazione, anche se disinstalli il gioco da</LINE>
+	<LINE>  "PlayStation BB Unit", il collegamento rimarrà.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_15.xml" LnkNum="5"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Aggiungi un collegamento a un gioco" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

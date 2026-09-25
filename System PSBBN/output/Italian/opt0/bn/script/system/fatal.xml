@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/" screen_w="640" screen_h="480" >
+
+	<SCRIPT id="main" src="fatal" type="binary/small"/>
+
+	<TEXT id="msgtop_localdisk_illegal"	value="Questo non è un disco standard PlayStation® o PlayStation®2." />
+
+	<IMG id="space_layer1" href="../common/texture/space_layer1.tm2" />
+	<IMG id="space_layer3" href="../common/texture/space_layer3.tm2" />
+
+</RESOURCE>

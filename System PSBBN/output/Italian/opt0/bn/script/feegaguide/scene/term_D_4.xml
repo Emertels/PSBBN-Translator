@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド・用語解説(feega)　2003.5.7  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="12"  valign="center">
+	<LINE>Si prega di controllare i seguenti punti quando si</LINE>
+	<LINE>utilizza XYZXYZFEEGATOKENXYZUPPERXYZ:</LINE>
+	<LINE></LINE>
+	<LINE>  ・Se desideri utilizzare contenuti/servizi che non</LINE>
+	<LINE>  supportano XYZXYZFEEGATOKENXYZUPPERXYZ, contatta i</LINE>
+	<LINE>  fornitori di contenuti/servizi. Inoltre, quando si</LINE>
+	<LINE>  utilizzano software come giochi non compatibili</LINE>
+	<LINE>  con XYZXYZFEEGATOKENXYZUPPERXYZ, fare riferimento</LINE>
+	<LINE>  al manuale di istruzioni di ciascun software.</LINE>
+	<LINE>  ・Prima di aderire, è necessario leggere i termini</LINE>
+	<LINE>  di utilizzo di feeega e i termini di raccolta e</LINE>
+	<LINE>  utilizzo delle informazioni personali e accettare</LINE>
+	<LINE>  i termini. È possibile verificare il contenuto dei</LINE>
+	<LINE>  Termini di utilizzo XYZXYZFEEGATOKENXYZUPPERXYZ e</LINE>
+	<LINE>  delle Disposizioni sulla raccolta e l'utilizzo</LINE>
+	<LINE>  delle informazioni personali in qualsiasi momento</LINE>
+	<LINE>  facendo clic su "Conferma termini</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ".</LINE>
+	<LINE>  ・XYZXYZFEEGATOKENXYZUPPERXYZ utilizza la</LINE>
+	<LINE>  comunicazione crittografata SSL per proteggere la</LINE>
+	<LINE>  tua privacy. SSL (Secure Socket Layer) crittografa</LINE>
+	<LINE>  le informazioni immesse in modo che le tue</LINE>
+	<LINE>  informazioni personali non vengano divulgate</LINE>
+	<LINE>  all'esterno e vengano inviate in modo sicuro.</LINE>
+	<LINE>  ・ Gestisci il tuo XYZXYZFEEGATOKENXYZUPPERXYZ-ID e</LINE>
+	<LINE>  la tua password sotto la tua responsabilità. Sony</LINE>
+	<LINE>  Computer Entertainment Inc. e Sony Finance</LINE>
+	<LINE>  International Inc. non sono responsabili per</LINE>
+	<LINE>  eventuali azioni intraprese utilizzando questo ID.</LINE>
+	<LINE>  Se il tuo XYZXYZFEEGATOKENXYZUPPERXYZ-ID viene</LINE>
+	<LINE>  utilizzato senza autorizzazione o se il tuo</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ-ID e la tua password</LINE>
+	<LINE>  vengono divulgati a terzi, contatta immediatamente</LINE>
+	<LINE>  il centro clienti XYZXYZFEEGATOKENXYZUPPERXYZ.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_C_3.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_03" group="menu_item"  value="Note sull'utilizzo" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

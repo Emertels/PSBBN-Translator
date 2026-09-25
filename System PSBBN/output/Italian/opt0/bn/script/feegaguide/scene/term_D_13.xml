@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド・用語解説(feega)　2003.5.7  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="false" width="346.0" visible="13" x="270" y="200" z="0" fontsize="12"  valign="center">
+	<LINE>Questo è uno dei metodi di pagamento disponibili su</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ. Moneta elettronica</LINE>
+	<LINE>simile a una carta prepagata emessa da WebMoney Co.</LINE>
+	<LINE>Ltd., utilizzata per l'acquisto di contenuti/servizi</LINE>
+	<LINE>che accettano pagamenti con WebMoney. Le carte</LINE>
+	<LINE>WebMoney emesse dalla società possono essere</LINE>
+	<LINE>acquistate presso minimarket, negozi di computer e</LINE>
+	<LINE>altri rivenditori. Grattando la parte argentata</LINE>
+	<LINE>della carta WebMoney con una moneta o un oggetto</LINE>
+	<LINE>simile si ottiene un numero da grattare composto da</LINE>
+	<LINE>caratteri o simboli alfanumerici. Inserendo il</LINE>
+	<LINE>numero scratch al momento del pagamento potrai</LINE>
+	<LINE>pagare fino all'importo di acquisto della carta.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_C_12.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_03" group="menu_item"  value="WebMoney" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

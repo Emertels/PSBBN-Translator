@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド・用語解説(feega)　2003.5.7  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="12"  valign="center">
+	<LINE>Acquista contenuti/servizi compatibili con</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ. Sony Finance</LINE>
+	<LINE>International Co. Ltd. riscuoterà commissioni per</LINE>
+	<LINE>contenuti/servizi a pagamento che possono essere</LINE>
+	<LINE>acquistati utilizzando XYZXYZFEEGATOKENXYZUPPERXYZ</LINE>
+	<LINE>per conto del fornitore di contenuti/servizi. Quando</LINE>
+	<LINE>acquisti contenuti/servizi, segui le istruzioni</LINE>
+	<LINE>visualizzate sullo schermo.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Quando acquisti contenuti/servizi, ti verrà</LINE>
+	<LINE>comunicato il numero di ricevuta e il numero di</LINE>
+	<LINE>richiesta comune sullo schermo e via e-mail. È</LINE>
+	<LINE>necessario per le richieste al centro clienti</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ, quindi prendine nota e</LINE>
+	<LINE>conservalo in un luogo sicuro.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Seleziona contenuti/servizi da acquistare◆</LINE>
+	<LINE>Elenca i contenuti/servizi disponibili per</LINE>
+	<LINE>l'acquisto. Una delle seguenti icone verrà</LINE>
+	<LINE>visualizzata nella schermata di selezione del</LINE>
+	<LINE>contenuto/servizio.</LINE>
+	<LINE>@@IMG src="../images/XYZXYZFEEGATOKENXYZUPPERXYZicon.png" x="0" y="0" w="430" h="165"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Scegli un corso◆</LINE>
+	<LINE>La scadenza dei contenuti/servizi e le tariffe sono</LINE>
+	<LINE>determinate dalla selezione del corso. Le tipologie</LINE>
+	<LINE>di corso includono corsi continui e corsi a tempo</LINE>
+	<LINE>determinato.</LINE>
+	<LINE></LINE>
+	<LINE>・Corso continuo</LINE>
+	<LINE>  Ogni mese verrà addebitato un importo fisso fino</LINE>
+	<LINE>  all'annullamento, indipendentemente da come</LINE>
+	<LINE>  utilizzi il contenuto/servizio. L'unico metodo di</LINE>
+	<LINE>  pagamento è la carta di credito ed è necessario</LINE>
+	<LINE>  registrare i dati della carta di credito con</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ. Il mese acquistato è</LINE>
+	<LINE>  gratuito dalla data di acquisto fino alla fine del</LINE>
+	<LINE>  mese. Ti verrà addebitato l'intero mese</LINE>
+	<LINE>  indipendentemente dalla data di cancellazione. Se</LINE>
+	<LINE>  acquisti o annulli lo stesso corso continuativo</LINE>
+	<LINE>  più volte nello stesso mese, ti verrà addebitato</LINE>
+	<LINE>  l'intero mese.</LINE>
+	<LINE>・Corso a tempo determinato</LINE>
+	<LINE>  La tariffa verrà detratta in base al periodo</LINE>
+	<LINE>  stabilito. Si accettano carte di credito e</LINE>
+	<LINE>  WebMoney. I contenuti/servizi non possono essere</LINE>
+	<LINE>  utilizzati dopo la data di scadenza, ma è</LINE>
+	<LINE>  possibile estendere il periodo acquistando gli</LINE>
+	<LINE>  stessi contenuti/servizi durante il periodo</LINE>
+	<LINE>  specificato. Una volta acquistati, i corsi a tempo</LINE>
+	<LINE>  determinato non possono essere cancellati.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Visualizza cronologia utilizzo servizio◆</LINE>
+	<LINE>È possibile verificare la cronologia di utilizzo dei</LINE>
+	<LINE>contenuti/servizi acquistati in "Conferma dettagli</LINE>
+	<LINE>utilizzo servizio".</LINE>
+	<LINE></LINE>
+	<LINE>Nel caso del corso continuativo il mese di inizio</LINE>
+	<LINE>utilizzo è gratuito, quindi è possibile verificare</LINE>
+	<LINE>lo storico di utilizzo a partire dal mese successivo</LINE>
+	<LINE>a quello in cui è iniziata la fatturazione. Inoltre</LINE>
+	<LINE>l'importo utilizzato per il mese in corso verrà</LINE>
+	<LINE>visualizzato a partire dall'ultimo giorno del mese</LINE>
+	<LINE>in corso.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Vedi servizi disponibili◆</LINE>
+	<LINE>Puoi verificare i contenuti/servizi disponibili</LINE>
+	<LINE>entro la data di scadenza nella "Lista Servizi</LINE>
+	<LINE>Disponibili".</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_C_6.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_03" group="menu_item"  value="Acquistare Contenuti/Servizi" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

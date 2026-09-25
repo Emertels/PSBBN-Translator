@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2003.4.11  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" skipline="1" width="380.0" visible="14" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.13 Non riesco a controllare la musica su Music</LINE>
+	<LINE>Channel</LINE>
+	<LINE></LINE>
+	<LINE>A.13</LINE>
+	<LINE>  ・Il lettore audio non è collegato correttamente</LINE>
+	<LINE>  oppure non è acceso. →Controllare la connessione e</LINE>
+	<LINE>  l'alimentazione del lettore audio.</LINE>
+	<LINE>  ・Nessun supporto è collegato al lettore audio.</LINE>
+	<LINE>  →Inserire un supporto scrivibile.</LINE>
+	<LINE>  ・I contenuti multimediali nel lettore audio sono</LINE>
+	<LINE>  protetti da scrittura. →Annulla l'impostazione di</LINE>
+	<LINE>  protezione da scrittura per il supporto.</LINE>
+	<LINE>  ・Lo spazio libero sul supporto del lettore audio</LINE>
+	<LINE>  non è sufficiente. →Cancellare i dati non</LINE>
+	<LINE>  necessari sul supporto. Inoltre, se si utilizza un</LINE>
+	<LINE>  lettore audio che consente di sostituire i</LINE>
+	<LINE>  supporti, come Net MD, sostituire il supporto con</LINE>
+	<LINE>  uno che disponga di spazio libero sufficiente.</LINE>
+	<LINE>  ・Hai superato il numero di check-out. →Nel caso di</LINE>
+	<LINE>  dati musicali a cui non sono allegate condizioni</LINE>
+	<LINE>  di utilizzo, è possibile effettuare il check-out</LINE>
+	<LINE>  fino a 3 volte.</LINE>
+	<LINE>  ・È vietato trasferire questa traccia. →I brani per</LINE>
+	<LINE>  i quali è vietato il trasferimento non possono</LINE>
+	<LINE>  essere ritirati.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="13"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.13" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

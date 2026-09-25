@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+	<SCRIPT id="main" src="hddclear" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="window" src="../parts/window" type="binary/small"/>
+	<SCRIPT id="label_item" src="../parts/label_item" type="binary/small"/>
+	<SCRIPT id="confirm_ok" src="../parts/confirm_ok" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="../parts/confirm_d" type="binary/small"/>
+	<SCRIPT id="confirm_yesno" src="../parts/confirm_yesno" type="binary/small"/>
+	<SCRIPT id="confirm_moment" src="../parts/confirm_moment" type="binary/small"/>
+
+	<LINK id="bg" href="../common/bg.xml" />
+	<LINK id="top" href="../top.xml"/>
+	<LINK id="utility_top" href="../top.xml"/>
+
+	<TEXT id="msgutil_btn_enter"	value="Conferma" />
+	<TEXT id="msgutil_btn_back"	value="Indietro" />
+	<TEXT id="msgutil_common_yes"	value="SÌ" />
+	<TEXT id="msgutil_common_no"	value="NO" />
+	<TEXT id="msgutil_common_start"	value="Inizio" />
+	<TEXT id="msgutil_common_cancel_ask"	value="Verrà interrotto. Sei sicuro?" />
+
+	<TEXT id="msgutil_maintanance_hdd_erase_start_1"	value="Inizia a cancellare i dati memorizzati nell'unità PlayStation®BB." />
+	<TEXT id="msgutil_maintanance_hdd_erase_start_2"	value="Si prega di leggere la guida PlayStation®BB prima di farlo." />
+	<TEXT id="msgutil_maintanance_hdd_erase_notice_1"	value="Tutto il software e i dati nell'unità PlayStation®BB verranno cancellati. I dati cancellati non possono essere recuperati." />
+	<TEXT id="msgutil_maintanance_hdd_erase_notice_2"	value="Sei sicuro?" />
+	<TEXT id="msgutil_maintanance_hdd_erase_ask"	value="Ci vorranno circa 70 minuti. Vuoi avviare il processo di cancellazione?" />
+	<TEXT id="msgutil_maintanance_hdd_erase_wait1"	value="Attendi mentre inizia la cancellazione dei dati dell'unità PlayStation®BB." />
+	<TEXT id="msgutil_maintanance_hdd_erase_wait2"	value="Non spegnere la PlayStation®2." />
+	<TEXT id="msgutil_maintanance_hdd_erase_1"	value="Cancellazione dei dati dell'unità PlayStation®BB." />
+	<TEXT id="msgutil_maintanance_hdd_erase_2"	value="Non spegnere la PlayStation®2 né scollegare l'unità PlayStation®BB." />
+	<TEXT id="msgutil_maintanance_hdd_erase_complete_1"	value="La cancellazione dei dati dell'unità PlayStation®BB è stata completata." />
+	<TEXT id="msgutil_maintanance_hdd_erase_complete_2"	value="Premere il pulsante ○ per terminare." />
+	<TEXT id="msgutil_maintanance_hdd_erase_fail_1"	value="Impossibile cancellare i dati dell'unità PlayStation®BB." />
+	<TEXT id="msgutil_maintanance_hdd_erase_fail_2"	value="Si prega di contattare il centro informazioni di Sony Computer Entertainment Inc." />
+
+</RESOURCE>

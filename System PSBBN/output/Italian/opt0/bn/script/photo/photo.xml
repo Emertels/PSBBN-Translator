@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<LINK id="bg" href="../common/bg.xml" />
+	<LINK id="Photo"	href="file:/opt0/bn/script/photo/pictview_photo.xml" />
+	<LINK id="infomenu_album" href="infomenu.xml" />
+	<LINK id="slideshow" href="slideshow.xml" />
+
+	<SCRIPT id="main" src="photo" type="binary/small"/>
+	<SCRIPT id="photo_parts" src="photo_parts" type="binary/small"/>
+	<SCRIPT id="photo_db" src="photo_db" type="binary/small"/>
+	<SCRIPT id="usb_process" src="usb_process" type="binary/small"/>
+	<SCRIPT id="menu_process" src="menu_process" type="binary/small"/>
+	<SCRIPT id="full_screen" src="pictview_fullscreen" type="binary/small"/>
+	<SCRIPT id="general_menu" src="../parts/general_menu" type="binary/small"/>
+	<SCRIPT id="label_texture" src="../parts/label_texture" type="binary/small"/>
+	<SCRIPT id="album_item" src="../parts/album_item" type="binary/small"/>
+	<SCRIPT id="thumb_item" src="../parts/thumb_item" type="binary/small"/>
+	<SCRIPT id="scroll_bar" src="../parts/scroll_bar" type="binary/small"/>
+	<SCRIPT id="toolbar" src="../parts/toolbar" type="binary/small"/>
+	<SCRIPT id="radio_button_v" src="../parts/radio_button_v" type="binary/small"/>
+	<SCRIPT id="focus_box" src="../parts/focus_box" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="device_image" src="../parts/device_image" type="binary/small"/>
+	<SCRIPT id="progress_bar" src="../parts/progress_bar" type="binary/small"/>
+	<SCRIPT id="progress_window" src="progress_window" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="../parts/confirm_d" type="binary/small"/>
+	<SCRIPT id="confirm_yesno" src="../parts/confirm_yesno" type="binary/small"/>
+	<SCRIPT id="photo_grid" src="photo_grid" type="binary/small"/>
+
+	<MENUGROUP id="CHANNEL-MENU" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="CH-TITLE" label="Menù canale" />
+	    <ITEM id="CH_RET" label="Selezione del canale" />
+	</MENUGROUP>
+	<MENUGROUP id="DEVICE_OPTION" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="DEVICE-TITLE" label="Opzioni" />
+	    <ITEM id="DEVOPT_CREATE" label="Crea album" />
+	</MENUGROUP>
+	<MENUGROUP id="ALBUM_OPTION" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="ALBUMOPT-TITLE" label="Opzioni" />
+	    <ITEM id="ALBUMOPT_ADDFAV" label="Aggiungi ai preferiti" />
+	    <ITEM id="ALBUMOPT_DELETE" label="Eliminare" />
+	    <ITEM id="ALBUMOPT_INFO" label="Informazioni" />
+	</MENUGROUP>
+	<MENUGROUP id="ALBUM_FAVOPT" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="ALBUMOPT-TITLE" label="Opzioni" />
+	    <ITEM id="ALBUMOPT_INFO" label="Informazioni" />
+	</MENUGROUP>
+	<MENUGROUP id="ALBUM_USBOPT" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="ALBUMCAM-TITLE" label="Opzioni" />
+	    <ITEM id="ALBUMUSB_INFO" label="Informazioni" />
+	</MENUGROUP>
+	<MENUGROUP id="THUMB_OPTION" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="THUMBOPT_TITLE" label="Opzioni" />
+	    <ITEM id="THUMBOPT_ADDFAV" label="Aggiungi ai preferiti" />
+	    <ITEM id="THUMBOPT_COPY" label="Copia" />
+	    <ITEM id="THUMBOPT_MOVE" label="Mossa" />
+	    <ITEM id="THUMBOPT_DELETE" label="Eliminare" />
+	    <ITEM id="THUMBOPT_INFO" label="Informazioni" />
+	</MENUGROUP>
+	<MENUGROUP id="THUMB_FAVOPT" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="THUMBFAV_TITLE" label="Opzioni" />
+	    <ITEM id="THUMBFAV_DELETE" label="Elimina dai preferiti" />
+	    <ITEM id="THUMBFAV_INFO" label="Informazioni" />
+	</MENUGROUP>
+	<MENUGROUP id="THUMB_USBOPT" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="THUMBUSB_TITLE" label="Opzioni" />
+	    <ITEM id="THUMBUSB_IMPORT" label="Trasferire" />
+	    <ITEM id="THUMBUSB_DELETE" label="Eliminare" />
+	    <ITEM id="THUMBUSB_INFO" label="Informazioni" />
+	</MENUGROUP>
+
+        <IMG id="default_icon" src="../../data/tex/default_icon/Photo_Album.tm2" />
+	<IMG id="rec" src="texture/rec.tm2" />
+
+	<TEXT id="text_USBMOUNT"	value="file:/mnt/storage0" />
+	<TEXT id="text_USBCAMERA"	value="DCIM" />
+	<TEXT id="text_USBCAMPS2"	value="200MSPS2" />
+	<TEXT id="text_USBMSSONY"	value="MSSONS" />
+	<TEXT id="text_USBPSBB"		value="PSBB" />
+	<TEXT id="text_USBPHOTO"	value="FOTO" />
+
+	<TEXT id="msgphoto_btn_enter"	value="Conferma" />
+	<TEXT id="msgphoto_btn_back"	value="Indietro" />
+	<TEXT id="msgphoto_btn_option"	value="Opzioni" />
+	<TEXT id="msgphoto_common_yes"	value="SÌ" />
+	<TEXT id="msgphoto_common_no"	value="NO" />
+	<TEXT id="msgphoto_common_cancel"	value="Cancellare" />
+	<TEXT id="msgphoto_common_ok"	value="OK" />
+	<TEXT id="msgphoto_ch_photo"	value="Canale fotografico" />
+	<TEXT id="msgphoto_menu_favorite"	value="Preferiti" />
+	<TEXT id="msgphoto_menu_newcommer"	value="Cosa c'è di nuovo" />
+	<TEXT id="msgphoto_menu_library"	value="Collezione" />
+	<TEXT id="msgphoto_menu_camera"	value="Macchina fotografica digitale" />
+	<TEXT id="msgphoto_optmenu_pict_title_album"	value="Preferito" />
+	<TEXT id="msgphoto_optmenu_album_option"	value="Opzioni" />
+	<TEXT id="msgphoto_optmenu_album_delete"	value="Eliminare" />
+	<TEXT id="msgphoto_optmenu_album_info"	value="Informazioni" />
+	<TEXT id="msgphoto_optmenu_pict_option"	value="Opzioni" />
+	<TEXT id="msgphoto_optmenu_pict_addfavorite"	value="Aggiungi ai preferiti" />
+	<TEXT id="msgphoto_optmenu_pict_rotate"	value="Ruotare" />
+	<TEXT id="msgphoto_optmenu_pict_copy"	value="Copia" />
+	<TEXT id="msgphoto_optmenu_pict_move"	value="Mossa" />
+	<TEXT id="msgphoto_optmenu_pict_delete"	value="Eliminare" />
+	<TEXT id="msgphoto_optmenu_pict_export"	value="Trasferire" />
+	<TEXT id="msgphoto_optmenu_pict_info"	value="Informazioni" />
+	<TEXT id="msgphoto_optmenu_camera_option"	value="Opzioni" />
+	<TEXT id="msgphoto_optmenu_camera_export"	value="Trasferire" />
+	<TEXT id="msgphoto_optmenu_camera_info"	value="Informazioni" />
+	<TEXT id="msgphoto_optmenu_delete_favorite"	value="Elimina dai preferiti" />
+	<TEXT id="msgphoto_copy_select_devices"	value="Seleziona Destinazione" />
+	<TEXT id="msgphoto_copy"	value="Copia..." />
+	<TEXT id="msgphoto_copy_complete"	value="Copia completata." />
+	<TEXT id="msgphoto_copy_fail"	value="Copia non riuscita." />
+	<TEXT id="msgphoto_copy_warn_freespace"	value="Spazio libero insufficiente. Elimina le immagini indesiderate dalla tua raccolta." />
+	<TEXT id="msgphoto_copy_warn_filemax"	value="Impossibile copiare. Elimina le immagini non necessarie dall'album di destinazione." />
+	<TEXT id="msgphoto_move_select_devices"	value="Seleziona Destinazione" />
+	<TEXT id="msgphoto_move"	value="Muoversi..." />
+	<TEXT id="msgphoto_move_complete"	value="Spostamento completato." />
+	<TEXT id="msgphoto_move_fail"	value="Spostamento non riuscito." />
+	<TEXT id="msgphoto_move_warn_filemax"	value="Non posso muovermi di più. Elimina le immagini non necessarie dall'album di destinazione." />
+	<TEXT id="msgphoto_move_warn_nodevice"	value="Non c'è destinazione." />
+	<TEXT id="msgphoto_regpict_ask"	value="Seleziona Destinazione" />
+	<TEXT id="msgphoto_regpict_add"	value="Aggiunta..." />
+	<TEXT id="msgphoto_regpict_complete"	value="Aggiunto ai preferiti." />
+	<TEXT id="msgphoto_regpict_fail"	value="Aggiunta non riuscita." />
+	<TEXT id="msgphoto_regpict_max"	value="Impossibile aggiungere altro. Elimina le immagini indesiderate dai Preferiti." />
+	<TEXT id="msgphoto_regpict_empty"	value="Non ci sono immagini da aggiungere." />
+	<TEXT id="msgphoto_album_make_title"	value="Crea album" />
+	<TEXT id="msgphoto_album_make"	value="Creazione dell'album..." />
+	<TEXT id="msgphoto_album_make_complete"	value="Album creato." />
+	<TEXT id="msgphoto_album_make_fail"	value="Creazione dell'album non riuscita." />
+	<TEXT id="msgphoto_album_make_max"	value="Impossibile creare più album. Elimina gli album non necessari." />
+	<TEXT id="msgphoto_album_new"	value="Nuovo album" />
+	<TEXT id="msgphoto_album_name"	value="Nome dell'album" />
+	<TEXT id="msgphoto_album_del_ask"	value="Eliminare tutte le immagini in questo album?" />
+	<TEXT id="msgphoto_album_del_ask_entity"	value="Elimina l'album dall'unità PlayStation®BB. Contemporaneamente vengono eliminate anche le immagini registrate come preferite." />
+	<TEXT id="msgphoto_album_del_ask_entity2"	value="Sei sicuro?" />
+	<TEXT id="msgphoto_album_del"	value="Eliminazione..." />
+	<TEXT id="msgphoto_album_del_complete"	value="Eliminazione completata." />
+	<TEXT id="msgphoto_album_del_fail"	value="Eliminazione non riuscita." />
+	<TEXT id="msgphoto_pict_del_ask"	value="Eliminare l'immagine?" />
+	<TEXT id="msgphoto_pict_del_ask_entity"	value="Elimina l'immagine dall'unità PlayStation®BB. Contemporaneamente vengono eliminate anche le immagini registrate come preferite." />
+	<TEXT id="msgphoto_pict_del_ask_entity2"	value="Sei sicuro?" />
+	<TEXT id="msgphoto_pict_del_ask_protect"	value="Stai per eliminare le immagini protette." />
+	<TEXT id="msgphoto_pict_del"	value="Eliminazione..." />
+	<TEXT id="msgphoto_pict_del_complete"	value="Eliminazione completata." />
+	<TEXT id="msgphoto_pict_del_fail"	value="Eliminazione non riuscita." />
+	<TEXT id="msgphoto_pict_del_favorite_ask"	value="Eliminare dai preferiti?" />
+	<TEXT id="msgphoto_pict_checkinall_ask"	value="Trasferire tutte le immagini nella raccolta?" />
+	<TEXT id="msgphoto_pict_send_device_list"	value="Seleziona Destinazione" />
+	<TEXT id="msgphoto_pict_checkin"	value="Trasferimento..." />
+	<TEXT id="msgphoto_pict_checkin_complete"	value="Trasferimento completato." />
+	<TEXT id="msgphoto_pict_checkin_cannot"	value="Questa immagine non può essere trasferita." />
+	<TEXT id="msgphoto_pict_checkin_cancel"	value="Trasferimento annullato." />
+	<TEXT id="msgphoto_pict_checkin_passing"	value="immagini importate." />
+	<TEXT id="msgphoto_pict_usb_nodevice"	value="Non c'è destinazione." />
+	<TEXT id="msgphoto_pict_usb_max"	value="Impossibile trasferirne altri. Elimina le immagini non necessarie dall'album di destinazione del trasferimento." />
+	<TEXT id="msgphoto_pict_checkin_fail"	value="Trasferimento non riuscito." />
+	<TEXT id="msgphoto_pict_checkin_fail_possible"	value="L'immagine potrebbe non essere stata trasferita correttamente." />
+	<TEXT id="msgphoto_pict_nospace"	value="Spazio libero insufficiente. Elimina le immagini indesiderate dalla tua raccolta." />
+	<TEXT id="msgphoto_pict_warn_filemax"	value="Impossibile trasferire perché il numero di album nella raccolta supera il limite. Elimina gli album non necessari." />
+	<TEXT id="msgphoto_warn_usb_connect"	value="Assicurati che la tua fotocamera digitale sia collegata correttamente." />
+	<TEXT id="msgphoto_pict_checkout_ask"	value="Desideri trasferire l'immagine sulla tua fotocamera digitale?" />
+	<TEXT id="msgphoto_pict_checkout_mswrite_disable"	value="I supporti della fotocamera digitale potrebbero essere protetti da scrittura." />
+	<TEXT id="msgphoto_pict_external_device_nospace"	value="Non c'è abbastanza spazio libero sul supporto della fotocamera digitale." />
+	<TEXT id="msgphoto_usb_samedata"	value="Nella fotocamera digitale esiste già un'immagine con lo stesso nome." />
+	<TEXT id="msgphoto_pict_checkout_warn_string"	value="Non è possibile trasferire le immagini il cui nome contiene i seguenti caratteri." />
+	<TEXT id="msgphoto_usb_noms"	value="Nessun supporto trovato nella fotocamera digitale." />
+	<TEXT id="msgphoto_pict_connecting"	value="Verifica della connessione..." />
+	<TEXT id="msgphoto_pict_finding"	value="Caricamento dati..." />
+	<TEXT id="msgphoto_pict_none"	value="Nessun dato." />
+	<TEXT id="msgphoto_pict_corrupt"	value="L'immagine è danneggiata." />
+	<TEXT id="msgphoto_pict_sizeerror_1"	value="L'immagine supera la risoluzione visualizzabile." />
+	<TEXT id="msgphoto_pict_sizeerror_2"	value="" />
+	<TEXT id="msgphoto_pict_nosupport"	value="Questo formato di file non è supportato" />
+	<TEXT id="msgphoto_warn_database"	value="Le informazioni sulla gestione del contenuto sono danneggiate. Per favore aggiustalo." />
+	<TEXT id="msgphoto_usb_nodevice"	value="Collegare la fotocamera digitale" />
+	<TEXT id="msgphoto_usb_nodevice2"	value="e inserire il supporto." />
+	<TEXT id="msgphoto_warn_external_device_eject"	value="Si prega di non rimuovere la fotocamera digitale." />
+	<TEXT id="msgphoto_warn_console_power"	value="Non spegnere la PlayStation®2." />
+	<TEXT id="msgphoto_warn_wait"	value="Attendere prego." />
+	<TEXT id="msgphoto_input_fail_noname" value="Nessun nome inserito." /> 
+	<TEXT id="msgphoto_input_fail_character" value="Contiene caratteri non validi." /> 
+	<TEXT id="msgphoto_input_fail_longname" value="Nome troppo lungo." /> 
+	<TEXT id="msgphoto_input_fail_none" value="Non è stato inserito nulla." /> 
+	<TEXT id="msgphoto_input_fail_nochange" value="Questo articolo non può essere modificato." /> 
+	<TEXT id="msgphoto_hddimport_copy_found2"	value="Contenuto trovato." />
+	<TEXT id="msgphoto_hddimport_copy_found1"	value="Scaricato dalla rete." />
+	<TEXT id="msgphoto_hddimport_copy_ask1"	value="Vuoi importare?" />
+	<TEXT id="msgphoto_hddimport_copy"	value="Importazione..." />
+	<TEXT id="msgphoto_hddimport_copy_complete"	value="Importazione completata." />
+	<TEXT id="msgphoto_hddimport_copy_fail"	value="Importazione non riuscita." />
+	<TEXT id="msgphoto_hddimport_title_album"	value="Scaricamento" />
+	<TEXT id="msgphoto_albuminfo_album"	value="Nome dell'album" />
+	<TEXT id="msgphoto_albuminfo_date"	value="Data di creazione" />
+	<TEXT id="msgphoto_albuminfo_time"	value="Tempo di creazione" />
+	<TEXT id="msgphoto_albuminfo_filesize"	value="Misurare" />
+	<TEXT id="msgphoto_albuminfo_album_number"	value="N. di immagini" />
+	<TEXT id="msgphoto_photoinfo_pict"	value="Nome dell'immagine" />
+	<TEXT id="msgphoto_photoinfo_album"	value="Nome dell'album" />
+	<TEXT id="msgphoto_photoinfo_data"	value="Data di creazione" />
+	<TEXT id="msgphoto_photoinfo_size"	value="Misurare" />
+	<TEXT id="msgphoto_photoinfo_resolution"	value="Risoluzione" />
+	<TEXT id="msgphoto_photoinfo_pixel"	value="Pixel" />
+	<TEXT id="msgphoto_photoinfo_fileform"	value="Tipo di file" />
+	<TEXT id="msgphoto_pict_form_bmp"	value="BMP" />
+	<TEXT id="msgphoto_pict_form_gif"	value="GIF" />
+	<TEXT id="msgphoto_pict_form_png"	value="PNG" />
+	<TEXT id="msgphoto_pict_form_tiff"	value="TIFF" />
+	<TEXT id="msgphoto_pict_form_jpeg"	value="JPEG" />
+	<TEXT id="msgphoto_info_size_kbyte1"	value="%dKB" />
+	<TEXT id="msgphoto_info_size_kbyte2"	value="%d,%03dKB" />
+	<TEXT id="msgphoto_info_size_mbyte1"	value="%d MB" />
+	<TEXT id="msgphoto_info_size_mbyte2"	value="%d,%03d MB" />
+	<TEXT id="msgphoto_info_size_err"	value="Errore durante il recupero della taglia" />
+	<TEXT id="msgphoto_info_space"	value="Capacità" />
+	<TEXT id="msgphoto_info_freespace"	value="Spazio libero" />
+	<TEXT id="msgphoto_info_freespace_kbyte1"	value="Spazio libero%4d KB" />
+	<TEXT id="msgphoto_info_freespace_kbyte2"	value="Spazio libero%d,%03d KB" />
+	<TEXT id="msgphoto_info_freespace_mbyte1"	value="Spazio libero%4d MB" />
+	<TEXT id="msgphoto_info_freespace_mbyte2"	value="Spazio libero%d,%03d MB" />
+	<TEXT id="msgphoto_info_pict_num"	value="%D" />
+
+</RESOURCE>

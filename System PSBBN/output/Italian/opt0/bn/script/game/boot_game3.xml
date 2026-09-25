@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+	<SCRIPT id="main" src="file:/opt0/bn/script/game/boot_game3" type="binary/small"/>
+	<SCRIPT id="focus" src="file:/opt0/bn/script/parts/focus" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="file:/opt0/bn/script/parts/confirm_d" type="binary/small"/>
+	<SCRIPT id="confirm_moment" src="file:/opt0/bn/script/parts/confirm_moment" type="binary/small"/>
+	<SCRIPT id="scroll_bar" src="file:/opt0/bn/script/parts/scroll_bar" type="binary/small"/>
+	<SCRIPT id="confirm_yesno2" src="file:/opt0/bn/script/game/confirm_yesno2" type="binary/small"/>
+	<SCRIPT id="notice" src="file:/opt0/bn/script/game/notice" type="binary/small"/>
+
+	<TEXT id="msggame_warn_wait"	value="Attendi l'avvio del gioco." />
+	<TEXT id="msggame_warn_wait2"	value="" />
+	<TEXT id="msggame_warn_console_power"	value="Non spegnere la PlayStation®2." />
+	<TEXT id="msggame_warn_console_disctray"	value="Non aprire il vassoio del disco." />
+	<TEXT id="msggame_execdisc_loadingfail"	value="Impossibile caricare il disco." />
+	<TEXT id="msggame_execdisc_insertdisc"	value="Si prega di inserire un disco." />
+	<TEXT id="msggame_execdisc_wrongdisc"	value="Disco sbagliato." />
+	<TEXT id="msggame_execdisc_nostart"	value="Questo gioco non inizierà." />
+	<TEXT id="msggame_execdisc_dataerr1"	value="Questi dati sono corrotti." />
+	<TEXT id="msggame_execdisc_dataerr2"	value="Per favore cancellalo." />
+	<TEXT id="msggame_execdisc_nodisc"	value="Non c'è nessun disco." />
+	<TEXT id="msggame_exechdd_fail_illigal"	value="Dati non validi." />
+	<TEXT id="msggame_exechdd_disc"	value="Questo gioco richiede un disco per essere avviato." />
+	<TEXT id="msggame_detecting_disc1"	value="Caricamento disco..." />
+	<TEXT id="msggame_detecting_disc2"	value="Dopo un po', seleziona nuovamente il gioco." />
+	<TEXT id="msggame_detecting_disc3"	value="" />
+	<TEXT id="msggame_navimenu_game_notfound"	value="Gioco non trovato." />
+
+	<TEXT id="msggame_notice_play"		value="Giocare" />
+	<TEXT id="msggame_notice_notplay"	value="Non giocare" />
+
+</RESOURCE>

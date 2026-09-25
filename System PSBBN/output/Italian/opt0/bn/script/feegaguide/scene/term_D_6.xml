@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド・用語解説(feega)　2003.5.7  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="12"  valign="center">
+	<LINE>Registra i tuoi dati cliente e completa la procedura</LINE>
+	<LINE>di registrazione per XYZXYZFEEGATOKENXYZUPPERXYZ.</LINE>
+	<LINE>L'iscrizione a XYZXYZFEEGATOKENXYZUPPERXYZ, l'uso</LINE>
+	<LINE>dei servizi di base e le quote associative annuali</LINE>
+	<LINE>sono gratuiti. Ti verrà addebitato ogni</LINE>
+	<LINE>contenuto/servizio acquistato. Seleziona "Unisciti a</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ" nel menu</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ. Impostare le</LINE>
+	<LINE>informazioni sul cliente secondo le istruzioni sullo</LINE>
+	<LINE>schermo. La registrazione dei dati della tua carta</LINE>
+	<LINE>di credito elimina la necessità di inserire i dati</LINE>
+	<LINE>della tua carta di credito ogni volta che acquisti</LINE>
+	<LINE>contenuti/servizi. Puoi iscriverti senza</LINE>
+	<LINE>registrarti. Una volta completata la registrazione</LINE>
+	<LINE>delle informazioni sul cliente,</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ-ID e il numero di</LINE>
+	<LINE>richiesta comune verranno notificati sullo schermo e</LINE>
+	<LINE>tramite e-mail.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>Tieni presente i seguenti punti quando inserisci la</LINE>
+	<LINE>password:</LINE>
+	<LINE>  ・ Gestisci la tua password in modo appropriato in</LINE>
+	<LINE>  modo da non comunicarla ad altri.</LINE>
+	<LINE>  ・Non utilizzare come password numeri facilmente</LINE>
+	<LINE>  indovinabili da terzi. (Esempio: nome completo o</LINE>
+	<LINE>  parziale, cognome, indirizzo e-mail, ecc.)</LINE>
+	<LINE>  ・Ti consigliamo di modificare regolarmente la tua</LINE>
+	<LINE>  password.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>  ・A seconda della carta di credito, potrebbe essere</LINE>
+	<LINE>  necessario inserire il codice di sicurezza durante</LINE>
+	<LINE>  la registrazione dei dati della carta di credito.</LINE>
+	<LINE>  Il codice di sicurezza è composto dalle tre cifre</LINE>
+	<LINE>  a destra del numero di 7 o 19 cifre nell'area</LINE>
+	<LINE>  della firma sul retro della tua carta di credito.</LINE>
+	<LINE>  ・Prendi nota del tuo</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ-ID e della password e</LINE>
+	<LINE>  conservali in un luogo sicuro. Inoltre, per le</LINE>
+	<LINE>  richieste al Centro Clienti</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ è necessario il Common</LINE>
+	<LINE>  Inquiry Number comunicato contemporaneamente</LINE>
+	<LINE>  all'XYZXYZFEEGATOKENXYZUPPERXYZ-ID. È possibile</LINE>
+	<LINE>  controllare il numero di richiesta comune in</LINE>
+	<LINE>  "Conferma/modifica dettagli di registrazione</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ".</LINE>
+	<LINE>  ・XYZXYZFEEGATOKENXYZUPPERXYZ-ID e la password</LINE>
+	<LINE>  possono essere salvati sulla scheda di memoria</LINE>
+	<LINE>  dedicata "PlayStation BB Unit" o "PlayStation 2"</LINE>
+	<LINE>  (8 MB). Per ulteriori informazioni, fare</LINE>
+	<LINE>  riferimento a "Salvare</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ-ID e password" in</LINE>
+	<LINE>  questa guida XYZXYZFEEGATOKENXYZUPPERXYZ.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_C_6.xml" LnkNum="1"/>
+
+    <TEXT  id="menu_item_03" group="menu_item"  value="Unisciti a XYZXYZFEEGATOKENXYZUPPERXYZ" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

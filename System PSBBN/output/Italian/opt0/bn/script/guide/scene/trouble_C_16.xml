@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="false" width="380.0" visible="10" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.20 La data visualizzata nell'elenco delle e-mail</LINE>
+	<LINE>ricevute non è corretta</LINE>
+	<LINE></LINE>
+	<LINE>A.20</LINE>
+	<LINE>  ・La data di invio dell'e-mail ricevuta è impostata</LINE>
+	<LINE>  su una data diversa dall'anno 2000-2030. →Se la</LINE>
+	<LINE>  data è impostata su una data diversa da quella</LINE>
+	<LINE>  sopra, la data corretta non verrà visualizzata</LINE>
+	<LINE>  nell'elenco. La data corretta può essere trovata</LINE>
+	<LINE>  nelle informazioni sull'e-mail</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="20"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.20" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

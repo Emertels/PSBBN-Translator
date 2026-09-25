@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<TEXT id="msggame_warn_wait"	value="Attendi l'avvio del gioco." />
+	<TEXT id="msggame_warn_wait2"	value="" />
+	<TEXT id="msggame_warn_console_power"	value="Non spegnere la PlayStation®2." />
+	<TEXT id="msggame_warn_console_disctray"	value="Non aprire il vassoio del disco." />
+
+</RESOURCE>

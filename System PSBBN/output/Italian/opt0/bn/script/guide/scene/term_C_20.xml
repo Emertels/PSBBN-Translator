@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  用語解説　2003 5.8  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="13" valign="center">
+	<LINE>Un numero che rappresenta la quantità di</LINE>
+	<LINE>informazioni al secondo. L'unità è "bps" (bit al</LINE>
+	<LINE>secondo) e viene letta come "Bps".</LINE>
+	<LINE></LINE>
+	<LINE>La qualità del suono e la dimensione dei dati</LINE>
+	<LINE>musicali variano a seconda del bitrate. Con "Canale</LINE>
+	<LINE>musicale", è possibile selezionare la velocità in</LINE>
+	<LINE>bit dei dati musicali da trasferire al lettore audio</LINE>
+	<LINE>tra 132 kbps/105 kbps/66 kbps. Ad esempio, 105 kbps</LINE>
+	<LINE>significano 105.000 bit di informazioni al secondo.</LINE>
+	<LINE>Più alto è il numero, maggiori sono le informazioni</LINE>
+	<LINE>necessarie per riprodurre la musica, quindi in</LINE>
+	<LINE>generale 105 kbps è migliore di 66 kbps e 132 kbps è</LINE>
+	<LINE>migliore di 105 kbps. Tuttavia, maggiore è il</LINE>
+	<LINE>numero, maggiore sarà la dimensione dei dati</LINE>
+	<LINE>musicali.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_B_3.xml" LnkNum="18"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Velocità in bit" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../qa"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" width="380.0" visible="14" x="270" y="100" z="0" fontsize="13" value="4;3;3;5;4;3;4;4;3;3;4;3;3;4;4;3;4;3;3;3;4;4;3;5;3;13;" >
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.01</LINE>
+	<LINE>Impossibile avviare il gioco installato sulla</LINE>
+	<LINE>"PlayStation BB Unit"</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.02</LINE>
+	<LINE>Impossibile connettersi alla rete, impossibile</LINE>
+	<LINE>aggiornare</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.03</LINE>
+	<LINE>Impossibile sfogliare i contenuti sulla rete</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.04 Viene</LINE>
+	<LINE>visualizzato il messaggio "Spazio libero</LINE>
+	<LINE>insufficiente" e non è possibile scaricare o</LINE>
+	<LINE>installare contenuto o avviare l'applicazione Mail</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.05 Ricevo</LINE>
+	<LINE>il messaggio "Errore di autenticazione DNAS" o</LINE>
+	<LINE>"Impossibile ottenere informazioni sul server"</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.06 Viene</LINE>
+	<LINE>visualizzato il messaggio "Autenticazione DNAS</LINE>
+	<LINE>fallita"</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.07 Non</LINE>
+	<LINE>conosco l'indirizzo IP o l'indirizzo DNS utilizzato</LINE>
+	<LINE>per la connessione di rete</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.08 "Errore</LINE>
+	<LINE>di acquisizione" viene visualizzato per "Indirizzo</LINE>
+	<LINE>MAC" in "Impostazioni dispositivo" nel menu delle</LINE>
+	<LINE>impostazioni di sistema.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.09 Non</LINE>
+	<LINE>riesco a visualizzare contenuti come album o giochi</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.10</LINE>
+	<LINE>"PlayStation BB Navigator" risponde lentamente.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.11 Il</LINE>
+	<LINE>dispositivo esterno collegato alla porta USB non</LINE>
+	<LINE>viene riconosciuto</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.12 Non</LINE>
+	<LINE>riesco a riprodurre il brano selezionato su Music</LINE>
+	<LINE>Channel</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.13 Non</LINE>
+	<LINE>riesco a scaricare la musica su Music Channel</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.14 Il</LINE>
+	<LINE>numero rimanente di check-out per un brano non viene</LINE>
+	<LINE>visualizzato su Music Channel</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.15 I nomi</LINE>
+	<LINE>dei brani estratti su Music Channel non vengono</LINE>
+	<LINE>registrati su MD (quando si utilizza Net MD)</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.16 Non</LINE>
+	<LINE>riesco a registrare la musica su Music Channel</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.17 Ho</LINE>
+	<LINE>effettuato il check-in di un brano su Music Channel,</LINE>
+	<LINE>ma il numero rimanente di check-out non aumenta</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.18 L'invio</LINE>
+	<LINE>e la ricezione di e-mail non riescono</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.19 L'invio</LINE>
+	<LINE>dell'e-mail non riesce</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ D.20 La data</LINE>
+	<LINE>visualizzata nell'elenco delle e-mail ricevute non è</LINE>
+	<LINE>corretta</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.21 Il</LINE>
+	<LINE>messaggio "Imposta la tua e-mail" viene visualizzato</LINE>
+	<LINE>sul canale dello sviluppatore di un gioco, ecc.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.22 Quando</LINE>
+	<LINE>si avvia "PlayStation BB Navigator", viene</LINE>
+	<LINE>visualizzato un messaggio che informa che "è stata</LINE>
+	<LINE>impostata una data non supportata"</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.23 Il</LINE>
+	<LINE>disco "PlayStation BB Navigator" non si avvia</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.24 Un</LINE>
+	<LINE>messaggio che informa che "L'unità PlayStation BB</LINE>
+	<LINE>non funziona correttamente" viene visualizzato</LINE>
+	<LINE>quando si avvia un disco in "PlayStation BB</LINE>
+	<LINE>Navigator".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.25</LINE>
+	<LINE>Danneggiamento del disco "PlayStation BB Navigator"</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.26 Se la</LINE>
+	<LINE>situazione non migliora anche dopo aver eseguito</LINE>
+	<LINE>l'operazione corrispondente al sintomo,</LINE>
+	<LINE>corrispondente a Q.01, o se non si verifica nessuno</LINE>
+	<LINE>dei sintomi</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="support_top.xml" LnkNum="1"/>
+    <LINK id="ln_1"   href="trouble_C_3.xml" />
+    <LINK id="ln_2"   href="trouble_C_4.xml" />
+    <LINK id="ln_3"   href="trouble_C_5.xml" />
+    <LINK id="ln_4"   href="trouble_C_6.xml" />
+    <LINK id="ln_5"   href="trouble_C_7.xml" />
+    <LINK id="ln_6"   href="trouble_C_8.xml" />
+    <LINK id="ln_7"   href="trouble_C_9.xml" />
+    <LINK id="ln_8"   href="trouble_C_10.xml" />
+    <LINK id="ln_9"   href="trouble_C_11.xml" />
+    <LINK id="ln_10"   href="trouble_C_12.xml" />
+    <LINK id="ln_11"   href="trouble_C_13.xml" />
+    <LINK id="ln_12"   href="trouble_C_23.xml" />
+    <LINK id="ln_13"   href="trouble_C_24.xml" />
+    <LINK id="ln_14"   href="trouble_C_25.xml" />
+    <LINK id="ln_15"   href="trouble_C_26.xml" />
+    <LINK id="ln_16"   href="trouble_C_27.xml" />
+    <LINK id="ln_17"   href="trouble_C_28.xml" />
+    <LINK id="ln_18"   href="trouble_C_14.xml" />
+    <LINK id="ln_19"   href="trouble_C_15.xml" />
+    <LINK id="ln_20"   href="trouble_C_16.xml" />
+    <LINK id="ln_21"   href="trouble_C_17.xml" />
+    <LINK id="ln_22"   href="trouble_C_18.xml" />
+    <LINK id="ln_23"   href="trouble_C_19.xml" />
+    <LINK id="ln_24"   href="trouble_C_20.xml" />
+    <LINK id="ln_25"   href="trouble_C_21.xml" />
+    <LINK id="ln_26"   href="trouble_C_22.xml" />
+    <TEXT  id="menu_item_0" group="menu_item" value="Risoluzione dei problemi" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

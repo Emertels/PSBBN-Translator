@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/" screen_w="640" screen_h="480">
+
+	<SCRIPT id="main" src="about" type="binary/small"/>
+
+	<LINK id="bg" href="../common/bg.xml" />
+	<LINK id="home" href="../top.xml" />
+
+	<IMG id="image" src="texture/about.png" />
+
+	<TEXT id="version" value="Versione %VER (Patch v4.0.1 ENG)" />
+	<TEXT id="version_x" value="0.5" />
+	<TEXT id="version_y" value="0.55" />
+
+</RESOURCE>

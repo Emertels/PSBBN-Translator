@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" skipline="1" width="380.0" visible="14" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.09 Non riesco a vedere contenuti come album o</LINE>
+	<LINE>giochi</LINE>
+	<LINE></LINE>
+	<LINE>A.09</LINE>
+	<LINE>  ・"PlayStation BB Navigator" non riesce a</LINE>
+	<LINE>  visualizzare i contenuti. →Riavviare. Se ciò non</LINE>
+	<LINE>  risolve il problema, eseguire la diagnosi e la</LINE>
+	<LINE>  riparazione da "Diagnosi e riparazione dell'"Unità</LINE>
+	<LINE>  PlayStation BB"" nel menu Utilità. Se il problema</LINE>
+	<LINE>  persiste, le informazioni che gestiscono il</LINE>
+	<LINE>  contenuto archiviato sulla "PlayStation BB Unit"</LINE>
+	<LINE>  potrebbero essere danneggiate. Si prega di</LINE>
+	<LINE>  contattare il centro informazioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0"@@【Nota】</LINE>
+	<LINE>Per dettagli sulle operazioni e precauzioni del menu</LINE>
+	<LINE>Utility, fare riferimento al manuale di istruzioni</LINE>
+	<LINE>di "PlayStation BB Navigator".</LINE>
+	<LINE></LINE>
+	<LINE>@@ACTION number="1"@@Fai clic qui per le</LINE>
+	<LINE>informazioni di contatto</LINE>
+    </TEXTAREA>
+
+    <!-- ダイアログ -->
+	<ACTION number="1" group="dialogbox" src="../images/info_d.png" close="Vicino"/>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="9"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.09" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

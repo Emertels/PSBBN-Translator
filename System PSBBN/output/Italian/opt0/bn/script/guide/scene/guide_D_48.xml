@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>È possibile modificare o verificare le impostazioni</LINE>
+	<LINE>di base per l'utilizzo dell'applicazione Mail, le</LINE>
+	<LINE>impostazioni relative alla creazione della posta</LINE>
+	<LINE>elettronica e le impostazioni del server. Seleziona</LINE>
+	<LINE>"Impostazioni" nel menu e-mail.</LINE>
+	<LINE></LINE>
+	<LINE>◆Impostazioni di ricezione</LINE>
+	<LINE>・Controlla la posta</LINE>
+	<LINE>  Imposta i tempi per il controllo automatico se la</LINE>
+	<LINE>  nuova e-mail è arrivata al server. Se c'è una</LINE>
+	<LINE>  nuova e-mail, verrà visualizzata un'icona in alto</LINE>
+	<LINE>  a destra sullo schermo per avvisarti.</LINE>
+	<LINE>・Suono di notifica</LINE>
+	<LINE>  Imposta se avvisare con un suono quando arriva una</LINE>
+	<LINE>  nuova e-mail al server.</LINE>
+	<LINE>・Limite dimensione posta</LINE>
+	<LINE>  Possono essere ricevute solo le e-mail di</LINE>
+	<LINE>  dimensione inferiore a quella impostata.</LINE>
+	<LINE></LINE>
+	<LINE>◆Impostazioni di composizione</LINE>
+	<LINE>·Firma</LINE>
+	<LINE>  Imposta una firma che verrà aggiunta</LINE>
+	<LINE>  automaticamente alle e-mail in uscita. Puoi anche</LINE>
+	<LINE>  creare la tua firma personalizzata.</LINE>
+	<LINE>・Citare il messaggio originale</LINE>
+	<LINE>  Imposta se le risposte includono il corpo</LINE>
+	<LINE>  dell'e-mail originale.</LINE>
+	<LINE></LINE>
+	<LINE>◆Impostazioni server avanzate</LINE>
+	<LINE>・Metodo di autenticazione</LINE>
+	<LINE>  Imposta quando desideri inviare e ricevere e-mail</LINE>
+	<LINE>  utilizzando APOP.</LINE>
+	<LINE>  ・Mantieni la posta in arrivo sul server Imposta se</LINE>
+	<LINE>  lasciare la posta elettronica ricevuta sul server.</LINE>
+	<LINE>・Numero di porta SMTP</LINE>
+	<LINE>・Numero di porta POP3</LINE>
+	<LINE>・POP prima di SMTP</LINE>
+	<LINE>・AUT. SMTP</LINE>
+	<LINE>・Nome utente AUTH SMTP</LINE>
+	<LINE>·Password</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Per impostazione predefinita, il numero della porta</LINE>
+	<LINE>SMTP è impostato su 25 e il numero della porta POP3</LINE>
+	<LINE>è impostato su 110.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_43.xml" LnkNum="6"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Modifica impostazioni" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  必ずお読みください　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>"PlayStation BB Navigator" (di seguito denominato</LINE>
+	<LINE>"questo prodotto") contiene più software</LINE>
+	<LINE>indipendenti e ciascun software ha titolari di</LINE>
+	<LINE>copyright e condizioni di licenza diversi.</LINE>
+	<LINE>Assicurati di leggere quanto segue.</LINE>
+	<LINE></LINE>
+	<LINE>1) Tutti i diritti relativi al software e ai dati</LINE>
+	<LINE>sono riservati a Sony Computer Entertainment Inc. o</LINE>
+	<LINE>ai rispettivi titolari dei diritti. 2) È possibile</LINE>
+	<LINE>effettuare una sola copia (installazione) di questo</LINE>
+	<LINE>prodotto su un singolo disco rigido dedicato</LINE>
+	<LINE>"PlayStation 2" per uso personale. 3) Rispettare la</LINE>
+	<LINE>legge sul copyright e le altre leggi correlate</LINE>
+	<LINE>quando si utilizza questo prodotto. 4) Questo</LINE>
+	<LINE>prodotto non può essere analizzato senza il permesso</LINE>
+	<LINE>del titolare dei diritti. 5) Se è presente un</LINE>
+	<LINE>difetto fisico nel disco "PlayStation BB Navigator"</LINE>
+	<LINE>o nel manuale di istruzioni di questo prodotto, lo</LINE>
+	<LINE>sostituiremo gratuitamente. 6) Ad eccezione del caso</LINE>
+	<LINE>dell'articolo precedente, né la nostra azienda né i</LINE>
+	<LINE>rispettivi titolari dei diritti rilasciano alcuna</LINE>
+	<LINE>garanzia riguardo a questo prodotto, inclusa</LINE>
+	<LINE>l'utilità, l'idoneità per uno scopo particolare e</LINE>
+	<LINE>l'assenza di bug nel software registrato in questo</LINE>
+	<LINE>prodotto. 7) La nostra responsabilità per i danni</LINE>
+	<LINE>subiti dal cliente a causa dell'uso di questo</LINE>
+	<LINE>prodotto da parte del cliente o per un difetto di</LINE>
+	<LINE>questo prodotto non supererà il prezzo di questo</LINE>
+	<LINE>prodotto, salvo in caso di negligenza intenzionale o</LINE>
+	<LINE>grave da parte nostra e sarà limitata ai danni</LINE>
+	<LINE>diretti e ordinari effettivamente causati al cliente</LINE>
+	<LINE>a causa della nostra responsabilità. 8) Le</LINE>
+	<LINE>specifiche di questo prodotto sono soggette a</LINE>
+	<LINE>modifiche senza preavviso per miglioramenti. 9) Se</LINE>
+	<LINE>non diversamente specificato, il presente Contratto</LINE>
+	<LINE>si applicherà anche alle versioni aggiornate di</LINE>
+	<LINE>questo prodotto che verranno fornite dalla nostra</LINE>
+	<LINE>azienda in futuro. 10) Si prega di aggiornare</LINE>
+	<LINE>immediatamente quando viene fornita una versione</LINE>
+	<LINE>aggiornata. Se non aggiorni potresti non essere in</LINE>
+	<LINE>grado di utilizzare tutte o parte delle funzioni.</LINE>
+	<LINE>11) Anche se alcune disposizioni del presente</LINE>
+	<LINE>accordo sono invalidate dalla legge, le disposizioni</LINE>
+	<LINE>diverse da quelle disposizioni rimarranno valide.</LINE>
+	<LINE>12) Il tribunale distrettuale di Tokyo avrà</LINE>
+	<LINE>giurisdizione su tutte le controversie relative al</LINE>
+	<LINE>presente accordo. 13) Se sono presenti disposizioni</LINE>
+	<LINE>separate per il software in questo prodotto, tali</LINE>
+	<LINE>disposizioni separate avranno la precedenza sulle</LINE>
+	<LINE>disposizioni del presente accordo.</LINE>
+	<LINE></LINE>
+	<LINE>Nota 1) Per le normative individuali, consultare il</LINE>
+	<LINE>file corrispondente sul disco "PlayStation BB</LINE>
+	<LINE>Navigator" o sul sito web ufficiale di Sony Computer</LINE>
+	<LINE>Entertainment Inc. (http://www.scei.co.jp/bn/), ecc.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="kanarazu_B_3.xml" LnkNum="1"/>
+
+    <TEXT  id="menu_item_01" group="menu_item"  value="Termini di licenza di &quot;PlayStation BB Navigator&quot;." />
+    <TEXT  id="menu_item_02" group="menu_item"  value="" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

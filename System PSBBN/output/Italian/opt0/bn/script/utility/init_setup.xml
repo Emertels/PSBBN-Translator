@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+	<SCRIPT id="main" src="init_setup" type="binary/small"/>
+
+	<LINK id="bg" href="../common/bg.xml" />
+
+	<LINK id="SysConf"		href="ps2init.xml" />
+	<LINK id="DBConvert"		href="dbconvert.xml" />
+	<LINK id="License"		href="license.xml" />
+	<LINK id="NetConf"		href="netconf.xml" />
+	<LINK id="GetISP"		href="ispconf.xml" />
+	<LINK id="SysUpdate"	href="sysupdate.xml" />
+
+	<LINK id="Top"		href="../top.xml"			/>
+	<LINK id="Game"		href="../game/game.xml"		/>
+	<LINK id="Photo"	href="../photo/photo.xml"	/>
+	<LINK id="Music"	href="../music/music.xml"	/>
+	<LINK id="Movie"	href="../movie/movie.xml"	/>
+
+	<TEXT id="msgutil_error_fsck1"	value="C'è un problema con il" />
+	<TEXT id="msgutil_error_fsck2"	value="contenuto dell'unità PlayStation®BB." />
+	<TEXT id="msgutil_error_fsck3"	value="Avviare la &quot;Diagnosi e" />
+	<TEXT id="msgutil_error_fsck4"	value="Repair&quot; dal disco PlayStation®BB Navigator." />
+</RESOURCE>

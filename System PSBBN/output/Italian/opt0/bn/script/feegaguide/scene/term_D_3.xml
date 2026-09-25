@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド・用語解説(feega)　2003.5.7  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="12"  valign="center">
+	<LINE>"XYZXYZFEEGATOKENXYZUPPERXYZ" è un servizio di</LINE>
+	<LINE>autenticazione dell'iscrizione e un servizio di</LINE>
+	<LINE>fatturazione di rete semplice e conveniente fornito</LINE>
+	<LINE>da Sony Finance International Inc. Se ti iscrivi a</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ, puoi pagare facilmente</LINE>
+	<LINE>contenuti/servizi come giochi che supportano</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ. Sony Finance</LINE>
+	<LINE>International Inc. sarà incaricata della riscossione</LINE>
+	<LINE>degli addebiti per i contenuti/servizi a pagamento</LINE>
+	<LINE>che possono essere acquistati utilizzando</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ dal fornitore di</LINE>
+	<LINE>contenuti/servizi.</LINE>
+	<LINE></LINE>
+	<LINE>"XYZXYZFEEGATOKENXYZUPPERXYZ" e il logo</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ sono marchi registrati</LINE>
+	<LINE>di Sony Finance International Inc. (a partire da</LINE>
+	<LINE>giugno 2003).</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_C_3.xml" LnkNum="1"/>
+
+    <TEXT  id="menu_item_03" group="menu_item"  value="Cos'è XYZXYZFEEGATOKENXYZUPPERXYZ" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

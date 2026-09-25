@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2003.4.11  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" skipline="1" width="380.0" visible="14" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.16 Non riesco a registrare la musica su Music</LINE>
+	<LINE>Channel</LINE>
+	<LINE></LINE>
+	<LINE>A.16</LINE>
+	<LINE>  ・I contenuti multimediali nel lettore audio sono</LINE>
+	<LINE>  protetti da scrittura. →Se il supporto è protetto</LINE>
+	<LINE>  da scrittura, le informazioni sul supporto non</LINE>
+	<LINE>  possono essere modificate né archiviate. Annullare</LINE>
+	<LINE>  l'impostazione di protezione da scrittura del</LINE>
+	<LINE>  supporto.</LINE>
+	<LINE>  ・Si sta tentando di archiviare dati musicali</LINE>
+	<LINE>  estratti da un'altra "unità PlayStation BB" o</LINE>
+	<LINE>  computer oppure brani registrati con un</LINE>
+	<LINE>  dispositivo audio generico. →È possibile</LINE>
+	<LINE>  effettuare il check-in solo dei dati musicali</LINE>
+	<LINE>  estratti dalla stessa "Unità PlayStation BB".</LINE>
+	<LINE>  ・Il brano o l'album originale è stato eliminato</LINE>
+	<LINE>  dall'"Unità PlayStation BB". →Non è possibile</LINE>
+	<LINE>  archiviare i dati musicali i cui brani o album</LINE>
+	<LINE>  originali sono stati eliminati.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="16"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.16" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

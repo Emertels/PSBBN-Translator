@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Per ricevere e-mail, selezionare "Invia/Ricevi" dal</LINE>
+	<LINE>menu E-mail e premere il pulsante ×. Seleziona</LINE>
+	<LINE>"Ricevi".</LINE>
+	<LINE></LINE>
+	<LINE>Le e-mail ricevute vengono salvate nell'elenco delle</LINE>
+	<LINE>e-mail ricevute. Seleziona l'e-mail che desideri</LINE>
+	<LINE>leggere utilizzando i tasti freccia su/giù e premi</LINE>
+	<LINE>il pulsante ×.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Alcune informazioni potrebbero non essere</LINE>
+	<LINE>  visualizzate correttamente nelle e-mail HTML.</LINE>
+	<LINE>  ・Le e-mail scritte in lingue diverse dal</LINE>
+	<LINE>  giapponese o dall'inglese potrebbero non essere</LINE>
+	<LINE>  visualizzate correttamente.</LINE>
+	<LINE>  ・Non è possibile ricevere e-mail di dimensioni</LINE>
+	<LINE>  superiori a 512 kilobyte.</LINE>
+	<LINE>  ・Se all'e-mail ricevuta è allegato un file, non è</LINE>
+	<LINE>  possibile aprire il file allegato o rispondere con</LINE>
+	<LINE>  il file allegato. Puoi inoltrarlo con il file</LINE>
+	<LINE>  allegato. Tuttavia, il salvataggio in bozza</LINE>
+	<LINE>  rimuove l'allegato. Se desideri inoltrare l'e-mail</LINE>
+	<LINE>  con allegati, non salvarla come bozza.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>È possibile ingrandire il testo durante la</LINE>
+	<LINE>visualizzazione delle e-mail ricevute, inviate o non</LINE>
+	<LINE>inviate. Seleziona l'e-mail che desideri leggere</LINE>
+	<LINE>dall'elenco delle e-mail e premi il pulsante ×.</LINE>
+	<LINE>Premere il pulsante △ per selezionare "Dimensione</LINE>
+	<LINE>testo" nel menu Opzioni. È possibile visualizzare il</LINE>
+	<LINE>testo in una dimensione più grande o ripristinarlo</LINE>
+	<LINE>alla sua dimensione originale.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_43.xml" LnkNum="5"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Ricevere/leggere e-mail" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

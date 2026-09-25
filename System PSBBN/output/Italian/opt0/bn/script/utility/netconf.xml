@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<!-- メインスクリプト -->
+	<SCRIPT id="main" src="netconf" type="binary/small"/>
+	<SCRIPT id="netconf_page" src="netconf_page" type="binary/small"/>
+	<SCRIPT id="netconf_list" src="netconf_list" type="binary/small"/>
+	<SCRIPT id="netconf_item" src="netconf_item" type="binary/small"/>
+	<SCRIPT id="netconf_info" src="netconf_info" type="binary/small"/>
+	<SCRIPT id="netconf_menu" src="netconf_menu" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="button" src="../parts/button" type="binary/small"/>
+	<SCRIPT id="edit_box" src="../parts/edit_box" type="binary/small"/>
+	<SCRIPT id="ipaddr_set" src="../parts/ipaddr_set" type="binary/small"/>
+	<SCRIPT id="scroll_bar" src="../parts/scroll_bar" type="binary/small"/>
+	<SCRIPT id="progress_bar" src="../parts/progress_bar" type="binary/small"/>
+	<SCRIPT id="dialog" src="../parts/dialog" type="binary/small"/>
+
+	<!-- リンクリソース -->
+	<LINK id="bg" href="../common/bg.xml"/>
+	<LINK id="Init" href="init_setup.xml"/>
+	<LINK id="Ispconf" href="ispconf.xml"/>
+	<LINK id="Back" href="../top.xml"/>
+
+	<!-- テクスチャ -->
+	<IMG id="prev" src="texture/prev_dark.tm2"/>
+	<IMG id="next" src="texture/next_dark.tm2"/>
+	<IMG id="next_hi" src="texture/next_hi.tm2"/>
+	<IMG id="page" src="texture/page.tm2"/>
+
+	<!-- list:設定名 -->
+	<list id="setting">
+		<item id="4" value="msgutil_netconf_tcpip_ipadr"/>
+		<item id="5" value="msgutil_netconf_tcpip_netmask"/>
+		<item id="6" value="msgutil_netconf_tcpip_defaultrouter"/>
+		<item id="7" value="msgutil_netconf_tcpip_dns_primary"/>
+		<item id="8" value="msgutil_netconf_tcpip_dns_secondary"/>
+		<item id="9" value="msgutil_netconf_usrid"/>
+		<item id="10" value="msgutil_netconf_usrpasswd"/>
+	</list>
+
+	<!-- dialog:設定中断 -->
+	<dialog id="dialog_cancel" type="confirm">
+		<msg id="msgutil_netconf_connect_cancel_ask"/>
+		<btn id="msgutil_common_yes"/>
+		<btn id="msgutil_common_no"/>
+	</dialog>
+
+	<!-- dialog:未フォーマット -->
+	<dialog id="dialog_error_unformat" type="confirm">
+		<msg id="msgutil_netconf_mc_unformat_ask"/>
+		<btn id="msgutil_common_yes"/>
+		<btn id="msgutil_common_no"/>
+	</dialog>
+
+	<!-- dialog:上書き -->
+	<dialog id="dialog_error_overwrite" type="confirm">
+		<msg id="msgutil_netconf_mc_samedata_ask"/>
+		<btn id="msgutil_common_yes"/>
+		<btn id="msgutil_common_no"/>
+	</dialog>
+
+	<!-- page:初回設定 -->
+	<page id="page_0">
+		<item type="window" width="432.0" height="236.0" pad="ox"/>
+		<item x="-176" y="-40" align="left" value="msgutil_netconf_setting_start"/>
+		<item x="0" y="72" type="button" value="msgutil_netconf_setting_start_start"/>
+	</page>
+
+	<!-- page:PPPoE選択 -->
+	<page id="page_1">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="-54" value="msgutil_netconf_ethdev_ask"/>
+		<item x="-94" y="0" id="0" type="radio">
+			<data value="msgutil_netconf_ethdev_pppoeoff"/>
+			<data value="msgutil_netconf_ethdev_pppoeon"/>
+		</item>
+	</page>
+
+	<!-- page:ユーザーID・パスワード入力 -->
+	<page id="page_2">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-136" y="-60" value="msgutil_netconf_usrid"/>
+		<item x="-168" y="-28" id="9" type="edit" mode="userid"/>
+		<item x="-136" y="16" value="msgutil_netconf_usrpasswd"/>
+		<item x="-168" y="48" id="10" type="edit" mode="secret"/>
+	</page>
+
+	<!-- page:DHCP選択 -->
+	<page id="page_3">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="-54" value="msgutil_netconf_tcpip_ipadr_setting"/>
+		<item x="-36" y="0" id="1" type="radio">
+			<data value="msgutil_netconf_tcpip_ipadr_auto"/>
+			<data value="msgutil_netconf_tcpip_ipadr_manual"/>
+		</item>
+	</page>
+
+	<!-- page:アドレス入力 -->
+	<page id="page_4">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-100" y="-76" align="left" value="msgutil_netconf_tcpip_ipadr"/>
+		<item x="0" y="-46" id="4" type="ip"/>
+		<item x="-100" y="-14" align="left" value="msgutil_netconf_tcpip_netmask"/>
+		<item x="0" y="16" id="5" type="ip"/>
+		<item x="-100" y="50" align="left" value="msgutil_netconf_tcpip_defaultrouter"/>
+		<item x="0" y="80" id="6" type="ip"/>
+	</page>
+
+	<!-- page:DNS選択 -->
+	<page id="page_5">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="-54" value="msgutil_netconf_tcpip_dns"/>
+		<item x="-56" y="0" id="2" type="radio">
+			<data value="msgutil_netconf_tcpip_dns_auto"/>
+			<data value="msgutil_netconf_tcpip_dns_manual"/>
+		</item>
+	</page>
+
+	<!-- page:DNSサーバー入力 -->
+	<page id="page_6">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-100" y="-56" align="left" value="msgutil_netconf_tcpip_dns_primary"/>
+		<item x="0" y="-26" id="7" type="ip"/>
+		<item x="-100" y="22" align="left" value="msgutil_netconf_tcpip_dns_secondary"/>
+		<item x="0" y="52" id="8" type="ip"/>
+	</page>
+
+	<!-- page:設定内容一覧 -->
+	<page id="page_7">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="-74" value="msgutil_netconf_list"/>
+		<item x="0" y="24" type="list"/>
+	</page>
+
+	<!-- page:ルータ設定 -->
+	<page id="page_8">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="-54" value="msgutil_netconf_router"/>
+		<item x="-157" y="0" id="3" type="radio">
+			<data value="msgutil_netconf_router_yes"/>
+			<data value="msgutil_netconf_router_no"/>
+		</item>
+	</page>
+
+	<!-- page:終了 -->
+	<page id="page_9">
+		<item type="window" width="432.0" height="236.0" pad="ox"/>
+		<item x="-176" y="-30" align="left" value="msgutil_netconf_end"/>
+		<item x="0" y="72" type="button" value="msgutil_common_ok"/>
+	</page>
+
+	<!-- page:バックアップ -->
+	<page id="page_10">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="-68" value="msgutil_netconf_setting_copymc"/>
+		<item x="-104" y="0" id ="11" type="radio">
+			<data value="msgutil_netconf_mc_slot1"/>
+			<data value="msgutil_netconf_mc_slot2"/>
+		</item>
+	</page>
+
+	<!-- page:バックアップ開始 -->
+	<page id="page_11">
+		<item type="window" width="432.0" height="236.0" pad="ox"/>
+		<item x="0" y="-22" value="msgutil_netconf_start_backup"/>
+		<item x="0" y="72" type="button" value="msgutil_common_ok"/>
+	</page>
+
+	<!-- page:リストア -->
+	<page id="page_12">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="-68" value="msgutil_netconf_setting_copyhdd"/>
+		<item x="-104" y="0" id ="11" type="radio">
+			<data value="msgutil_netconf_mc_slot1"/>
+			<data value="msgutil_netconf_mc_slot2"/>
+		</item>
+	</page>
+
+	<!-- page:リストア開始 -->
+	<page id="page_13">
+		<item type="window" width="432.0" height="236.0" pad="ox"/>
+		<item x="0" y="-22" value="msgutil_netconf_start_restore"/>
+		<item x="0" y="72" type="button" value="msgutil_common_ok"/>
+	</page>
+
+	<!-- page:転送中 -->
+	<page id="page_14">
+		<item type="window" width="432.0" height="236.0"/>
+		<item x="0" y="-64" value="msgutil_netconf_copymc"/>
+		<item x="0" y="48" type="progress"/>
+	</page>
+
+	<!-- page:転送終了 -->
+	<page id="page_15">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="0" value="msgutil_netconf_copyendmc"/>
+	</page>
+
+	<!-- page:接続テスト -->
+	<page id="page_16">
+		<item type="window" width="432.0" height="236.0" pad="ox"/>
+		<item x="0" y="-18" value="msgutil_netconf_nettest"/>
+		<item x="0" y="72" type="button" value="msgutil_netconf_nettest_start"/>
+	</page>
+
+	<!-- page:接続テスト中 -->
+	<page id="page_17">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="0" value="msgutil_netconf_nettest_testing"/>
+	</page>
+
+	<!-- page:接続テスト成功 -->
+	<page id="page_18">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-126" y="-54" align="left" value="msgutil_netconf_nettest_complete"/>
+		<item x="-126" y="-34" align="left" value="msgutil_netconf_nettest_adrlist"/>
+		<item x="0" y="64" type="list"/>
+	</page>
+
+	<!-- page:接続テスト失敗 -->
+	<page id="page_19">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-126" y="-54" align="left" value="msgutil_netconf_nettest_fail"/>
+		<item x="-126" y="-34" align="left" value="msgutil_netconf_nettest_adrlist"/>
+		<item x="0" y="64" type="list"/>
+	</page>
+
+	<!-- page:接続中 -->
+	<page id="page_20">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="0" value="msgutil_netconf_connecting"/>
+	</page>
+
+	<!-- page:接続成功 -->
+	<page id="page_21">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="0" value="msgutil_netconf_connect"/>
+	</page>
+
+	<!-- page:ルータ設定へ -->
+	<page id="page_22">
+		<item type="window" width="432.0" height="236.0" pad="xo"/>
+		<item x="-176" y="-40" align="left" value="msgutil_netconf_startx_warn"/>
+		<item x="0" y="72" type="button" value="msgutil_netconf_btn_start"/>
+	</page>
+
+	<!-- page:i-linkIDエラー -->
+	<page id="page_23">
+		<item type="window" width="432.0" height="236.0" pad="ox"/>
+		<item x="-176" y="-50" align="left" value="msgutil_netconf_detect_otherps"/>
+		<item x="0" y="72" type="button" value="msgutil_netconf_setting_start_start"/>
+	</page>
+
+	<!-- page:ホスト解決エラー -->
+	<page id="page_24">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-126" y="-54" align="left" value="msgutil_netconf_nettest_warn_notfound"/>
+		<item x="-126" y="-34" align="left" value="msgutil_netconf_nettest_adrlist"/>
+		<item x="0" y="64" type="list"/>
+	</page>
+
+	<!-- page:到達不能エラー -->
+	<page id="page_25">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-126" y="-54" align="left" value="msgutil_netconf_nettest_warn_notconnect"/>
+		<item x="-126" y="-34" align="left" value="msgutil_netconf_nettest_adrlist"/>
+		<item x="0" y="64" type="list"/>
+	</page>
+
+	<!-- page:接続拒否エラー -->
+	<page id="page_26">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-126" y="-54" align="left" value="msgutil_netconf_nettest_warn_deny"/>
+		<item x="-126" y="-34" align="left" value="msgutil_netconf_nettest_adrlist"/>
+		<item x="0" y="64" type="list"/>
+	</page>
+
+	<!-- page:接続タイムアウトエラー -->
+	<page id="page_27">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="-126" y="-54" align="left" value="msgutil_netconf_nettest_warn_timeout"/>
+		<item x="-126" y="-34" align="left" value="msgutil_netconf_nettest_adrlist"/>
+		<item x="0" y="64" type="list"/>
+	</page>
+
+	<!-- 文字列リソース -->
+	<TEXT id="msgutil_common_yes" value="SÌ"/>
+	<TEXT id="msgutil_common_no" value="NO"/>
+	<TEXT id="msgutil_common_cancel" value="Cancellare"/>
+	<TEXT id="msgutil_common_ok" value="OK"/>
+	<TEXT id="msgutil_netconf_setting_start" value="Avvio della configurazione della rete.\n\nAssicurati che il cavo Ethernet sia\ncollegato."/>
+	<TEXT id="msgutil_netconf_detect_otherps" value="L'unità PlayStation®BB potrebbe essere\nstata collegata a un'altra\nPlayStation®2.\n\nRiavvia la configurazione di rete."/>
+	<TEXT id="msgutil_netconf_setting_start_start" value="Inizio"/>
+	<TEXT id="msgutil_netconf_ethdev_ask" value="Vuoi utilizzare PPPoE?"/>
+	<TEXT id="msgutil_netconf_ethdev_pppoeoff" value="Usa PPPoE"/>
+	<TEXT id="msgutil_netconf_ethdev_pppoeon" value="Non utilizzare PPPoE"/>
+	<TEXT id="msgutil_netconf_usrid" value="ID utente"/>
+	<TEXT id="msgutil_netconf_usrpasswd" value="Password"/>
+	<TEXT id="msgutil_netconf_tcpip_ipadr_setting" value="Impostare l'indirizzo IP automaticamente?"/>
+	<TEXT id="msgutil_netconf_tcpip_ipadr_auto" value="Auto"/>
+	<TEXT id="msgutil_netconf_tcpip_ipadr_manual" value="Manuale"/>
+	<TEXT id="msgutil_netconf_tcpip_dns" value="Configurare automaticamente il DNS?"/>
+	<TEXT id="msgutil_netconf_tcpip_dns_auto" value="Auto"/>
+	<TEXT id="msgutil_netconf_tcpip_dns_manual" value="Manuale"/>
+	<TEXT id="msgutil_netconf_tcpip_ipadr" value="Indirizzo IP"/>
+	<TEXT id="msgutil_netconf_tcpip_netmask" value="Maschera di rete"/>
+	<TEXT id="msgutil_netconf_tcpip_defaultrouter" value="Router predefinito"/>
+	<TEXT id="msgutil_netconf_tcpip_dns_primary" value="DNS primario"/>
+	<TEXT id="msgutil_netconf_tcpip_dns_secondary" value="DNS secondario"/>
+	<TEXT id="msgutil_netconf_list" value="Riepilogo della configurazione"/>
+	<TEXT id="msgutil_netconf_autosetting" value="Impostazione automatica"/>
+	<TEXT id="msgutil_netconf_router" value="Vuoi configurare le impostazioni del router\ndopo esserti connesso alla rete?"/>
+	<TEXT id="msgutil_netconf_router_yes" value="Modifica le impostazioni del router"/>
+	<TEXT id="msgutil_netconf_router_no" value="Non modificare le impostazioni del router"/>
+	<TEXT id="msgutil_netconf_end" value="Salvataggio delle impostazioni di rete e connessione\alla rete."/>
+	<TEXT id="msgutil_netconf_connecting" value="Connessione alla rete..."/>
+	<TEXT id="msgutil_netconf_connect" value="Connesso con successo."/>
+	<TEXT id="msgutil_netconf_connect_fail" value="Connessione non riuscita."/>
+	<TEXT id="msgutil_netconf_connect_cancel" value="Connessione interrotta."/>
+	<TEXT id="msgutil_netconf_connect_cancel_ask" value="Sei sicuro di voler annullare?"/>
+	<TEXT id="msgutil_netconf_startx_warn" value="Avvio della configurazione del router.\n\nLo schermo si oscurerà per alcuni\nsecondi."/>
+	<TEXT id="msgutil_netconf_btn_start" value="Inizio"/>
+	<TEXT id="msgutil_netconf_warn_setting" value="Errore nelle impostazioni"/>
+	<TEXT id="msgutil_netconf_setting_copymc" value="Copia le impostazioni di rete su una scheda di memoria (PS2).\n\nSeleziona una destinazione di copia."/>
+	<TEXT id="msgutil_netconf_mc_slot1" value="Slot per scheda di memoria 1"/>
+	<TEXT id="msgutil_netconf_mc_slot2" value="Slot per scheda di memoria 2"/>
+	<TEXT id="msgutil_netconf_start_backup" value="Avvia il backup."/>
+	<TEXT id="msgutil_netconf_setting_copyhdd" value="Copia le impostazioni di rete sull'unità PlayStation®BB.\n\nSeleziona una fonte di copia."/>
+	<TEXT id="msgutil_netconf_start_restore" value="Avvia il ripristino."/>
+	<TEXT id="msgutil_netconf_copymc" value="Copia in corso...\n\nNon rimuovere la scheda di memoria (PS2)."/>
+	<TEXT id="msgutil_netconf_copyendmc" value="Copia completata."/>
+	<TEXT id="msgutil_netconf_mc_unformat_ask" value="Non inizializzato. Inizializzare?"/>
+	<TEXT id="msgutil_netconf_mc_samedata_ask" value="Stessi dati trovati sulla scheda di memoria (PS2). Vuoi sovrascrivere?"/>
+	<TEXT id="msgutil_netconf_mc_warn_settingdata" value="Inserisci la scheda di memoria (PS2) che contiene le impostazioni di rete per questa PlayStation®2."/>
+	<TEXT id="msgutil_netconf_mc_warn_space" value="Non c'è abbastanza spazio libero sulla scheda di memoria (PS2). Per salvare questi dati sono necessari 40 KB o più di spazio libero."/>
+	<TEXT id="msgutil_netconf_mc_warn_insertmc" value="Inserisci una scheda di memoria (PS2)."/>
+	<TEXT id="msgutil_netconf_hdd_warn_setting_notfound" value="Nessuna impostazione di rete trovata sull'unità PlayStation®BB."/>
+	<TEXT id="msgutil_netconf_mc_warn_setting_notfound" value="Nessuna impostazione di rete trovata sulla scheda di memoria (PS2)."/>
+	<TEXT id="msgutil_netconf_nettest" value="Avvia il test di connessione."/>
+	<TEXT id="msgutil_netconf_nettest_start" value="Inizio"/>
+	<TEXT id="msgutil_netconf_nettest_testing" value="Test della connessione..."/>
+	<TEXT id="msgutil_netconf_nettest_complete" value="Test di connessione riuscito."/>
+	<TEXT id="msgutil_netconf_nettest_fail" value="Il test di connessione è fallito."/>
+	<TEXT id="msgutil_netconf_nettest_cancel" value="Test di connessione interrotto."/>
+	<TEXT id="msgutil_netconf_nettest_error" value="Si è verificato un errore."/>
+	<TEXT id="msgutil_netconf_nettest_error_setting" value="Questa impostazione non è disponibile."/>
+	<TEXT id="msgutil_netconf_nettest_warn_notfound" value="Server non trovato."/>
+	<TEXT id="msgutil_netconf_nettest_warn_deny" value="Connessione negata."/>
+	<TEXT id="msgutil_netconf_nettest_warn_timeout" value="Il timeout è scaduto."/>
+	<TEXT id="msgutil_netconf_nettest_warn_notconnect" value="Impossibile connettersi al server."/>
+	<TEXT id="msgutil_netconf_nettest_adrlist" value="L'indirizzo è il seguente."/>
+	<TEXT id="msgutil_netconf_nettest_warn_providerinfo" value="Informazioni sul server non recuperate.\n\nPer ottenere informazioni sul server, andare su &quot;Verifica/Cambia&quot; nel menu delle impostazioni di rete."/>
+	<TEXT id="msgutil_netconf_nettest_fail_netconnect" value="Test di connessione fallito.\n\nControlla le impostazioni da &quot;Conferma/Cambia&quot; e connettiti alla rete."/>
+
+</RESOURCE>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Seleziona "Canali" dal menu principale. Puoi</LINE>
+	<LINE>selezionare il tuo canale preferito e goderti</LINE>
+	<LINE>contenuti come film e musica.</LINE>
+	<LINE></LINE>
+	<LINE>Ciascun canale è costituito dai seguenti elementi.</LINE>
+	<LINE>Le voci disponibili variano a seconda del canale.</LINE>
+	<LINE></LINE>
+	<LINE>◆Collezione</LINE>
+	<LINE>    Questa opzione ti consente di goderti i</LINE>
+	<LINE>    contenuti memorizzati sulla "PlayStation BB</LINE>
+	<LINE>    Unit".</LINE>
+	<LINE></LINE>
+	<LINE>·Disco</LINE>
+	<LINE>    Questa opzione ti consente di goderti dischi, CD</LINE>
+	<LINE>    musicali e video DVD in formato "PlayStation 2"</LINE>
+	<LINE>    e "PlayStation".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Se accendi la "PlayStation 2" con un disco inserito,</LINE>
+	<LINE>il disco si avvierà automaticamente.</LINE>
+	<LINE></LINE>
+	<LINE>・Dispositivo esterno</LINE>
+	<LINE>    Questa voce trasferisce i dati tra un</LINE>
+	<LINE>    dispositivo esterno come una fotocamera digitale</LINE>
+	<LINE>    e la "PlayStation BB Unit". I nomi delle voci</LINE>
+	<LINE>    visualizzate differiscono a seconda del canale</LINE>
+	<LINE>    utilizzato.</LINE>
+	<LINE></LINE>
+	<LINE>◆Preferiti</LINE>
+	<LINE>    Goditi tutti i tuoi contenuti preferiti insieme.</LINE>
+	<LINE>    Aggiungendo il contenuto memorizzato sull'"Unità</LINE>
+	<LINE>    PlayStation BB" ai "Preferiti", viene creato un</LINE>
+	<LINE>    collegamento a quel contenuto. Questa operazione</LINE>
+	<LINE>    non consuma spazio sulla "PlayStation BB Unit".</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_5.xml" LnkNum="1"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Godetevi i canali" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/" screen_w="640" screen_h="480" >
+	<SCRIPT id="main" src="fg" type="binary/small"/>
+	<SCRIPT id="busy" src="busy" type="binary/small"/>
+
+	<TEXT id="msgtop_btn_enter" value="Conferma" />
+	<TEXT id="msgtop_btn_back" value="Indietro" />
+	<TEXT id="fg:btn_l" value="" />
+	<TEXT id="msgtop_btn_option" value="Opzioni" />
+
+    <LINK id="bg" href="../common/bg.xml" />
+
+</RESOURCE>

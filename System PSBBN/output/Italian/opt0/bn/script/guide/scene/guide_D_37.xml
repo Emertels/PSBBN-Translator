@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Guarda il video DVD◆</LINE>
+	<LINE>Posiziona un video DVD nel vassoio del disco sulla</LINE>
+	<LINE>parte anteriore dell'unità principale "PlayStation</LINE>
+	<LINE>2" e seleziona "Disco" nella "Collezione". Il</LINE>
+	<LINE>lettore DVD dedicato "PlayStation 2" si avvierà.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Non rimuovere la scheda di memoria dedicata</LINE>
+	<LINE>  "PlayStation 2" (8 MB) in cui è installato il</LINE>
+	<LINE>  lettore DVD.</LINE>
+	<LINE>  ・Quando si esce da un DVD-Video, rimuovere il</LINE>
+	<LINE>  disco e, dopo aver visualizzato il menu principale</LINE>
+	<LINE>  di "PlayStation BB Navigator", è possibile mettere</LINE>
+	<LINE>  la console in modalità standby. Per informazioni</LINE>
+	<LINE>  su come accedere alla modalità standby, vedere</LINE>
+	<LINE>  "Spegnimento della PlayStation 2" in "Operazioni</LINE>
+	<LINE>  di base" in questa Guida operativa.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Visualizzazione di film salvati sull'"Unità PlayStation BB"◆</LINE>
+	<LINE>Seleziona "Collezione" o "Preferiti". Seleziona un</LINE>
+	<LINE>album, quindi il film che desideri guardare</LINE>
+	<LINE>dall'elenco dei film.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Informazioni sull'operazione di riproduzione◆</LINE>
+	<LINE>Durante la riproduzione del filmato, è possibile</LINE>
+	<LINE>utilizzare il menu operativo (ON/OFF con il pulsante</LINE>
+	<LINE>SELECT) con il controller analogico (DUALSHOCK 2).</LINE>
+	<LINE></LINE>
+	<LINE>・Menu operativo</LINE>
+	<LINE>@@IMG src="../images/moviemenu.png" x="0" y="0" w="502" h="153"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>  ・Controller analogico (DUALSHOCK 2)</LINE>
+	<LINE>@@IMG src="../images/movieacon.png" x="0" y="0" w="502" h="254"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_36.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Guarda un film" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

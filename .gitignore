@@ -1,0 +1,12 @@
+# Documentos internos e relatorios de desenvolvimento
+/_Docs/
+
+# Caches de traducao temporarios
+cache_*.json
+
+# Arquivos temporarios e lixo do Windows
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store

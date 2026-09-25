@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは(feega)　2003.4.22  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" skipline="1" width="380.0" visible="14" x="270" y="110" z="0" fontsize="12"  >
+	<LINE>Q.03 Richieste su XYZXYZFEEGATOKENXYZUPPERXYZ,</LINE>
+	<LINE>procedure di acquisto del servizio (se Q.01 e Q.02</LINE>
+	<LINE>non si applicano)</LINE>
+	<LINE></LINE>
+	<LINE>A.03 → Contattare il centro clienti</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ.</LINE>
+	<LINE></LINE>
+	<LINE>    XYZXYZFEEGATOKENXYZUPPERXYZ Centro clienti</LINE>
+	<LINE>◆Richieste per telefono</LINE>
+	<LINE>     TEL 045-650-2386 10:00～18:00 (aperto tutto</LINE>
+	<LINE>     l'anno) ※Tieni a portata di mano il tuo</LINE>
+	<LINE>     XYZXYZFEEGATOKENXYZUPPERXYZ-ID, il numero di</LINE>
+	<LINE>     richiesta comune, il numero di ricevuta e i</LINE>
+	<LINE>     dettagli dell'errore visualizzati.</LINE>
+	<LINE></LINE>
+	<LINE>◆Richieste via e-mail</LINE>
+	<LINE>     Indirizzo e-mail</LINE>
+	<LINE>     XYZXYZFEEGATOKENXYZUPPERXYZ@sfi.sony.co.jp</LINE>
+	<LINE>     Assicurati di includere il numero di richiesta</LINE>
+	<LINE>     comune, il nome, le informazioni di contatto</LINE>
+	<LINE>     (numero di telefono di casa o cellulare) e</LINE>
+	<LINE>     l'indirizzo e-mail.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0"@@ 【Nota】</LINE>
+	<LINE>  ・Non siamo in grado di rispondere a domande sui</LINE>
+	<LINE>  contenuti del gioco o su "PlayStation 2".</LINE>
+	<LINE>  ・Se dimentichi il tuo</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ-ID e la password,</LINE>
+	<LINE>  assicurati di contattarci telefonicamente, non</LINE>
+	<LINE>  tramite e-mail.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="3"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.03" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Quando si avvia l'applicazione Mail, viene</LINE>
+	<LINE>visualizzato un elenco delle e-mail ricevute. È</LINE>
+	<LINE>possibile alternare tra gli elenchi di posta</LINE>
+	<LINE>elettronica inviata, bozza e posta non inviata con i</LINE>
+	<LINE>tasti freccia sinistra e destra.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Informazioni sulle icone nell'elenco◆</LINE>
+	<LINE>Nell'elenco e-mail vengono visualizzate le seguenti</LINE>
+	<LINE>icone:</LINE>
+	<LINE></LINE>
+	<LINE>@@IMG src="../images/mailicon.png" x="0" y="0" w="502" h="218"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Se nell'elenco sono presenti 8 o più e-mail, è</LINE>
+	<LINE>possibile scorrere più messaggi contemporaneamente.</LINE>
+	<LINE>  ・Pulsante R1: scorre verso il basso di 7 e-mail</LINE>
+	<LINE>  ・Pulsante L1: Scorri verso l'alto di 7 e-mail</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Ordinamento delle e-mail◆</LINE>
+	<LINE>È possibile ordinare le e-mail nell'elenco. È</LINE>
+	<LINE>possibile impostare i criteri di ordinamento e</LINE>
+	<LINE>l'ordine di visualizzazione (ordine crescente o</LINE>
+	<LINE>decrescente). Seleziona "Ordina" nel menu e-mail.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_43.xml" LnkNum="3"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Utilizza l'elenco di posta elettronica" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

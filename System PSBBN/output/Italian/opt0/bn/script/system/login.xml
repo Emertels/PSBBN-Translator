@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/" screen_w="640" screen_h="480" >
+	<SCRIPT id="main" src="login" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="edit_box" src="../parts/edit_box" type="binary/small"/>
+	<SCRIPT id="check_box" src="../parts/check_box" type="binary/small"/>
+	<SCRIPT id="window" src="../parts/window" type="binary/small"/>
+	<SCRIPT id="button" src="../parts/button" type="binary/small"/>
+
+	<TEXT id="text_title" value="Inserisci il tuo ID utente e la password." />
+	<TEXT id="text_id" value="ID utente" />
+	<TEXT id="text_pass" value="Password" />
+	<TEXT id="text_save" value="Salva" />
+	<TEXT id="megcom_common_ok" value="OK" />
+	<TEXT id="megcom_common_cancel" value="Cancellare" />
+	<TEXT id="msgcom_error_certification_fail" value="Autenticazione fallita.\n\nC'è un errore nel tuo input." />
+
+</RESOURCE>

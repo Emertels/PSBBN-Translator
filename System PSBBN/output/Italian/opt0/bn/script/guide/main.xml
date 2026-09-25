@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/">
+
+	
+	<SCRIPT		id="main"			src="main"					type="binary/small"/>
+	<SCRIPT		id="focus"			src="common/focus" 			type="binary/small"/>
+	
+	<!-- 背景 -->
+
+	<LINK	id="bg"		href="ground/bg.xml" />
+	
+
+	<!-- リンク -->
+
+	<LINK	id="ln_whatsnew"		href="scene/whatsnew.xml" />
+	<LINK	id="ln_guide"			href="scene/guide_B_3.xml" />
+	<LINK	id="ln_support"			href="scene/support_top.xml" />
+	<LINK	id="ln_readme"			href="scene/kanarazu_B_3.xml" />
+	
+	<!-- ラベル -->
+
+	<TEXT	id="menu_item_0"	group="menu_item"	value="Guida PlayStation®BB" />
+	<TEXT	id="menu_item_1"	group="menu_item"	value="Cosa c'è di nuovo?" />
+	<TEXT	id="menu_item_2"	group="menu_item"	value="Guida operativa" />
+	<TEXT	id="menu_item_3"	group="menu_item"	value="Informazioni di supporto" />
+	<TEXT	id="menu_item_4"	group="menu_item"	value="Leggimi prima" />
+
+
+	<!-- ラベル 更新履歴-->
+
+	<TEXT	id="update_item_1"	group="update_item"	value="" />
+	<TEXT	id="update_item_2"	group="update_item"	value="" />
+	<TEXT	id="update_item_3"	group="update_item"	value="" />
+	<TEXT	id="update_item_4"	group="update_item"	value="" />
+	
+</RESOURCE>

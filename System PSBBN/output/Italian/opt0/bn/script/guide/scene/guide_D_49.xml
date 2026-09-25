@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Puoi aggiungere alla rubrica gli indirizzi email</LINE>
+	<LINE>delle persone con cui scambi messaggi. Quando si</LINE>
+	<LINE>compone un'e-mail è possibile selezionare i</LINE>
+	<LINE>destinatari dalla rubrica.</LINE>
+	<LINE></LINE>
+	<LINE>Per modificare la rubrica, selezionare "Modifica</LINE>
+	<LINE>rubrica" ​​dal menu e-mail e premere il pulsante ×.</LINE>
+	<LINE>Viene visualizzata una schermata per la modifica</LINE>
+	<LINE>della rubrica.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Aggiungi alla rubrica◆</LINE>
+	<LINE>Premere il pulsante △ sullo schermo per modificare</LINE>
+	<LINE>la rubrica. Seleziona "Aggiungi nuovo" nel menu</LINE>
+	<LINE>Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Puoi anche aggiungere l'indirizzo e-mail del</LINE>
+	<LINE>mittente dalle e-mail ricevute alla tua rubrica.</LINE>
+	<LINE>Selezionare l'e-mail ricevuta e premere il pulsante</LINE>
+	<LINE>△. Seleziona "Aggiungi alla rubrica" ​​nel menu</LINE>
+	<LINE>Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Modifica nome o indirizzo e-mail◆</LINE>
+	<LINE>Seleziona il nome o l'indirizzo e-mail che desideri</LINE>
+	<LINE>modificare e premi il pulsante ×.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Rimuovi dalla rubrica◆</LINE>
+	<LINE>Seleziona l'indirizzo e-mail che desideri eliminare</LINE>
+	<LINE>e premi il pulsante △. Seleziona "Elimina" nel menu</LINE>
+	<LINE>Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>Si prega di prendere nota degli indirizzi e-mail</LINE>
+	<LINE>importanti.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_43.xml" LnkNum="7"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Utilizzare la rubrica" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

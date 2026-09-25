@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+	<SCRIPT id="main" src="music" type="binary/small"/>
+
+	<SCRIPT id="general_menu" src="../parts/general_menu" type="binary/small"/>
+	<SCRIPT id="general_menu_item" src="../parts/general_menu_item" type="binary/small"/>
+	<SCRIPT id="label_item" src="../parts/label_item" type="binary/small"/>
+	<SCRIPT id="album_item" src="../parts/album_item" type="binary/small"/>
+	<SCRIPT id="scroll_bar" src="../parts/scroll_bar" type="binary/small"/>
+	<SCRIPT id="radio_button_v" src="../parts/radio_button_v" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="focus_box" src="../parts/focus_box" type="binary/small"/>
+	<SCRIPT id="device_image" src="../parts/device_image" type="binary/small"/>
+	<SCRIPT id="window" src="../parts/window" type="binary/small"/>
+	<SCRIPT id="progress_bar" src="../parts/progress_bar" type="binary/small"/>
+	<SCRIPT id="progress_window" src="progress_window" type="binary/small"/>
+	<SCRIPT id="confirm_ok" src="../parts/confirm_ok" type="binary/small"/>
+	<SCRIPT id="confirm_yesno" src="../parts/confirm_yesno" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="../parts/confirm_d" type="binary/small"/>
+
+	<SCRIPT id="music_dialog" src="music_dialog" type="binary/small"/>
+	<SCRIPT id="music_import" src="music_import" type="binary/small"/>
+
+	<IMG id="default_icon" group="" src="../../data/test/tex/default_icon/Music_Album.tm2"/>
+	<IMG id="favorite_icon" group="" src="../../data/test/tex/default_icon/Favor_Album.tm2"/>
+	<IMG id="disc_icon" group="" src="../../data/test/tex/disc_icon.tm2"/>
+
+	<LINK id="bg" href="../common/bg.xml" />
+	<LINK id="top" href="file://opt0/bn/script/top.xml"/>
+	<LINK id="help" href="file://opt0/bn/script/help/help.xml"/>
+	<LINK id="manual" href="file://opt0/bn/script/help/help.xml"/>
+	<LINK id="info" href="file://opt0/bn/script/music/infomenu.xml"/>
+	<LINK id="player" href="file://opt0/bn/script/music/music_player.xml"/>
+
+
+	<TEXT id="text_CDLABEL" value="Disco" />
+	<TEXT id="text_PDLABEL" value="Lettore audio" />
+
+	<TEXT id="text_YES"	value="SÌ" />
+	<TEXT id="text_NO"	value="NO" />
+	<TEXT id="text_OK"	value="OK" />
+	<TEXT id="text_CANCEL"	value="Cancellare" />
+	<TEXT id="text_PERCENT"	value="%3d％" />
+
+	<TEXT id="color_name_0"	value="Blu" />
+	<TEXT id="color_name_1"	value="Verde" />
+	<TEXT id="color_name_2"	value="Giallo" />
+	<TEXT id="color_name_3"	value="Arancia" />
+	<TEXT id="color_name_4"	value="Rosso" />
+	<TEXT id="color_name_5"	value="Rosa" />
+	<TEXT id="color_name_6"	value="Viola" />
+
+	<TEXT id="albummenu_favo"	group="album_menu" value="Preferiti" />
+	<TEXT id="albummenu_library"	group="album_menu" value="Collezione" />
+	<TEXT id="albummenu_disc"	group="album_menu" value="Disco" />
+	<TEXT id="albummenu_pd"		group="album_menu" value="Lettore audio" />
+
+
+	<MENUGROUP id="optmenu0" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="optmenu0_title" label="Opzioni" />
+	    <ITEM id="command_checkout" label="Guardare" />
+	    <ITEM id="command_delete" label="Eliminare" />
+	    <ITEM id="command_info" label="Informazioni" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu1" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="optmenu1_title" label="Opzioni" />
+	    <ITEM id="command_checkout" label="Guardare" />
+	    <ITEM id="command_info" label="Informazioni" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu2" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="optmenu2_title" label="Opzioni" />
+	    <ITEM id="command_info" label="Informazioni" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu3" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="optmenu3_title" label="Opzioni" />
+	    <ITEM id="command_checkin" label="Check-in" />
+	    <ITEM id="command_delete" label="Eliminare" />
+	    <ITEM id="command_info" label="Informazioni" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu4" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="optmenu4_title" label="Opzioni" />
+		<ITEM id="submenu_preference" label="Impostazioni" subgroup="optmenu5" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu5" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="optmenu5_title" label="Impostazioni" />
+		<ITEM id="submenu_quality" label="Qualità di registrazione" subgroup="optmenu6" />
+	</MENUGROUP>
+
+	<MENUGROUP id="optmenu6" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="optmenu6_title" label="Qualità di registrazione" />
+		<ITEM id="radio_quality_high" label="132 kbps" />
+		<ITEM id="radio_quality_norm" label="105 kbps" />
+		<ITEM id="radio_quality_low" label="66 kbps" />
+	</MENUGROUP>
+
+
+	<TEXT id="chmenu0" group="chmenu" subgroup="chmenu0" value="Canale" />
+	<TEXT id="chmenu_pref" group="chmenu0" value="Impostazioni" />
+	<TEXT id="chmenu_select" group="chmenu0" value="Canale" />
+
+	<TEXT id="optmenu0" group="optmenu" subgroup="optmenu0" value="Opzioni" />
+	<TEXT id="optmenu_checkout" group="optmenu0" value="Guardare" />
+	<TEXT id="optmenu_delete" group="optmenu0" value="Eliminare" />
+	<TEXT id="optmenu_info" group="optmenu0" value="Informazioni" />
+
+	<TEXT id="optmenu1" group="optmenu" subgroup="optmenu1" value="Opzioni" />
+	<TEXT id="optmenu_checkout" group="optmenu1" value="Guardare" />
+	<TEXT id="optmenu_info" group="optmenu1" value="Informazioni" />
+
+	<TEXT id="optmenu2" group="optmenu" subgroup="optmenu2" value="Opzioni" />
+	<TEXT id="optmenu_info" group="optmenu2" value="Informazioni" />
+
+	<TEXT id="optmenu3" group="optmenu" subgroup="optmenu3" value="Opzioni" />
+	<TEXT id="optmenu_checkin" group="optmenu3" value="Check-in" />
+	<TEXT id="optmenu_delete" group="optmenu3" value="Eliminare" />
+	<TEXT id="optmenu_info" group="optmenu3" value="Informazioni" />
+
+	<TEXT id="dialog_pref" group="chmenu_pref" value="Impostazioni" />
+	<TEXT id="pref_quality" group="dialog_pref" value="Qualità di registrazione" />
+	<TEXT id="quality_high" group="pref_quality" value="132 kbps" />
+	<TEXT id="quality_norm" group="pref_quality" value="105 kbps" />
+	<TEXT id="quality_low" group="pref_quality" value="66 kbps" />
+
+	<TEXT id="msgmusic_btn_enter"	value="Conferma" />
+	<TEXT id="msgmusic_btn_back"	value="Indietro" />
+	<TEXT id="msgmusic_btn_option"	value="Opzioni" />
+	<TEXT id="msgmusic_common_yes"	value="SÌ" />
+	<TEXT id="msgmusic_common_no"	value="NO" />
+	<TEXT id="msgmusic_common_cancel"	value="Cancellare" />
+	<TEXT id="msgmusic_common_ok"	value="OK" />
+	<TEXT id="msgmusic_ch_music"	value="Canale musicale" />
+	<TEXT id="msgmusic_menu_favorite"	value="Preferiti" />
+	<TEXT id="MUSIC-PSBBNOW"	value="Informazioni sul nuovo album" />
+	<TEXT id="msgmusic_menu_library"	value="Collezione" />
+	<TEXT id="msgmusic_menu_cd"	value="Disco" />
+	<TEXT id="msgmusic_menu_pd"	value="Lettore audio" />
+	<TEXT id="msgmusic_optmenut_library_favorite"	value="Preferiti" />
+	<TEXT id="msgmusic_settting"	value="Impostazioni" />
+	<TEXT id="msgmusic_settting_rec_quality"	value="Qualità di registrazione" />
+	<TEXT id="msgmusic_settting_rec_quality_high"	value="132 kbps" />
+	<TEXT id="msgmusic_settting_rec_quality_normal"	value="105 kbps" />
+	<TEXT id="msgmusic_settting_rec_quality_low"	value="66 kbps" />
+	<TEXT id="msgmusic_tracktop_shuffle"	value="Mescola" />
+	<TEXT id="msgmusic_tracktop_shuffle_on"	value="SU" />
+	<TEXT id="msgmusic_tracktop_shuffle_off"	value="Spento" />
+	<TEXT id="msgmusic_plymod_repeat"	value="Ripetere" />
+	<TEXT id="msgmusic_tracktop_shuffle_all"	value="Tutto" />
+	<TEXT id="msgmusic_tracktop_shuffle_single"	value="1" />
+	<TEXT id="msgmusic_optmenu_album_option"	value="Opzioni" />
+	<TEXT id="msgmusic_optmenu_album_checkout"	value="Guardare" />
+	<TEXT id="msgmusic_optmenu_album_delete"	value="Eliminare" />
+	<TEXT id="msgmusic_optmenu_album_info"	value="Informazioni" />
+	<TEXT id="msgmusic_optmenu_favorite_option"	value="Opzioni" />
+	<TEXT id="msgmusic_optmenu_favorite_checkout"	value="Guardare" />
+	<TEXT id="msgmusic_optmenu_favorite_info"	value="Informazioni" />
+	<TEXT id="msgmusic_optmenu_cd_option"	value="Opzioni" />
+	<TEXT id="msgmusic_optmenu_cd_info"	value="Informazioni" />
+	<TEXT id="msgmusic_optmenu_pd_option"	value="Opzioni" />
+	<TEXT id="msgmusic_optmenu_pd_checkin"	value="Check-in" />
+	<TEXT id="msgmusic_optmenu_pd_info"	value="Informazioni" />
+	<TEXT id="msgmusic_optmenut_library_option"	value="Opzioni" />
+	<TEXT id="msgmusic_optmenut_library_addfavorite"	value="Aggiungi ai preferiti" />
+	<TEXT id="msgmusic_optmenut_library_checkout"	value="Guardare" />
+	<TEXT id="msgmusic_optmenut_library_delete"	value="Eliminare" />
+	<TEXT id="msgmusic_optmenut_library_info"	value="Informazioni" />
+	<TEXT id="msgmusic_optmenut_tfavorite_option"	value="Opzioni" />
+	<TEXT id="msgmusic_optmenut_tfavorite_checkout"	value="Guardare" />
+	<TEXT id="msgmusic_optmenut_tfavorite_delete"	value="Elimina dai preferiti" />
+	<TEXT id="msgmusic_optmenut_tfavorite_info"	value="Informazioni" />
+	<TEXT id="msgmusic_optmenut_cdda_option"	value="Opzioni" />
+	<TEXT id="msgmusic_optmenut_cdda_info"	value="Informazioni" />
+	<TEXT id="msgmusic_optmenut_pd_option"	value="Opzioni" />
+	<TEXT id="msgmusic_optmenut_pd_checkin"	value="Check-in" />
+	<TEXT id="msgmusic_optmenut_pd_info"	value="Informazioni" />
+	<TEXT id="msgmusic_ainfo_audiocd"	value="CD audio" />
+	<TEXT id="msgmusic_ainfo_album"	value="Nome dell'album" />
+	<TEXT id="msgmusic_ainfo_album_default"	value="Album" />
+	<TEXT id="msgmusic_ainfo_artist"	value="Artista" />
+	<TEXT id="msgmusic_ainfo_artist_default"	value="Sconosciuto" />
+	<TEXT id="msgmusic_ainfo_data"	value="Anno" />
+	<TEXT id="msgmusic_ainfo_genre"	value="Genere" />
+	<TEXT id="msgmusic_ainfo_time"	value="Durata" />
+	<TEXT id="msgmusic_ainfo_filesize"	value="Misurare" />
+	<TEXT id="msgmusic_tinfo_album"	value="Nome dell'album" />
+	<TEXT id="msgmusic_tinfo_album_default"	value="Album" />
+	<TEXT id="msgmusic_tinfo_track"	value="Nome della traccia" />
+	<TEXT id="msgmusic_tinfo_track_default"	value="Traccia" />
+	<TEXT id="msgmusic_tinfo_artist"	value="Artista" />
+	<TEXT id="msgmusic_tinfo_artist_unknown" value="Sconosciuto" />
+	<TEXT id="msgmusic_tinfo_data"	value="Anno" />
+	<TEXT id="msgmusic_tinfo_genre"	value="Genere" />
+	<TEXT id="msgmusic_tinfo_time"	value="Durata" />
+	<TEXT id="msgmusic_tinfo_size"	value="Misurare" />
+	<TEXT id="msgmusic_tinfo_size_MB"	value="%d MB" />
+	<TEXT id="msgmusic_tinfo_size_KB"	value="%dKB" />
+	<TEXT id="msgmusic_tinfo_size_fileformat"	value="Formato file" />
+	<TEXT id="msgmusic_tinfo_format_pcm"	value="PCM" />
+	<TEXT id="msgmusic_tinfo_format_lp2"	value="（Stereo LP2）" />
+	<TEXT id="msgmusic_tinfo_format_lp4"	value="（Stereo LP4）" />
+	<TEXT id="msgmusic_tinfo_format_mono"	value="(mono)" />
+	<TEXT id="msgmusic_tinfo_format_stereo"	value="(stereo)" />
+	<TEXT id="msgmusic_tinfo_format_atrac"	value="ATRAC3" />
+	<TEXT id="msgmusic_tinfo_filetype_atrac"	value="ATRAC" />
+	<TEXT id="msgmusic_tinfo_132k"	value="(132 kbps)" />
+	<TEXT id="msgmusic_tinfo_105k"	value="(105 kbps)" />
+	<TEXT id="msgmusic_tinfo_66k"	value="(66 kbps)" />
+	<TEXT id="msgmusic_tinfo_slash"	value="/" />
+	<TEXT id="msgmusic_info_playcnt"	value="Guardare" />
+	<TEXT id="msgmusic_info_playcnt_n"	value="%d tempo(i) rimasto(i)." />
+	<TEXT id="msgmusic_addalbum_ask"	value="Registra questo CD？" />
+	<TEXT id="msgmusic_addalbum_recarea"	value="Prenotazione dello spazio per la registrazione..." />
+	<TEXT id="msgmusic_addalbum_rec"	value="Registrazione..." />
+	<TEXT id="msgmusic_addalbum_percent"	value="%3d％" />
+	<TEXT id="msgmusic_addalbum_rec_cancel_complete"	value="La registrazione è stata annullata." />
+	<TEXT id="msgmusic_addalbum_complete"	value="Registrazione completata." />
+	<TEXT id="msgmusic_addalbum_fail"	value="La registrazione non è riuscita." />
+	<TEXT id="msgmusic_addalbum_recarea_full"	value="Non è stato possibile garantire lo spazio richiesto per la registrazione. Elimina i giochi non necessari." />
+	<TEXT id="msgmusic_addalbum_nospace"	value="Spazio libero insufficiente. Elimina le tracce indesiderate dalla tua raccolta." />
+	<TEXT id="msgmusic_addalbum_warn_max"	value="La registrazione non è possibile perché il numero di album nella raccolta supera il limite massimo. Elimina gli album non necessari." />
+	<TEXT id="msgmusic_regtrack_ask"	value="Selezione della destinazione" />
+	<TEXT id="msgmusic_regtrack_add"	value="Aggiunta..." />
+	<TEXT id="msgmusic_regtrack_complete"	value="Aggiunto ai preferiti." />
+	<TEXT id="msgmusic_regtrack_fail"	value="Aggiunta non riuscita." />
+	<TEXT id="msgmusic_regtrack_nospace"	value="Spazio libero insufficiente." />
+	<TEXT id="msgmusic_regtrack_max"	value="Non è possibile aggiungere altro. Elimina i brani indesiderati dai Preferiti." />
+	<TEXT id="msgmusic_album_del_ask"	value="Sei sicuro di voler eliminare tutte le tracce in questo album?" />
+	<TEXT id="msgmusic_album_del_ask_entity"	value="Eliminazione dell'album dall'unità PlayStation®BB. Contemporaneamente vengono eliminati anche i brani registrati come preferiti." />
+	<TEXT id="msgmusic_album_del_ask_entity2"	value="Sei sicuro?" />
+	<TEXT id="msgmusic_album_del"	value="Eliminazione..." />
+	<TEXT id="msgmusic_album_del_complete"	value="Eliminazione completata." />
+	<TEXT id="msgmusic_album_del_fail"	value="Impossibile eliminare." />
+	<TEXT id="msgmusic_track_del_ask"	value="Eliminare la traccia?" />
+	<TEXT id="msgmusic_track_del_ask_entity"	value="Eliminazione del brano dall'unità PlayStation®BB. Contemporaneamente vengono eliminati anche i brani registrati come preferiti." />
+	<TEXT id="msgmusic_track_del_ask_entity2"	value="Sei sicuro?" />
+	<TEXT id="msgmusic_track_del"	value="Eliminazione..." />
+	<TEXT id="msgmusic_track_del_complete"	value="Eliminazione completata." />
+	<TEXT id="msgmusic_track_del_fail"	value="Impossibile eliminare." />
+	<TEXT id="msgmusic_track_warn_track_none"	value="Non ci sono tracce che possono essere cancellate." />
+	<TEXT id="msgmusic_track_del_favorite_ask"	value="Eliminare dai preferiti?" />
+	<TEXT id="msgmusic_album_chkin_ask"	value="Effettuare il check-in di tutte le tracce?" />
+	<TEXT id="msgmusic_album_chkin_cannot"	value="È possibile effettuare il check-in solo dei brani estratti da questa unità PlayStation®BB." />
+	<TEXT id="msgmusic_album_chkin"	value="Check-in..." />
+	<TEXT id="msgmusic_album_chkin_complete"	value="Check-in completato." />
+	<TEXT id="msgmusic_album_chkin_fail_cinfonone"	value="Ci sono %d tracce che non è stato possibile archiviare." />
+	<TEXT id="msgmusic_album_chkin_fail"	value="Impossibile effettuare il check-in." />
+	<TEXT id="msgmusic_album_chkin_fail_otherdev"	value="Il brano non è stato estratto da questa unità PlayStation®BB oppure non è stato possibile trovare il brano originale." />
+	<TEXT id="msgmusic_album_chkin_track_none"	value="Nessuna traccia disponibile per il check-in." />
+	<TEXT id="msgmusic_track_chkin_ask"	value="Vuoi controllare la tua traccia?" />
+	<TEXT id="msgmusic_track_chkin_cannot"	value="È possibile effettuare il check-in solo dei brani estratti da questa unità PlayStation®BB." />
+	<TEXT id="msgmusic_track_chkin"	value="Check-in..." />
+	<TEXT id="msgmusic_track_chkin_complete"	value="Check-in completato." />
+	<TEXT id="msgmusic_track_chkin_fail"	value="Impossibile effettuare il check-in." />
+	<TEXT id="msgmusic_track_chkin_fail_cinfonone"	value="Il brano non è stato estratto da questa unità PlayStation®BB oppure non è stato possibile trovare il brano originale." />
+	<TEXT id="msgmusic_chkin_wdisable"	value="I contenuti multimediali nel lettore audio potrebbero essere protetti da scrittura." />
+	<TEXT id="msgmusic_album_chkout_ask"	value="Dai un'occhiata a tutte le tracce?" />
+	<TEXT id="msgmusic_album_chkout_announce_md"	value="Controlla il numero di estratti di traccia e la quantità di spazio libero sul lettore audio." />
+	<TEXT id="msgmusic_album_chkout"	value="Check-out..." />
+	<TEXT id="msgmusic_album_chkout_complete"	value="Check-out completato." />
+	<TEXT id="msgmusic_album_chkout_fail_cntlimit"	value="È stata trovata una traccia che ha superato il limite di pagamento. Completati fino a %d brani." />
+	<TEXT id="msgmusic_album_chkout_fail"	value="Impossibile effettuare il check-out." />
+	<TEXT id="msgmusic_album_chkout_fail_cntover"	value="Hai superato il limite di pagamento." />
+	<TEXT id="msgmusic_chkout_fail_halfway"	value="Non c'è abbastanza spazio libero sul lettore audio. Completati fino a %d brani." />
+	<TEXT id="msgmusic_album_chkout_fail_trkcp_prohibit"	value="È stata trovata una traccia che non può essere ritirata. Completati fino a %d brani." />
+	<TEXT id="msgmusic_album_chkout_prohibit"	value="Non ci sono tracce disponibili per il check-out." />
+	<TEXT id="msgmusic_track_chkout_ask"	value="Dai un'occhiata alla traccia?" />
+	<TEXT id="msgmusic_track_chkout_announce_md"	value="Controlla il numero di estratti di traccia e la quantità di spazio libero sul lettore audio." />
+	<TEXT id="msgmusic_track_chkout"	value="Controllo..." />
+	<TEXT id="msgmusic_track_chkout_complete"	value="Check-out completato." />
+	<TEXT id="msgmusic_track_chkout_fail"	value="Impossibile effettuare il check-out." />
+	<TEXT id="msgmusic_track_chkout_fail_cntlimit"	value="Hai superato il limite di check-out." />
+	<TEXT id="msgmusic_track_chkout_prohibit"	value="Impossibile eseguire il check-out di questa traccia." />
+	<TEXT id="msgmusic_chkout_cancel"	value="Annullamento del check-out in corso..." />
+	<TEXT id="msgmusic_chkout_cancel_complete"	value="Il check-out è stato annullato." />
+	<TEXT id="msgmusic_track_chkout_progress"	value="Completati fino a %d brani." />
+	<TEXT id="msgmusic_chkout_fail_wdisable"	value="I contenuti multimediali nel lettore audio potrebbero essere protetti da scrittura." />
+	<TEXT id="msgmusic_chkout_fail_space"	value="Spazio libero insufficiente sul lettore audio." />
+	<TEXT id="msgmusic_device_connect_confirm"	value="Assicurati che il lettore audio sia collegato correttamente." />
+	<TEXT id="msgmusic_icon_corrupt"	value="I dati sono danneggiati." />
+	<TEXT id="msgmusic_icon_notsupport"	value="Questi dati non sono supportati." />
+	<TEXT id="msgmusic_notsupport"	value="Questo formato di file non è supportato." />
+	<TEXT id="msgmusic_album_getinfo"	value="Caricamento dati..." />
+	<TEXT id="msgmusic_album_none"	value="Nessun dato." />
+	<TEXT id="msgmusic_album_corrupt"	value="Le informazioni sulla gestione del contenuto sono danneggiate. Per favore aggiustalo." />
+	<TEXT id="msgmusic_track_none"	value="Nessuna traccia." />
+	<TEXT id="msgmusic_disc_reading"	value="Caricamento disco..." />
+	<TEXT id="msgmusic_disc_none"	value="Nessun disco." />
+	<TEXT id="msgmusic_disc_notreading"	value="Questo disco non può essere riprodotto." />
+	<TEXT id="msgmusic_disc_wrong"	value="Disco sbagliato." />
+	<TEXT id="msgmusic_usb_connect_confirm"	value="Verifica della connessione..." />
+	<TEXT id="msgmusic_usb_nodevice"	value="Lettore audio" />
+	<TEXT id="msgmusic_usb_nodevice2"	value="Non connesso." />
+	<TEXT id="msgmusic_usb_insert1"	value="al lettore audio" />
+	<TEXT id="msgmusic_usb_insert2"	value="Inserisci il supporto." />
+	<TEXT id="msgmusic_warn_external_device_eject"	value="Non scollegare il lettore audio." />
+	<TEXT id="msgmusic_warn_console_power"	value="Non spegnere la PlayStation®2." />
+	<TEXT id="msgmusic_warn_wait"	value="Attendere prego." />
+	<TEXT id="msgmusic_warn_console_disctray"	value="Non aprire il vassoio del disco." />
+	<TEXT id="msgmusic_warn_unitwrong1"	value="Si è verificato un errore nel contenuto dell'unità PlayStation®BB." />
+	<TEXT id="msgmusic_warn_unitwrong2"	value="Si prega di contattare il centro informazioni di Sony Computer Entertainment Inc." />
+	<TEXT id="msgmusic_input_fail_noname"	value="Nessun nome inserito." />
+	<TEXT id="msgmusic_input_fail_character"	value="Contiene caratteri che non possono essere utilizzati." />
+	<TEXT id="msgmusic_input_fail_longname"	value="Il nome è troppo lungo." />
+	<TEXT id="msgmusic_input_fail_none"	value="Non c'è nessun nome" />
+	<TEXT id="msgmusic_input_fail_nochange"	value="Questo articolo non può essere modificato." />
+	<TEXT id="msgmusic_hddimport_copy_found1"	value="scaricato dalla rete" />
+	<TEXT id="msgmusic_hddimport_copy_found2"	value="Contenuto trovato." />
+	<TEXT id="msgmusic_hddimport_copy_ask1"	value="Vuoi importare?" />
+	<TEXT id="msgmusic_hddimport_copy"	value="Caricamento..." />
+	<TEXT id="msgmusic_hddimport_copy_complete"	value="Importazione completata." />
+	<TEXT id="msgmusic_hddimport_copy_fail"	value="Importazione non riuscita." />
+</RESOURCE>

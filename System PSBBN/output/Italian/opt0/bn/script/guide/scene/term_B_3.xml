@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  用語解説　2003 4.14  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../menu"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="false" width="346.0" visible="5" x="270" y="200" z="0"  align="center" valign="center">
+	<LINE>APOP Formato HTML Indirizzo MAC POP prima di SMTP</LINE>
+	<LINE>POP3 PPPoE SDMI SMTP SMTP AUTH Aggiornamento</LINE>
+	<LINE>X-Mailer Installazione Risoluzione Collegamento</LINE>
+	<LINE>contenuto Check-in Check-out Bitrate Router di</LINE>
+	<LINE>partizione</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="support_top.xml" LnkNum="2"/>
+    <LINK id="ln_1"   href="term_C_3.xml" />
+    <LINK id="ln_2"   href="term_C_4.xml" />
+    <LINK id="ln_3"   href="term_C_5.xml" />
+    <LINK id="ln_4"   href="term_C_6.xml" />
+    <LINK id="ln_5"   href="term_C_7.xml" />
+    <LINK id="ln_6"   href="term_C_8.xml" />
+    <LINK id="ln_7"   href="term_C_21.xml" />
+    <LINK id="ln_8"   href="term_C_9.xml" />
+    <LINK id="ln_9"   href="term_C_10.xml" />
+    <LINK id="ln_10"   href="term_C_11.xml" />
+    <LINK id="ln_11"   href="term_C_12.xml" />
+    <LINK id="ln_12"   href="term_C_13.xml" />
+    <LINK id="ln_13"   href="term_C_14.xml" />
+    <LINK id="ln_14"   href="term_C_15.xml" />
+    <LINK id="ln_15"   href="term_C_16.xml" />
+    <LINK id="ln_16"   href="term_C_19.xml" />
+    <LINK id="ln_17"   href="term_C_22.xml" />
+    <LINK id="ln_18"   href="term_C_20.xml" />
+    <LINK id="ln_19"   href="term_C_17.xml" />
+    <LINK id="ln_20"   href="term_C_18.xml" />
+
+    <TEXT  id="menu_item_01" group="menu_item"  value="Glossario" />
+    <TEXT  id="menu_item_02" group="menu_item"  value="" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

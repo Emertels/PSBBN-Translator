@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<!-- スクリプト -->
+
+	<SCRIPT id="main" src="menu/ps2init" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="scroll_bar" src="../parts/scroll_bar" type="binary/small"/>
+	<SCRIPT id="list" src="menu/list" type="binary/small"/>
+	<SCRIPT id="list2" src="menu/list2" type="binary/small"/>
+	<SCRIPT id="window" src="menu/window" type="binary/small"/>
+	<SCRIPT id="title" src="menu/title" type="binary/small"/>
+	<SCRIPT id="timezone" src="menu/timezone" type="binary/small"/>
+	<SCRIPT id="dialog" src="../parts/dialog" type="binary/small"/>
+	<SCRIPT id="clock_set"	src="../parts/clock_set" type="binary/small"/>
+
+	<!-- テクスチャ -->
+
+	<IMG id="sysconf_img_1" src="menu/texture/clock.tm2"/>
+
+	<!-- リンク -->
+
+	<LINK id="bg" href="../common/bg.xml"/>
+	<LINK id="init_setup" href="init_setup.xml"/>
+
+	<!-- 日付/時間メニュー -->
+
+	<menu id="sysconf_menu_1">
+		<item value="Regolazione dell'orologio"/>
+		<item value="Formato ora"/>
+		<item value="Formato data"/>
+		<item value="Ora legale"/>
+		<item value="Fuso orario"/>
+	</menu>
+
+	<menu id="sysconf_value_1_3">
+		<item value="Standard (orario invernale)"/>
+		<item value="Ora legale (ora legale)"/>
+	</menu>
+
+	<menu id="sysconf_value_1_4">
+		<item id="97" value="(GMT－11:00) Samoa"/>
+		<item id="68" value="(GMT－11:00) A metà strada"/>
+		<item id="113" value="(GMT－10:00) Hawaii"/>
+		<item id="114" value="(GMT－09:00) Alaska"/>
+		<item id="17" value="(GMT－08:00) Pacifico (Canada)"/>
+		<item id="115" value="(GMT－08:00) Pacifico (USA)"/>
+		<item id="65" value="(GMT－08:00) Tijuana"/>
+		<item id="18" value="(GMT－07:00) Ora della montagna (Canada)"/>
+		<item id="116" value="(GMT－07:00) Ora della montagna (USA)"/>
+		<item id="66" value="(GMT－07:00) Chihuahua"/>
+		<item id="25" value="(GMT－06:00) Isola di Pasqua"/>
+		<item id="19" value="(GMT－06:00) Cintura centrale (Canada)"/>
+		<item id="117" value="(GMT:06:00) Cintura Centrale (USA)"/>
+		<item id="67" value="(GMT－06:00) Messico"/>
+		<item id="20" value="(GMT－05:00) Ora solare orientale (Canada)"/>
+		<item id="118" value="(GMT－05:00) Ora solare orientale (USA)"/>
+		<item id="79" value="(GMT－05:00) Panamá"/>
+		<item id="120" value="(GMT－04:00) Caracas"/>
+		<item id="40" value="(GMT－04:00) Nord-ovest della Groenlandia"/>
+		<item id="24" value="(GMT:04:00) Giacomo"/>
+		<item id="21" value="(GMT－04:00) Atlantico (Canada)"/>
+		<item id="83" value="(GMT－04:00) Porto Rico"/>
+		<item id="22" value="(GMT－03:30) Terranova (Canada)"/>
+		<item id="41" value="(GMT－03:00) Parte sudoccidentale della Groenlandia"/>
+		<item id="81" value="(GMT－01:00) Azzorre"/>
+		<item id="42" value="(GMT－01:00) Groenlandia orientale"/>
+		<item id="23" value="(GMT:01:00) Praga"/>
+		<item id="70" value="(GMT＋00:00) Casablanca"/>
+		<item id="103" value="(GMT＋00:00) Isole Canarie"/>
+		<item id="48" value="(GMT＋00:00) Dublino"/>
+		<item id="82" value="(GMT＋00:00) Lisbona"/>
+		<item id="44" value="(GMT＋00:00) Reykjavik"/>
+		<item id="112" value="(GMT＋00:00) Londra"/>
+		<item id="73" value="(GMT＋01:00) Amsterdam"/>
+		<item id="2" value="(GMT＋01:00) Alghe"/>
+		<item id="3" value="(GMT＋01:00) Andorra la Vella"/>
+		<item id="9" value="(GMT＋01:00) Vienna"/>
+		<item id="71" value="(GMT) Windhoek"/>
+		<item id="76" value="(GMT＋01:00) Oslo"/>
+		<item id="30" value="(GMT＋01:00) Copenaghen"/>
+		<item id="27" value="(GMT＋01:00) Zagabria"/>
+		<item id="15" value="(GMT＋01:00) Sarajevo"/>
+		<item id="98" value="(GMT+01:00) San Marino"/>
+		<item id="38" value="(GMT＋01:00) Gibilterra"/>
+		<item id="63" value="(GMT＋01:00) Skopje"/>
+		<item id="105" value="(GMT＋01:00) Stoccolma"/>
+		<item id="108" value="(GMT＋01:00) Tunisi"/>
+		<item id="1" value="(GMT＋01:00) Tiranno"/>
+		<item id="35" value="(GMT＋01:00) Parigi"/>
+		<item id="64" value="(GMT＋01:00) La Valletta"/>
+		<item id="60" value="(GMT＋01:00) Vaduz"/>
+		<item id="43" value="(GMT＋01:00) Budapest"/>
+		<item id="100" value="(GMT＋01:00) Bratislava"/>
+		<item id="29" value="(GMT＋01:00) Praga"/>
+		<item id="14" value="(GMT＋01:00) Bruxelles"/>
+		<item id="121" value="(GMT＋01:00) Belgrado"/>
+		<item id="37" value="(GMT＋01:00) Berlino"/>
+		<item id="106" value="(GMT＋01:00)Berna"/>
+		<item id="104" value="(GMT＋01:00) Madrid"/>
+		<item id="69" value="(GMT＋01:00) Monaco"/>
+		<item id="101" value="(GMT＋01:00) Lubiana"/>
+		<item id="62" value="(GMT＋01:00) Lussemburgo"/>
+		<item id="50" value="(GMT＋01:00) Rim"/>
+		<item id="80" value="(GMT＋01:00) Varsavia"/>
+		<item id="39" value="(GMT＋02:00) Atena"/>
+		<item id="52" value="(GMT＋02:00) Amman"/>
+		<item id="109" value="(GMT＋02:00) Istanbul"/>
+		<item id="49" value="(GMT＋02:00) Gerusalemme"/>
+		<item id="31" value="(GMT＋02:00) Kair"/>
+		<item id="86" value="(GMT＋02:00) Kaliningrad"/>
+		<item id="110" value="(GMT＋02:00) Kiev"/>
+		<item id="16" value="(GMT＋02:00) Sofia"/>
+		<item id="107" value="(GMT＋02:00) Damasco"/>
+		<item id="32" value="(GMT＋02:00) Tallinn"/>
+		<item id="28" value="(GMT＋02:00) Nicosia"/>
+		<item id="61" value="(GMT＋02:00) Vilnius"/>
+		<item id="85" value="(GMT＋02:00) Bucarest"/>
+		<item id="59" value="(GMT＋02:00) Beirut"/>
+		<item id="34" value="(GMT＋02:00) Helsinki"/>
+		<item id="13" value="(GMT＋02:00) Minsk"/>
+		<item id="102" value="(GMT+02:00) Johannesburg"/>
+		<item id="58" value="(GMT) 02:00) Riga"/>
+		<item id="56" value="(GMT＋03:00) Kuwait"/>
+		<item id="47" value="(GMT+03:00) Baghdad"/>
+		<item id="11" value="(GMT＋03:00) Manama"/>
+		<item id="87" value="(GMT＋03:00) Mosca"/>
+		<item id="46" value="(GMT＋03:30) Teheran"/>
+		<item id="111" value="(GMT＋04:00) Abu Dhabi"/>
+		<item id="88" value="(GMT＋04:00) Iževsk"/>
+		<item id="4" value="(GMT＋04:00) Erevan"/>
+		<item id="53" value="(GMT＋04:00) Kazakistan occidentale"/>
+		<item id="36" value="(GMT＋04:00) Tbilisi"/>
+		<item id="10" value="(GMT＋04:00) Baku"/>
+		<item id="77" value="(GMT＋04:00) Mascate"/>
+		<item id="84" value="(GMT＋04:00) Riunione dell'isola"/>
+		<item id="0" value="(GMT＋04:30) Kabul"/>
+		<item id="54" value="(GMT＋05:00) Kazakistan centrale"/>
+		<item id="78" value="(GMT＋05:00) Karachi"/>
+		<item id="119" value="(GMT＋05:00) Taskent"/>
+		<item id="57" value="(GMT＋05:00) Bishkek"/>
+		<item id="45" value="(GMT＋05:30) Calcutta"/>
+		<item id="72" value="(GMT_05:45) Katmandu"/>
+		<item id="90" value="(GMT＋06:00) Circa"/>
+		<item id="55" value="(GMT＋06:00) Kazakistan orientale"/>
+		<item id="12" value="(GMT＋06:00) Dacca"/>
+		<item id="91" value="(GMT+07:00) Norilsk"/>
+		<item id="122" value="(GMT＋07:00) Bangkok"/>
+		<item id="124" value="(GMT＋08:00) Kuala Lumpur"/>
+		<item id="125" value="(GMT＋08:00) Singapore"/>
+		<item id="126" value="(GMT＋08:00) Taipei"/>
+		<item id="5" value="(GMT＋08:00) Perth"/>
+		<item id="92" value="(GMT＋08:00) Bratsk"/>
+		<item id="26" value="(GMT＋08:00) Pechino"/>
+		<item id="123" value="(GMT＋08:00) Hong Kong"/>
+		<item id="127" value="(GMT＋09:00) Da solo"/>
+		<item id="51" value="(GMT＋09:00) Tokyo"/>
+		<item id="93" value="(GMT＋09:00) Yakutsk"/>
+		<item id="6" value="(GMT＋09:30) Adelaide"/>
+		<item id="94" value="(GMT＋10:00) Vladivostok"/>
+		<item id="7" value="(GMT＋10:00) Sydney"/>
+		<item id="8" value="(GMT＋10:30) Lord Howe"/>
+		<item id="74" value="(GMT＋11:00) Nuova Caledonia"/>
+		<item id="95" value="(GMT＋11:00) Muori"/>
+		<item id="75" value="(GMT＋12:00) Wellington"/>
+		<item id="33" value="(GMT＋12:00) Suva"/>
+		<item id="96" value="(GMT＋12:00) Petropavlovsk-Kamchatsky"/>
+	</menu>
+
+	<!-- 時刻設定確認ダイアログ -->
+
+	<TEXT id="msgutil_inittime_outofrange" value="È impostata una data non supportata da PlayStation®BB Navigator.\n\nModifica le impostazioni." />
+
+	<!-- 設定終了ダイアログ -->
+
+	<TEXT id="finish_message" value="Queste impostazioni possono essere modificate\nsuccessivamente nella schermata Impostazioni di sistema." />
+
+</RESOURCE>

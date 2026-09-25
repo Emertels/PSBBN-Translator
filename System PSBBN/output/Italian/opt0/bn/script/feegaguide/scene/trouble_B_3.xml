@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは(feega)　2003.4.22  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../qa"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" width="380.0" visible="14" x="270" y="100" z="0" fontsize="12" value="5;3;4;3;13;" >
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.01 Non ho</LINE>
+	<LINE>ricevuto l'e-mail che mi informava che la mia</LINE>
+	<LINE>registrazione a XYZXYZFEEGATOKENXYZUPPERXYZ era</LINE>
+	<LINE>stata completata o che la mia iscrizione era stata</LINE>
+	<LINE>annullata</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.02 Ho</LINE>
+	<LINE>dimenticato il mio XYZXYZFEEGATOKENXYZUPPERXYZ-ID e</LINE>
+	<LINE>la password per XYZXYZFEEGATOKENXYZUPPERXYZ</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.03</LINE>
+	<LINE>Richieste su XYZXYZFEEGATOKENXYZUPPERXYZ, procedure</LINE>
+	<LINE>di acquisto servizi (se Q.01 e Q.02 non si</LINE>
+	<LINE>applicano)</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.04</LINE>
+	<LINE>Informazioni su contenuti/dettagli del servizio</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="55" g="180" b="255" a="1.0"@@ Q.05</LINE>
+	<LINE>Informazioni sulla home page</LINE>
+	<LINE>"XYZXYZFEEGATOKENXYZUPPERXYZ"</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_B_3.xml" LnkNum="4"/>
+    <LINK id="ln_1"   href="trouble_C_3.xml" />
+    <LINK id="ln_2"   href="trouble_C_4.xml" />
+    <LINK id="ln_3"   href="trouble_C_5.xml" />
+    <LINK id="ln_4"   href="trouble_C_6.xml" />
+    <LINK id="ln_5"   href="trouble_C_7.xml" />
+
+    <TEXT  id="menu_item_0" group="menu_item" value="Risoluzione dei problemi" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Componi e invia una nuova e-mail◆</LINE>
+	<LINE>Seleziona "Componi messaggio" dal menu E-mail e</LINE>
+	<LINE>premi il pulsante ×. Imposta l'indirizzo, l'oggetto</LINE>
+	<LINE>e il corpo. Una volta completata l'e-mail,</LINE>
+	<LINE>selezionare "Invia" e premere il pulsante ×.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Rispondi/Inoltra◆</LINE>
+	<LINE>Selezionare un'e-mail e premere il pulsante △.</LINE>
+	<LINE>Seleziona "Rispondi" o "Inoltra" nel menu Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Modifica un'e-mail◆</LINE>
+	<LINE>Per modificare un'e-mail salvata come bozza,</LINE>
+	<LINE>selezionare l'e-mail che si desidera modificare</LINE>
+	<LINE>dall'elenco delle bozze e premere il pulsante ×. Per</LINE>
+	<LINE>modificare un'e-mail inviata o non inviata,</LINE>
+	<LINE>seleziona l'e-mail che desideri modificare e premi</LINE>
+	<LINE>il pulsante △. Seleziona "Modifica" nel menu</LINE>
+	<LINE>Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Invia e-mail non inviate◆</LINE>
+	<LINE>Le e-mail che non vengono inviate vengono salvate</LINE>
+	<LINE>nell'elenco delle e-mail non inviate. Per inviare</LINE>
+	<LINE>un'e-mail non inviata, selezionare l'e-mail e</LINE>
+	<LINE>premere il pulsante △. Seleziona "Invia" nel menu</LINE>
+	<LINE>Opzioni. Puoi anche inviare in batch le e-mail non</LINE>
+	<LINE>inviate. Selezionare "Invia/Ricevi" dal menu e-mail</LINE>
+	<LINE>e premere il pulsante ×. Seleziona "Invia tutta la</LINE>
+	<LINE>posta non inviata".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>  ・Per selezionare un destinatario dalla rubrica,</LINE>
+	<LINE>  evidenziare il campo dell'indirizzo e premere il</LINE>
+	<LINE>  pulsante △. Seleziona "Rubrica" ​​nel menu</LINE>
+	<LINE>  Opzioni.</LINE>
+	<LINE>  ・Se inserisci più indirizzi e-mail per il</LINE>
+	<LINE>  destinatario, separali con virgole.</LINE>
+	<LINE>  ・Per salvare l'e-mail che stai modificando come</LINE>
+	<LINE>  bozza, premi il pulsante ○ nella schermata di</LINE>
+	<LINE>  creazione o modifica dell'e-mail. Selezionare "Sì"</LINE>
+	<LINE>  nella schermata di conferma che chiede se si</LINE>
+	<LINE>  desidera interrompere l'operazione e premere il</LINE>
+	<LINE>  pulsante ×. Successivamente, seleziona "Sì" sullo</LINE>
+	<LINE>  schermo chiedendoti se desideri salvare come bozza</LINE>
+	<LINE>  e premi il pulsante ×. L'e-mail verrà salvata</LINE>
+	<LINE>  nell'elenco delle bozze.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_43.xml" LnkNum="4"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Scrivere/inviare e-mail" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

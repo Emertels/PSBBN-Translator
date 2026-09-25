@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<!-- スクリプト -->
+	<SCRIPT id="main" src="slideshow" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="toolbar_emb" src="toolbar_emb" type="binary/small"/>
+	<SCRIPT id="full_screen" src="pictview_fullscreen" type="binary/small"/>
+
+	<!-- テクスチャ -->
+	<IMG id="full_back0" src="texture/B01.tm2"/>
+	<IMG id="full_back1" src="texture/C01.tm2"/>
+	<IMG id="full_back2" src="texture/A01.tm2"/>
+	<IMG id="full_next0" src="texture/B02.tm2"/>
+	<IMG id="full_next1" src="texture/C02.tm2"/>
+	<IMG id="full_next2" src="texture/A02.tm2"/>
+	<IMG id="full_start0" src="texture/B03.tm2"/>
+	<IMG id="full_start1" src="texture/C03.tm2"/>
+	<IMG id="full_start2" src="texture/A03.tm2"/>
+	<IMG id="full_pause0" src="texture/B04.tm2"/>
+	<IMG id="full_pause1" src="texture/C04.tm2"/>
+	<IMG id="full_pause2" src="texture/A04.tm2"/>
+	<IMG id="full_stop0" src="texture/B05.tm2"/>
+	<IMG id="full_stop1" src="texture/C05.tm2"/>
+	<IMG id="full_stop2" src="texture/A05.tm2"/>
+
+	<!-- 文字リソース -->
+	<TEXT id="msg_reading" value="Caricamento dati..."/>
+	<TEXT id="msg_decode_error" value="L'immagine è danneggiata."/>
+	<TEXT id="text_USBMOUNT"	value="file:/mnt/storage0" />
+
+</RESOURCE>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>È possibile immettere i caratteri utilizzando la</LINE>
+	<LINE>tastiera visualizzata sullo schermo (tastiera su</LINE>
+	<LINE>schermo). Utilizza un controller analogico</LINE>
+	<LINE>(DUALSHOCK 2) per utilizzare la tastiera su schermo.</LINE>
+	<LINE>La visualizzazione e il funzionamento di base della</LINE>
+	<LINE>tastiera su schermo sono i seguenti:</LINE>
+	<LINE></LINE>
+	<LINE>@@IMG src="../images/SW_KBD_A.png" x="0" y="0" w="498" h="419"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>  ・Elenco delle operazioni del controller analogico</LINE>
+	<LINE>  (DUALSHOCK 2):</LINE>
+	<LINE>@@IMG src="../images/SW_KBD_B.png" x="0" y="0" w="502" h="608"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>◆Immettere i caratteri (per l'immissione hiragana)</LINE>
+	<LINE>Selezionare un campo di testo e premere il pulsante</LINE>
+	<LINE>× per visualizzare la tastiera su schermo. Per</LINE>
+	<LINE>inserire i caratteri, selezionare un carattere</LINE>
+	<LINE>(tasto) con i pulsanti freccia e premere il pulsante</LINE>
+	<LINE>×. Premere il pulsante AVVIO per confermare. Per</LINE>
+	<LINE>convertire, inserisci i caratteri e premi il</LINE>
+	<LINE>pulsante △. Seleziona il kanji corretto e premi il</LINE>
+	<LINE>pulsante ×. al termine, premere il pulsante START</LINE>
+	<LINE>per chiudere la tastiera su schermo.</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>  ・Se commetti un errore, usa il pulsante □ (elimina</LINE>
+	<LINE>  il carattere immediatamente prima del cursore) o</LINE>
+	<LINE>  il pulsante R1 + pulsante □ (elimina il carattere</LINE>
+	<LINE>  immediatamente dopo il cursore) per eliminare il</LINE>
+	<LINE>  carattere, quindi inserisci il carattere corretto.</LINE>
+	<LINE>  ・Per inserire katakana, alfabeto, numeri e</LINE>
+	<LINE>  simboli, premere il pulsante SELECT per cambiare</LINE>
+	<LINE>  tastiera.</LINE>
+	<LINE>  ・I Kanji non visualizzati nell'elenco dei</LINE>
+	<LINE>  candidati alla conversione possono essere</LINE>
+	<LINE>  selezionati dall'elenco dei tasti「☆」.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Se il tipo di carattere viene visualizzato in</LINE>
+	<LINE>  rosso, non può essere convertito.</LINE>
+	<LINE>  ・Quando si digitano caratteri con la tastiera USB,</LINE>
+	<LINE>  la tastiera su schermo scompare. Se si desidera</LINE>
+	<LINE>  visualizzare nuovamente la tastiera su schermo,</LINE>
+	<LINE>  premere il pulsante × nel campo di testo.</LINE>
+	<LINE>  ・La tastiera su schermo funziona in modo diverso</LINE>
+	<LINE>  solo quando si configura il router nelle</LINE>
+	<LINE>  impostazioni di rete. Per istruzioni dettagliate</LINE>
+	<LINE>  sull'utilizzo della tastiera su schermo durante la</LINE>
+	<LINE>  configurazione del router, vedere "Impostazioni di</LINE>
+	<LINE>  rete" in "Impostazioni di configurazione" in</LINE>
+	<LINE>  questa guida.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_8.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Tastiera su schermo" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" skipline="1" width="380.0" visible="14" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.02 Impossibile connettersi alla rete, impossibile</LINE>
+	<LINE>aggiornare</LINE>
+	<LINE></LINE>
+	<LINE>A.02 →Verificare se il dispositivo è collegato</LINE>
+	<LINE>correttamente.</LINE>
+	<LINE>  ・Le impostazioni di rete non sono corrette.</LINE>
+	<LINE>  →Verificare le impostazioni in base ai materiali</LINE>
+	<LINE>  forniti dal proprio fornitore di servizi Internet.</LINE>
+	<LINE>  ・I dati relativi alle informazioni sulle</LINE>
+	<LINE>  impostazioni di rete sono danneggiati.</LINE>
+	<LINE>  →Riconfigurare le impostazioni di rete.</LINE>
+	<LINE>  ・Non è possibile connettersi alla rete. →La linea</LINE>
+	<LINE>  potrebbe essere occupata o il canale potrebbe</LINE>
+	<LINE>  essere in manutenzione. Per favore riprova più</LINE>
+	<LINE>  tardi.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.02" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

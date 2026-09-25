@@ -1,0 +1,562 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/" screen_h="480">
+
+
+	<SCRIPT id="main"				src="main" 				type="binary/small"/>
+	<SCRIPT id="focus"				src="../parts/focus" 	type="binary/small"/>
+	<SCRIPT id="scroll_bar"			src="../parts/scroll_bar"	type="binary/small"/>
+	<SCRIPT id="mailopt"			src="mailopt" 			type="binary/small"/>
+	<SCRIPT id="mailgbl"			src="mailgbl" 			type="binary/small"/>
+	<SCRIPT id="maillist"			src="maillist" 			type="binary/small"/>
+	<SCRIPT id="mailline"			src="mailline" 			type="binary/small"/>
+	<SCRIPT id="mailread"			src="mailread" 			type="binary/small"/>
+	<SCRIPT id="mailwrite"			src="mailwrite" 		type="binary/small"/>
+	<SCRIPT id="mailwriteskb"		src="mailwriteskb" 		type="binary/small"/>
+	<SCRIPT id="mailaddr"			src="mailaddr" 			type="binary/small"/>
+	<SCRIPT id="mailaline"			src="mailaline" 		type="binary/small"/>
+	<SCRIPT id="mailaedit"			src="mailaedit" 		type="binary/small"/>
+	<SCRIPT id="mailaddrskb"		src="mailaddrskb" 		type="binary/small"/>
+	<SCRIPT id="mailset"			src="mailset" 			type="binary/small"/>
+	<SCRIPT id="mailsetskb"			src="mailsetskb" 		type="binary/small"/>
+	<SCRIPT id="mailseditfound"		src="mailseditfound"	type="binary/small"/>
+	<SCRIPT id="mailseditrecept"	src="mailseditrecept"	type="binary/small"/>
+	<SCRIPT id="mailseditdetail"	src="mailseditdetail"	type="binary/small"/>
+	<SCRIPT id="mailseditcreate"	src="mailseditcreate"	type="binary/small"/>
+	<SCRIPT id="mailradiobutton"	src="mailradiobutton"	type="binary/small"/>
+	<SCRIPT id="mailspinnumber"		src="mailspinnumber"	type="binary/small"/>
+	<SCRIPT id="mailsort"			src="mailsort" 			type="binary/small"/>
+	<SCRIPT id="mailstedit"			src="mailstedit" 		type="binary/small"/>
+	<SCRIPT id="mailrefresh"		src="mailrefresh" 		type="binary/small"/>
+	<SCRIPT id="mailinfo"			src="mailinfo"			type="binary/small"/>
+	<SCRIPT id="maildlgyesno"		src="maildlgyesno" 		type="binary/small"/>
+	<SCRIPT id="maildlgok"			src="maildlgok" 		type="binary/small"/>
+	<SCRIPT id="maildlgokstart"		src="maildlgokstart" 	type="binary/small"/>
+	<SCRIPT id="maildlgnobtn"		src="maildlgnobtn" 		type="binary/small"/>
+	<SCRIPT id="maildlgselect"		src="maildlgselect" 	type="binary/small"/>
+	<SCRIPT id="mailprogresswindow"	src="mailprogresswindow"	type="binary/small"/>
+	<SCRIPT id="mailprogressbar"	src="mailprogressbar"	type="binary/small"/>
+
+
+	<!-- TEXTURE INFORMATION -->
+	<IMG id="opt_back"		src="texture/Option_Back.tm2"/>
+	<IMG id="separate"		src="texture/option_separate.tm2"/>
+	<IMG id="gbl_title"		src="texture/Grobal_TitleImage.tm2"/>
+	<IMG id="list_focus"	src="texture/list-focus.tm2"/>
+	<IMG id="list_back"		src="texture/list-back.tm2"/>
+	<IMG id="arrow"			src="texture/Arrow.tm2"/>
+	<IMG id="arrow_glow"	src="texture/Arrow_glow.tm2"/>
+	<IMG id="addr_back"		src="texture/addressGrid.tm2"/>
+	<IMG id="addr_focus"	src="texture/addressEditSelect_C.tm2"/>
+	<IMG id="aedit_back"	src="texture/addressEditGrid.tm2"/>
+	<IMG id="addr_top"		src="texture/address_top_bar.tm2"/>
+	<IMG id="to_back"		src="texture/From_Back_atesaki.tm2"/>
+	<IMG id="from_back"		src="texture/From_Back_sousin.tm2"/>
+	<IMG id="title_back"	src="texture/Title_Back.tm2"/>
+	<IMG id="date_back"		src="texture/DateBack.tm2"/>
+	<IMG id="box_draft"		src="texture/box_draft.tm2"/>
+	<IMG id="box_queue"		src="texture/box_misousin.tm2"/>
+	<IMG id="box_inbox"		src="texture/box_jyushin.tm2"/>
+	<IMG id="box_outbox"	src="texture/box_sousin.tm2"/>
+	<IMG id="bg"			src="texture/bg.tm2"/>
+	<IMG id="A01"			src="texture/A01.tm2"/>
+	<IMG id="A03"			src="texture/A03.tm2"/>
+	<IMG id="A05"			src="texture/A05.tm2"/>
+	<IMG id="A07"			src="texture/A07.tm2"/>
+	<IMG id="A09"			src="texture/A09.tm2"/>
+	<IMG id="A11"			src="texture/A11.tm2"/>
+	<IMG id="A13"			src="texture/A13.tm2"/>
+	<IMG id="A15"			src="texture/A15.tm2"/>
+
+
+	<!-- GLOBAL SCREEN INFORMATION -->
+	<GBL group="HEAD"
+		tex_x="180.0" tex_y="224.0" tex_z="0.0"
+		item_x="452.0" item_y="168.0" item_z="0.0"
+		line_height="32.0"
+	/>
+	<GBL_ITEM>
+		<ITEM id="MAILER_GBL_NEW" />
+		<ITEM id="MAILER_GBL_REFRESH" />
+		<ITEM id="MAILER_GBL_ADDR" />
+		<ITEM id="MAILER_GBL_SORT" />
+		<ITEM id="MAILER_GBL_SETTINGS" />
+		<ITEM id="MAILER_GBL_FINISH" />
+	</GBL_ITEM>
+
+
+	<!-- OPTION SCREEN INFORMATION -->
+	<OPT group="HEAD"
+		folder_x="517.0" folder_y="116.0" folder_z="0.0"
+		bg_x="517.0" bg_y="224.0" bg_z="0.0"
+		item_x="517.0" item_y="158.0" item_z="0.0"
+		line_height="30.0"
+	/>
+	<OPT_ITEM>
+		<ITEM id="MAILER_OPT_ADDR_ADD" />
+		<ITEM id="MAILER_OPT_ADDR_REF" />
+		<ITEM id="MAILER_OPT_SEND" />
+		<ITEM id="MAILER_OPT_REWRITE" />
+		<ITEM id="MAILER_OPT_REPLY" />
+		<ITEM id="MAILER_OPT_FWD" />
+		<ITEM id="MAILER_OPT_LOCK" />
+		<ITEM id="MAILER_OPT_LOUPE" />
+		<ITEM id="MAILER_OPT_DELE" />
+		<ITEM id="MAILER_OPT_INFOMATION" />
+		<ITEM id="MAILER_OPT_ADDR_DELE" />
+		<ITEM id="MAILER_OPT_ADDR_NEW" />
+	</OPT_ITEM>
+
+
+	<!-- MAIL LIST SCREEN INFORMATION -->
+	<LIST group="HEAD"
+		folder_x="320.0" folder_y="85.0" folder_z="0.0"
+		mail1_x="450.0" mail1_y="395.0" mail1_z="0.0"
+		mail2_x="580.0" mail2_y="395.0" mail2_z="0.0"
+		next_x="420.0" next_y="85.0" next_z="0.0"
+		prev_x="220.0" prev_y="85.0" prev_z="0.0"
+		index_x="320.0" index_y="116.0" index_z="0.0"
+		list_x="320.0" list_y="148.0" list_z="0.0"
+		bar_x="30.0" bar_y="254.0" bar_z="0.0" bar_h="230.0"
+		line_height="35.0"
+	/>
+
+
+	<!-- ADDRESS BOOK SCREEN INFORMATION -->
+	<ADDR group="HEAD"
+		folder_x="320.0" folder_y="85.0" folder_z="0.0"
+		addr_x="580.0" addr_y="395.0" addr_z="0.0"
+		index_x="320.0" index_y="116.0" index_z="0.0"
+		list_x="320.0" list_y="148.0" list_z="0.0"
+		bar_x="30.0" bar_y="254.0" bar_z="0.0" bar_h="230.0"
+		line_height="35.0"
+	/>
+
+
+	<!-- ADDRESS BOOK EDIT SCREEN INFORMATION -->
+	<AEDIT group="HEAD"
+		folder_x="320.0" folder_y="85.0" folder_z="0.0"
+		bg_x="320.0" bg_y="125.0" bg_z="0.0"
+		index_x="119.5" index_y="125.0" index_z="0.0"
+		text_x="188.0" text_y="125.0" text_z="0.0"
+		editbg_x="320.0" editbg_y="109.0" editbg_z="0.0"
+		editindex_x="119.5" editindex_y="109.0" editindex_z="0.0"
+		edittext_x="188.0" edittext_y="109.0" edittext_z="0.0"
+		line_height="38.0"
+	/>
+
+
+	<!-- MAIL READING SCREEN INFORMATION -->
+	<READ group="HEAD"
+		from_bg_x="233.0" from_bg_y="105.0" from_bg_z="0.0"
+		date_bg_x="521.0" date_bg_y="105.0" date_bg_z="0.0"
+		title_bg_x="320.0" title_bg_y="141.0" title_bg_z="0.0"
+		body_bg_x="321.0" body_bg_y="276.0" body_bg_z="0.0" body_bg_r="0.019" body_bg_g="0.055" body_bg_b="0.45" body_bg_a="1.0"
+		body_bg_w="575.0" body_bg_h="230.0"
+		from_text_x="110.0" from_text_y="107.0" from_text_z="0.0"
+		date_text_x="449.0" date_text_y="108.0" date_text_z="0.0"
+		title_text_x="109.0" title_text_y="143.0" title_text_z="0.0"
+		body_text_x="57.0" body_text_y="166.0" body_text_z="0.0"
+		bar_x="48.0" bar_y="277.0" bar_z="0.0" bar_h="210.0"
+	/>
+
+
+	<!-- EMAIL WRITING SCREEN INFORMATION -->
+	<WRITE group="HEAD"
+		folder_x="320.0" folder_y="85.0" folder_z="0.0"
+		btn_x="320.0" btn_y="392.0" btn_z="0.0"
+		info_x="607.0" info_y="370.0" info_z="0.0"
+	/>
+	<WRITE group="WRITE_PLANE"	x= "39.0" y="103.5" w= "60.0" h= "32.0"  r="0.0"   g="0.298" b="0.627" a="0.45" />
+	<WRITE group="WRITE_PLANE"	x= "39.0" y="139.0" w= "60.0" h= "32.0"  r="0.003" g="0.09"  b="0.62"  a="0.45" />
+	<WRITE group="WRITE_PLANE"	x="100.0" y="103.5" w="501.0" h= "32.0"  r="0.0"   g="0.298" b="0.627" a="0.45" />
+	<WRITE group="WRITE_PLANE"	x="100.0" y="139.0" w="501.0" h= "32.0"  r="0.003" g="0.09"  b="0.62"  a="0.45" />
+	<WRITE group="WRITE_PLANE"	x= "39.0" y="175.3" w="562.0" h="193.0"  r="0.019" g="0.055" b="0.45"  a="0.45" />
+	<WRITE group="WRITE_EDIT"	x= "39.0" y= "93.0" w= "60.0" h= "32.0"  r="0.2"   g="0.2"   b="0.6"   a="0.45" />
+	<WRITE group="WRITE_EDIT"	x="100.0" y= "93.0" w="501.0" h= "32.0"  r="0.019" g="0.055" b="0.522" a="0.45" />
+	<WRITE group="WRITE_EDIT2"	x= "39.0" y= "63.0" w="562.0" h="114.0"  r="0.019" g="0.055" b="0.522" a="0.45" />
+	<WRITE_ITEM>
+		<ITEM id="MAILER_WRITE_TO" />
+		<ITEM id="MAILER_WRITE_SUBJECT" />
+		<ITEM id="MAILER_WRITE_BODY" />
+		<ITEM id="MAILER_WRITE_SEND" />
+	</WRITE_ITEM>
+
+
+	<!-- INFORMATION SCREEN INFORMATION -->
+	<INFO group="HEAD"
+		folder_x="320.0" folder_y="85.0" folder_z="0.0"
+		body_bg_x="320.0" body_bg_y="248.0" body_bg_z="0.0" body_bg_r="0.019" body_bg_g="0.055" body_bg_b="0.45" body_bg_a="0.45"
+		body_bg_w="575.0" body_bg_h="278.0"
+		body_text_x="60.0" body_text_y="112.0" body_text_z="0.0"
+		bar_x="48.0" bar_y="249.0" bar_z="0.0" bar_h="258.0"
+	/>
+
+
+	<!-- SORT SETTING SCREEN INFORMATION -->
+	<SORT group="HEAD"
+		folder_x="320.0" folder_y="116.0" folder_z="0.0"
+		item_x="235.0" item_y="168.0" item_z="0.0"
+		key_x="265.0" key_y="168.0" key_z="0.0"
+		order_x="367.0" order_y="168.0" order_z="0.0"
+		line_width="94.0" line_height="32.0"
+	/>
+	<STKEY group="HEAD"
+		folder_x="320.0" folder_y="116.0" folder_z="0.0"
+		top_x="305.0" top_y="168.0" top_z="0.0"
+		info_x="335.0" info_y="168.0" info_z="0.0"
+		line_width="94.0" line_height="32.0"
+	/>
+	<STEDIT group="HEAD"
+		folder_x="320.0" folder_y="116.0" folder_z="0.0"
+		info_x="310.0" info_y="168.0" info_z="0.0"
+		line_width="98.0"
+	/>
+	<SORT_TOP_ITEM>
+		<ITEM id="MAILER_SORT_INBOX" />
+		<ITEM id="MAILER_SORT_OUTBOX" />
+		<ITEM id="MAILER_SORT_DRAFT" />
+		<ITEM id="MAILER_SORT_QUEUE" />
+	</SORT_TOP_ITEM>
+	<SORT_KEY_ITEM>
+		<ITEM id="MAILER_SORT_EDIT" />
+		<ITEM id="MAILER_SORT_UPDOWN" />
+	</SORT_KEY_ITEM>
+		<SORT_EDIT_INBOX_ITEM>
+			<ITEM id="MAILER_SORT_DATE" />
+			<ITEM id="MAILER_SORT_FROM" />
+			<ITEM id="MAILER_SORT_SUBJECT" />
+		</SORT_EDIT_INBOX_ITEM>
+		<SORT_EDIT_OUTBOX_ITEM>
+			<ITEM id="MAILER_SORT_DATE" />
+			<ITEM id="MAILER_SORT_TO" />
+			<ITEM id="MAILER_SORT_SUBJECT" />
+		</SORT_EDIT_OUTBOX_ITEM>
+		<SORT_EDIT_DRAFT_ITEM>
+			<ITEM id="MAILER_SORT_DATE" />
+			<ITEM id="MAILER_SORT_TO" />
+			<ITEM id="MAILER_SORT_SUBJECT" />
+		</SORT_EDIT_DRAFT_ITEM>
+		<SORT_EDIT_QUEUE_ITEM>
+			<ITEM id="MAILER_SORT_DATE" />
+			<ITEM id="MAILER_SORT_TO" />
+			<ITEM id="MAILER_SORT_SUBJECT" />
+		</SORT_EDIT_QUEUE_ITEM>
+	<SORT_UPDOWN_ITEM>
+		<ITEM id="MAILER_SORT_ASCENDING" />
+		<ITEM id="MAILER_SORT_DESCENDING" />
+	</SORT_UPDOWN_ITEM>
+
+
+	<!-- SEND/RECEIVE SCREEN INFORMATION -->
+	<REFRESH group="HEAD"
+		folder_x="320.0" folder_y="116.0" folder_z="0.0"
+		item_x="320.0" item_y="168.0" item_z="0.0"
+		line_height="32.0"
+	/>
+	<REFRESH_ITEM>
+		<ITEM id="MAILER_REFRESH_RECV" />
+		<ITEM id="MAILER_REFRESH_SEND" />
+	</REFRESH_ITEM>
+
+
+	<!-- SETTING SCREEN INFORMATION -->
+	<SET group="HEAD"
+		folder_x="320.0" folder_y="116.0" folder_z="0.0"
+		item_x="320.0" item_y="168.0" item_z="0.0"
+		line_height="32.0"
+	/>
+	<SET_ITEM>
+		<ITEM id="MAILER_SET_FOUND" />
+		<ITEM id="MAILER_SET_RECEPT" />
+		<ITEM id="MAILER_SET_CREATE" />
+		<ITEM id="MAILER_SET_DETAIL" />
+	</SET_ITEM>
+
+
+	<!-- SETTINGS EDIT SCREEN INFORMATION -->
+	<SEDIT group="HEAD"
+		folder_x="320.0" folder_y="116.0" folder_z="0.0"
+		radio_x="320.0" radio_y="168.0" radio_z="0.0"
+		spin_x="320.0" spin_y="168.0" spin_z="0.0"
+		sel_x="320.0" sel_y="168.0" sel_z="0.0"
+		line_height="32.0"
+	/>
+	<SEDIT group="EDIT"
+		title_x="108.0" title_y="90.0" title_z="0.0"
+		frame_x="310.0" frame_y="120.0" frame_z="0.0" frame_w="420.0" frame_h="48.0"
+	/>
+	<SEDIT_COMMON_ITEM>
+		<ITEM id="MAILER_SEDIT_YES" />
+		<ITEM id="MAILER_SEDIT_NO" />
+	</SEDIT_COMMON_ITEM>
+
+		<!-- "BASIC CONFIGURATION" -->
+		<SEDIT_FOUND group="HEAD"
+			folder_x="320.0" folder_y="116.0" folder_z="0.0"
+			item_x="305.0" item_y="168.0" item_z="0.0"
+			info_x="335.0" info_y="168.0" info_z="0.0"
+			line_height="32.0"
+		/>
+		<SEDIT_FOUND_ITEM>
+			<ITEM id="MAILER_SEDIT_FOUND_NAME" />
+			<ITEM id="MAILER_SEDIT_FOUND_ADDR" />
+			<ITEM id="MAILER_SEDIT_FOUND_SMTP" />
+			<ITEM id="MAILER_SEDIT_FOUND_POP3" />
+			<ITEM id="MAILER_SEDIT_FOUND_USER" />
+			<ITEM id="MAILER_SEDIT_FOUND_PASS" />
+		</SEDIT_FOUND_ITEM>
+
+		<!-- "RECEIVE SETTINGS" -->
+		<SEDIT_RECEPT group="HEAD"
+			folder_x="320.0" folder_y="116.0" folder_z="0.0"
+			item_x="305.0" item_y="168.0" item_z="0.0"
+			info_x="335.0" info_y="168.0" info_z="0.0"
+			line_height="32.0"
+			x_ofs="-95.0"
+		/>
+		<SEDIT_RECEPT_ITEM>
+			<ITEM id="MAILER_SEDIT_RECEPT_CHECK" />
+			<ITEM id="MAILER_SEDIT_RECEPT_SOUND" />
+			<ITEM id="MAILER_SEDIT_RECEPT_SIZE" />
+		</SEDIT_RECEPT_ITEM>
+		<SEDIT_RECEPT_CHECK_ITEM>
+			<ITEM id="MAILER_SEDIT_RECEPT_INTERVAL" />
+			<ITEM id="MAILER_SEDIT_RECEPT_START" />
+			<ITEM id="MAILER_SEDIT_RECEPT_NONE" />
+		</SEDIT_RECEPT_CHECK_ITEM>
+
+		<!-- "ADVANCED SETTING" -->
+		<SEDIT_DETAIL group="HEAD"
+			folder_x="320.0" folder_y="96.0" folder_z="0.0"
+			item_x="305.0" item_y="148.0" item_z="0.0"
+			info_x="335.0" info_y="148.0" info_z="0.0"
+			def_x="320.0" def_y="373.0" def_z="0.0"
+			line_height="26.0"
+		/>
+		<SEDIT_DETAIL_ITEM>
+			<ITEM id="MAILER_SEDIT_DETAIL_CERTIFY" />
+			<ITEM id="MAILER_SEDIT_DETAIL_MAIL" />
+			<ITEM id="MAILER_SEDIT_DETAIL_SMTP" />
+			<ITEM id="MAILER_SEDIT_DETAIL_POP3" />
+			<ITEM id="MAILER_SEDIT_DETAIL_POPSMTP" />
+			<ITEM id="MAILER_SEDIT_DETAIL_SMTPAUTH" />
+			<ITEM id="MAILER_SEDIT_DETAIL_SMTPAUTH_USER" />
+			<ITEM id="MAILER_SEDIT_DETAIL_SMTPAUTH_PASS" />
+			<ITEM id="MAILER_SEDIT_DETAIL_DEFAULT" />
+		</SEDIT_DETAIL_ITEM>
+		<SEDIT_DETAIL_CERTIFY_ITEM>
+			<ITEM id="MAILER_SEDIT_DETAIL_NORMAL" />
+			<ITEM id="MAILER_SEDIT_DETAIL_APOP" />
+		</SEDIT_DETAIL_CERTIFY_ITEM>
+
+		<!-- "SEND SETTINGS" -->
+		<SEDIT_CREATE group="HEAD"
+			folder_x="320.0" folder_y="116.0" folder_z="0.0"
+			item_x="305.0" item_y="168.0" item_z="0.0"
+			info_x="335.0" info_y="168.0" info_z="0.0"
+			line_height="32.0"
+		/>
+		<SEDIT_CREATE_ITEM>
+			<ITEM id="MAILER_SEDIT_CREATE_SIGN" />
+			<ITEM id="MAILER_SEDIT_CREATE_MARK" />
+		</SEDIT_CREATE_ITEM>
+		<SEDIT_CREATE_SIGN_ITEM>
+			<ITEM id="MAILER_SEDIT_CREATE_NONE" />
+			<ITEM id="MAILER_SEDIT_CREATE_ADDR" />
+			<ITEM id="MAILER_SEDIT_CREATE_NAME_ADDR" />
+			<ITEM id="MAILER_SEDIT_CREATE_TEXT" />
+		</SEDIT_CREATE_SIGN_ITEM>
+
+
+
+
+
+	<!-- TEXT INFORMATION -->
+
+	<TEXT id="msgmailer_btn_enter"	value="Conferma" />
+	<TEXT id="msgmailer_btn_back"	value="Indietro" />
+	<TEXT id="msgmailer_btn_option"	value="Opzioni" />
+	<TEXT id="msgmailer_btn_set"	value="Impostazioni avanzate" />
+	<TEXT id="msgmailer_common_yes"	value="SÌ" />
+	<TEXT id="msgmailer_common_no"	value="NO" />
+	<TEXT id="msgmailer_common_cancel"	value="Cancellare" />
+	<TEXT id="msgmailer_common_ok"	value="OK" />
+	<TEXT id="msgmailer_common_start"	value="Inizio" />
+	<TEXT id="msgmailer_dlg_boot_ngpass"	value="L'unità PlayStation®BB potrebbe essere\nstata collegata a un'altra\nPlayStation®2.\n\nConfigura nuovamente le impostazioni e-mail." />
+	<TEXT id="msgmailer_dlg_boot_ngpass_quit"	value="L'unità PlayStation®BB potrebbe essere\nstata collegata a un'altra\nPlayStation®2.\n\nConfigura nuovamente le impostazioni e-mail." />
+	<TEXT id="msgmailer_dlg_boot_nospace"	value="Impossibile utilizzare la posta perché lo spazio libero non è sufficiente.\nElimina filmati o immagini non necessari." />
+	<TEXT id="msgmailer_dlg_boot_fatal"	value="Si è verificato un errore. Impossibile utilizzare la posta." />
+	<TEXT id="msgmailer_dlg_quit"	value="Esci da Mail.\n\nSei sicuro?" />
+	<TEXT id="msgmailer_dlg_network_noconn"	value="Impossibile connettersi alla rete." />
+	<TEXT id="msgmailer_dlg_send"	value="Inviare un'e-mail?" />
+	<TEXT id="msgmailer_dlg_send_nomail"	value="Non ci sono e-mail non inviate." />
+	<TEXT id="msgmailer_dlg_send_prog"	value="Invio..." />
+	<TEXT id="msgmailer_dlg_send_ok"	value="Inviato." />
+	<TEXT id="msgmailer_dlg_send_cancel_prog"	value="Annullamento..." />
+	<TEXT id="msgmailer_dlg_send_cancel"	value="Vuoi davvero annullare?" />
+	<TEXT id="msgmailer_dlg_send_cancel_ok"	value="Annullato.\n%MAILNOOdi e-mail inviate." />
+	<TEXT id="msgmailer_dlg_send_done"	value="%MAILNO e-mail inviate." />
+	<TEXT id="msgmailer_dlg_send_noto"	value="Inserisci l'indirizzo email del destinatario." />
+	<TEXT id="msgmailer_dlg_send_nodata"	value="Impossibile inviare. Controlla le tue impostazioni di base." />
+	<TEXT id="msgmailer_dlg_send_nospace"	value="Interruzione per spazio libero insufficiente.\nLe e-mail inviate potrebbero andare perse.\nElimina i filmati o le immagini non necessari\nprima di utilizzare Mail la prossima volta." />
+	<TEXT id="msgmailer_dlg_send_err"	value="Impossibile inviare. (%ERRNO)" />
+	<TEXT id="msgmailer_dlg_recv_prog"	value="Ricezione..." />
+	<TEXT id="msgmailer_dlg_recv_cancel_prog"	value="Elaborazione..." />
+	<TEXT id="msgmailer_dlg_recv_cancel"	value="Vuoi annullare?" />
+	<TEXT id="msgmailer_dlg_recv_cancel_ok"	value="Annullato\n%MAILNO e-mail ricevute." />
+	<TEXT id="msgmailer_dlg_recv_done"	value="%MAILNO email ricevute." />
+	<TEXT id="msgmailer_dlg_recv_done_nomail"	value="Nessuna nuova email." />
+	<TEXT id="msgmailer_dlg_recv_nodata"	value="Impossibile ricevere.\nControlla le impostazioni di base." />
+	<TEXT id="msgmailer_dlg_recv_nospace"	value="Interruzione per spazio libero insufficiente.\nLe e-mail inviate potrebbero andare perse.\nElimina i filmati o le immagini non necessari\nprima di utilizzare Mail la prossima volta." />
+	<TEXT id="msgmailer_dlg_recv_done_with_sizeover"	value="%MAILNO e-mail ricevute.\nImpossibile ricevere %BIGMAILNO e-mail perché superano il limite di dimensione della posta configurato.\nPotresti essere in grado di riceverlo modificando il limite di dimensione della posta." />
+	<TEXT id="msgmailer_dlg_recv_err"	value="Impossibile ricevere. (%ERRNO)" />
+	<TEXT id="msgmailer_dlg_write_draft_2"	value="Vuoi salvare l'e-mail modificata come bozza?" />
+	<TEXT id="msgmailer_dlg_write_draft_1"	value="Annulla la modifica dell'e-mail.\nSei sicuro?" />
+	<TEXT id="msgmailer_dlg_write_draft_save_ok"	value="Salvato." />
+	<TEXT id="msgmailer_dlg_write_body"	value="Il testo in fase di modifica verrà scartato.\nSei sicuro?" />
+	<TEXT id="msgmailer_dlg_write_nospace"	value="Interruzione per spazio libero insufficiente.\nLe e-mail inviate potrebbero andare perse.\nElimina i filmati o le immagini non necessari\nprima di utilizzare Mail la prossima volta." />
+	<TEXT id="msgmailer_dlg_write_to_toolong"	value="Impossibile aggiungere il destinatario.\nHai superato il numero di caratteri che possono essere inseriti." />
+	<TEXT id="msgmailer_dlg_lock"	value="Protetto." />
+	<TEXT id="msgmailer_dlg_unlock"	value="La protezione è stata rimossa." />
+	<TEXT id="msgmailer_dlg_delete"	value="Eliminare?" />
+	<TEXT id="msgmailer_dlg_delete_lock"	value="Non può essere eliminato.\nRimuovi la protezione." />
+	<TEXT id="msgmailer_dlg_delete_ok"	value="Eliminato." />
+	<TEXT id="msgmailer_dlg_delete_nospace"	value="Interruzione per spazio libero insufficiente.\nLe e-mail inviate potrebbero andare perse.\nElimina i filmati o le immagini non necessari\nprima di utilizzare Mail la prossima volta." />
+	<TEXT id="msgmailer_dlg_set_start"	value="Avvia le impostazioni di posta elettronica di base." />
+	<TEXT id="msgmailer_dlg_set_basic_warn"	value="Completa le impostazioni di base.\nPotresti non essere in grado di inviare o ricevere e-mail perché alcuni elementi non sono compilati." />
+	<TEXT id="msgmailer_dlg_set_quit"	value="Impostazione non trovata.\nConfigura le tue impostazioni email." />
+	<TEXT id="msgmailer_dlg_set_default"	value="Riporta le impostazioni del server ai valori predefiniti. Sei sicuro?" />
+	<TEXT id="msgmailer_dlg_set_default_ok"	value="Le impostazioni sono state riportate ai valori predefiniti." />
+	<TEXT id="msgmailer_dlg_addredit_add"	value="Aggiungere alla rubrica?" />
+	<TEXT id="msgmailer_dlg_addredit_add_exist"	value="L'indirizzo e-mail esiste già.\nVuoi sovrascriverlo?" />
+	<TEXT id="msgmailer_dlg_addredit_add_full"	value="Rubrica piena.\nElimina gli indirizzi e-mail non necessari dalla rubrica." />
+	<TEXT id="msgmailer_dlg_addredit_add_noadd"	value="Inserisci l'indirizzo e-mail." />
+	<TEXT id="msgmailer_dlg_addredit_add_toolong"	value="Impossibile aggiungere alla rubrica.\nIl nome o l'indirizzo e-mail sono troppo lunghi." />
+	<TEXT id="msgmailer_dlg_addredit_add_ok"	value="Aggiunto." />
+	<TEXT id="msgmailer_dlg_addredit_delete"	value="Elimina.\nSei sicuro?" />
+	<TEXT id="msgmailer_dlg_addredit_delete_ok"	value="Eliminato." />
+	<TEXT id="msgmailer_dlg_sort_nospace"	value="Interruzione per spazio libero insufficiente.\nLe e-mail inviate potrebbero andare perse.\nElimina i filmati o le immagini non necessari\nprima di utilizzare Mail la prossima volta." />
+	<TEXT id="msgmailer_gbl_write"	value="Componi posta" />
+	<TEXT id="msgmailer_gbl_sendrecv"	value="Invia/Ricevi" />
+	<TEXT id="msgmailer_gbl_addredit"	value="Modifica rubrica" />
+	<TEXT id="msgmailer_gbl_sort"	value="Ordinare" />
+	<TEXT id="msgmailer_gbl_set"	value="Impostazioni" />
+	<TEXT id="msgmailer_gbl_quit"	value="Uscita" />
+	<TEXT id="msgmailer_opt_title"	value="Opzioni" />
+	<TEXT id="msgmailer_list_title_inbox"	value="Posta in arrivo" />
+	<TEXT id="msgmailer_list_title_outbox"	value="Inviato" />
+	<TEXT id="msgmailer_list_title_draft"	value="Bozza" />
+	<TEXT id="msgmailer_list_title_queue"	value="Coda" />
+	<TEXT id="msgmailer_list_item_unread"	value="%MAILNO email non lette" />
+	<TEXT id="msgmailer_list_opt_addradd"	value="Aggiungi alla rubrica" />
+	<TEXT id="msgmailer_list_opt_reedit"	value="Modificare" />
+	<TEXT id="msgmailer_list_opt_lock"	value="Proteggi/Rilascia" />
+	<TEXT id="msgmailer_list_opt_reply"	value="Rispondere" />
+	<TEXT id="msgmailer_list_opt_fwd"	value="Inoltrare" />
+	<TEXT id="msgmailer_list_opt_send"	value="Inviare" />
+	<TEXT id="msgmailer_list_opt_info"	value="Informazioni" />
+	<TEXT id="msgmailer_list_opt_delete"	value="Eliminare" />
+	<TEXT id="msgmailer_list_opt_loupe"	value="Dimensione del testo" />
+	<TEXT id="msgmailer_write_title"	value="Componi posta" />
+	<TEXT id="msgmailer_write_title_reply"	value="Rispondi alla posta" />
+	<TEXT id="msgmailer_write_title_fwd"	value="Inoltra posta" />
+	<TEXT id="msgmailer_write_title_reedit"	value="Modifica posta" />
+	<TEXT id="msgmailer_write_item_to"	value="A" />
+	<TEXT id="msgmailer_write_item_subject"	value="Sogg." />
+	<TEXT id="msgmailer_write_item_body_guide"	value="Completa l'input: Maiusc+Invio" />
+	<TEXT id="msgmailer_write_item_send"	value="Inviare" />
+	<TEXT id="msgmailer_write_item_reply_subject"	value="Rif:" />
+	<TEXT id="msgmailer_write_item_reply_mark"	value=">" />
+	<TEXT id="msgmailer_write_item_forward_subject"	value="Fw:" />
+	<TEXT id="msgmailer_write_item_forward_tag_start"	value="---------- Messaggio originale ----------" />
+	<TEXT id="msgmailer_write_item_forward_tag_end"	value="---------- Il messaggio originale termina ----------" />
+	<TEXT id="msgmailer_write_item_signature_delimiter"	value="--" />
+	<TEXT id="msgmailer_write_opt_addrref"	value="Rubrica" />
+	<TEXT id="msgmailer_info_title"	value="Informazioni" />
+	<TEXT id="msgmailer_info_to"	value="A:" />
+	<TEXT id="msgmailer_info_cc"	value="Cc:" />
+	<TEXT id="msgmailer_info_replyto"	value="Rispondi a:" />
+	<TEXT id="msgmailer_info_from"	value="Da:" />
+	<TEXT id="msgmailer_info_date_inbox"	value="Ora di invio:" />
+	<TEXT id="msgmailer_info_date_outbox"	value="Ora di invio:" />
+	<TEXT id="msgmailer_info_date_draft"	value="Data e ora di creazione:" />
+	<TEXT id="msgmailer_info_date_queue"	value="Data e ora di creazione:" />
+	<TEXT id="msgmailer_info_xmailer"	value="X-Mailer:" />
+	<TEXT id="msgmailer_info_subject"	value="Soggetto:" />
+	<TEXT id="msgmailer_info_size"	value="Misurare:" />
+	<TEXT id="msgmailer_info_size_byte"	value="%MAILSIZE byte" />
+	<TEXT id="msgmailer_info_lock"	value="Protezione:" />
+	<TEXT id="msgmailer_info_lock_on"	value="SU" />
+	<TEXT id="msgmailer_info_lock_off"	value="Spento" />
+	<TEXT id="msgmailer_addrref_title"	value="Rubrica" />
+	<TEXT id="msgmailer_addredit_title"	value="Modifica rubrica" />
+	<TEXT id="msgmailer_addrlist_name"	value="Nome" />
+	<TEXT id="msgmailer_addrlist_addr"	value="Indirizzo" />
+	<TEXT id="msgmailer_addredit_item_name"	value="Nome" />
+	<TEXT id="msgmailer_addredit_item_addr"	value="Indirizzo" />
+	<TEXT id="msgmailer_addredit_opt_delete"	value="Eliminare" />
+	<TEXT id="msgmailer_addredit_opt_new"	value="Aggiungi nuovo" />
+	<TEXT id="msgmailer_sendrecv_title"	value="Invia/Ricevi" />
+	<TEXT id="msgmailer_sendrecv_item_recv"	value="Ricevere" />
+	<TEXT id="msgmailer_sendrecv_item_send"	value="Invia tutta la posta non inviata" />
+	<TEXT id="msgmailer_set_title"	value="Impostazioni" />
+	<TEXT id="msgmailer_set_item_basic"	value="Impostazioni di base" />
+	<TEXT id="msgmailer_set_item_basic_name"	value="Nome" />
+	<TEXT id="msgmailer_set_item_basic_addr"	value="Indirizzo di posta" />
+	<TEXT id="msgmailer_set_item_basic_smtp"	value="Server in uscita (SMTP)" />
+	<TEXT id="msgmailer_set_item_basic_pop3"	value="Server in entrata (POP3)" />
+	<TEXT id="msgmailer_set_item_basic_user"	value="Nome utente" />
+	<TEXT id="msgmailer_set_item_basic_pass"	value="Password" />
+	<TEXT id="msgmailer_set_item_recv"	value="Ricevi impostazioni" />
+	<TEXT id="msgmailer_set_item_recv_check"	value="Controlla la posta" />
+	<TEXT id="msgmailer_set_item_recv_check_interval"	value="Intervallo" />
+	<TEXT id="msgmailer_set_item_recv_check_interval_2"	value="%CHKINTV Minuti" />
+	<TEXT id="msgmailer_set_item_recv_check_start"	value="Avvio della PlayStation®2" />
+	<TEXT id="msgmailer_set_item_recv_check_none"	value="Non controllare" />
+	<TEXT id="msgmailer_set_item_recv_check_sound"	value="Suono di notifica" />
+	<TEXT id="msgmailer_set_item_recv_check_sound_yes"	value="SÌ" />
+	<TEXT id="msgmailer_set_item_recv_check_sound_no"	value="NO" />
+	<TEXT id="msgmailer_set_item_recv_size"	value="Limite dimensione posta" />
+	<TEXT id="msgmailer_set_item_recv_size_kb"	value="%MAILSIZE KB" />
+	<TEXT id="msgmailer_set_item_detail"	value="Impostazioni avanzate del server" />
+	<TEXT id="msgmailer_set_item_detail_cert"	value="Metodo di autenticazione" />
+	<TEXT id="msgmailer_set_item_detail_cert_std"	value="Standard" />
+	<TEXT id="msgmailer_set_item_detail_cert_apop"	value="APOP" />
+	<TEXT id="msgmailer_set_item_detail_keep"	value="Conserva la posta in arrivo sul server" />
+	<TEXT id="msgmailer_set_item_detail_keep_yes"	value="SÌ" />
+	<TEXT id="msgmailer_set_item_detail_keep_no"	value="NO" />
+	<TEXT id="msgmailer_set_item_detail_smtpport"	value="Porta SMTP" />
+	<TEXT id="msgmailer_set_item_detail_pop3port"	value="Porta POP3" />
+	<TEXT id="msgmailer_set_item_detail_popsmtp"	value="POP prima di SMTP" />
+	<TEXT id="msgmailer_set_item_detail_popsmtp_yes"	value="SÌ" />
+	<TEXT id="msgmailer_set_item_detail_popsmtp_no"	value="NO" />
+	<TEXT id="msgmailer_set_item_detail_smtpauth"	value="AUTORIZZAZIONE SMTP" />
+	<TEXT id="msgmailer_set_item_detail_smtpauth_yes"	value="SÌ" />
+	<TEXT id="msgmailer_set_item_detail_smtpauth_no"	value="NO" />
+	<TEXT id="msgmailer_set_item_detail_smtpauth_user"	value="Nome utente AUT. SMTP" />
+	<TEXT id="msgmailer_set_item_detail_smtpauth_pass"	value="Password" />
+	<TEXT id="msgmailer_set_item_detail_default"	value="Impostazioni predefinite" />
+	<TEXT id="msgmailer_set_item_write"	value="Componi Impostazioni" />
+	<TEXT id="msgmailer_set_item_write_signature"	value="Firma" />
+	<TEXT id="msgmailer_set_item_write_signature_none"	value="Nessuno" />
+	<TEXT id="msgmailer_set_item_write_signature_addr"	value="Indirizzo e-mail" />
+	<TEXT id="msgmailer_set_item_write_signature_nameaddr"	value="Nome ed e-mail" />
+	<TEXT id="msgmailer_set_item_write_signature_text"	value="Creare" />
+	<TEXT id="msgmailer_set_item_reply_with_body"	value="Cita il messaggio originale" />
+	<TEXT id="msgmailer_set_item_reply_with_body_yes"	value="SÌ" />
+	<TEXT id="msgmailer_set_item_reply_with_body_no"	value="NO" />
+	<TEXT id="msgmailer_sort_title"	value="Ordinamento" />
+	<TEXT id="msgmailer_sort_item_inbox"	value="Posta in arrivo" />
+	<TEXT id="msgmailer_sort_item_outbox"	value="Posta in uscita" />
+	<TEXT id="msgmailer_sort_item_draft"	value="Bozza" />
+	<TEXT id="msgmailer_sort_item_queue"	value="Coda" />
+	<TEXT id="msgmailer_sort_item_key"	value="Ordinamento" />
+	<TEXT id="msgmailer_sort_item_key_date"	value="Data" />
+	<TEXT id="msgmailer_sort_item_key_from"	value="Da" />
+	<TEXT id="msgmailer_sort_item_key_to"	value="A" />
+	<TEXT id="msgmailer_sort_item_key_subject"	value="Soggetto" />
+	<TEXT id="msgmailer_sort_item_order"	value="Ordine" />
+	<TEXT id="msgmailer_sort_item_order_ascend"	value="Ascendente" />
+	<TEXT id="msgmailer_sort_item_order_descend"	value="Discendente" />
+
+</RESOURCE>

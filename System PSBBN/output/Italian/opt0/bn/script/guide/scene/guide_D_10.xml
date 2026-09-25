@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>È possibile inserire caratteri utilizzando una</LINE>
+	<LINE>tastiera USB. Per i dettagli sulla disposizione di</LINE>
+	<LINE>ciascun tasto, fare riferimento al manuale di</LINE>
+	<LINE>istruzioni della tastiera USB.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>Quando viene visualizzata la tastiera su schermo,</LINE>
+	<LINE>premere una volta qualsiasi tasto sulla tastiera USB</LINE>
+	<LINE>per cambiare tastiera, quindi inserire i caratteri.</LINE>
+	<LINE></LINE>
+	<LINE>Combinando i tasti sulla tastiera USB, è possibile</LINE>
+	<LINE>creare scorciatoie per l'immissione dei caratteri.</LINE>
+	<LINE>Le associazioni dei tasti sono impostate in</LINE>
+	<LINE>"Inserimento testo" nel menu Impostazioni di</LINE>
+	<LINE>sistema. Le combinazioni di tasti per ciascuna</LINE>
+	<LINE>impostazione sono le seguenti:</LINE>
+	<LINE></LINE>
+	<LINE>@@IMG src="../images/keybind.png" x="0" y="0" w="502" h="586"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>È inoltre possibile utilizzare la tastiera USB per</LINE>
+	<LINE>eseguire le stesse operazioni del controller</LINE>
+	<LINE>analogico (DUALSHOCK 2). I tasti assegnati a ciascun</LINE>
+	<LINE>pulsante sono i seguenti:</LINE>
+	<LINE></LINE>
+	<LINE>@@IMG src="../images/USB_KBD.png" x="0" y="0" w="502" h="226"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_8.xml" LnkNum="3"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Tastiera USB" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

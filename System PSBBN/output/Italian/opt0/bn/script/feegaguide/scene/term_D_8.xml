@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド・用語解説(feega)　2003.5.7  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="12"  valign="center">
+	<LINE>L'XYZXYZFEEGATOKENXYZUPPERXYZ-ID e la password</LINE>
+	<LINE>possono essere salvati sulla "PlayStation BB Unit" e</LINE>
+	<LINE>sulla scheda di memoria dedicata "PlayStation 2" (8</LINE>
+	<LINE>MB). Una volta salvato, non avrai più bisogno di</LINE>
+	<LINE>inserire il tuo XYZXYZFEEGATOKENXYZUPPERXYZ-ID e la</LINE>
+	<LINE>password quando utilizzi contenuti/servizi.</LINE>
+	<LINE>L'XYZXYZFEEGATOKENXYZUPPERXYZ-ID e la password</LINE>
+	<LINE>vengono salvati con il nome</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ-ID. È inoltre possibile</LINE>
+	<LINE>controllare, modificare ed eliminare gli ID e le</LINE>
+	<LINE>password XYZXYZFEEGATOKENXYZUPPERXYZ- salvati.</LINE>
+	<LINE>Selezionare "Salva XYZXYZFEEGATOKENXYZUPPERXYZ-ID e</LINE>
+	<LINE>password" nel menu XYZXYZFEEGATOKENXYZUPPERXYZ.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・È possibile salvare solo un set di</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ-ID e password sulle</LINE>
+	<LINE>  schede di memoria dedicate "PlayStation BB Unit" e</LINE>
+	<LINE>  "PlayStation 2" (8 MB). A seconda del</LINE>
+	<LINE>  contenuto/servizio, potresti essere in grado di</LINE>
+	<LINE>  utilizzare solo la "PlayStation BB Unit" o la</LINE>
+	<LINE>  scheda di memoria dedicata "PlayStation 2" (8 MB).</LINE>
+	<LINE>  ・Le schede di memoria dedicate "PlayStation BB</LINE>
+	<LINE>  Unit" e "PlayStation 2" (8 MB) richiedono almeno</LINE>
+	<LINE>  25 KB di spazio libero.</LINE>
+	<LINE>  ・Prima di salvare, assicurati che l'"Unità</LINE>
+	<LINE>  PlayStation BB" sia collegata e che la scheda di</LINE>
+	<LINE>  memoria dedicata "PlayStation 2" (8 MB) sia</LINE>
+	<LINE>  inserita nello slot 1 o 2.</LINE>
+	<LINE></LINE>
+	<LINE>◆Salva come nuovo</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ-ID e password possono</LINE>
+	<LINE>essere salvati. Anche se hai selezionato "No" per</LINE>
+	<LINE>"Vuoi salvare il tuo XYZXYZFEEGATOKENXYZUPPERXYZ-ID</LINE>
+	<LINE>e la password?"</LINE>
+	<LINE></LINE>
+	<LINE>◆Conferma/Cambia</LINE>
+	<LINE>È possibile controllare e modificare l'ID</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ e la password salvati.</LINE>
+	<LINE></LINE>
+	<LINE>◆Elimina</LINE>
+	<LINE>L'ID XYZXYZFEEGATOKENXYZUPPERXYZ e la password</LINE>
+	<LINE>salvati possono essere eliminati.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・L'eliminazione dell'ID e della password</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ salvati non significa</LINE>
+	<LINE>  che hai annullato l'iscrizione a</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ. Inoltre, i</LINE>
+	<LINE>  contenuti/servizi in uso non verranno cancellati.</LINE>
+	<LINE>  Quando si annulla, fare riferimento a</LINE>
+	<LINE>  "Annullamento di contenuti/servizi" in questa</LINE>
+	<LINE>  guida XYZXYZFEEGATOKENXYZUPPERXYZ.</LINE>
+	<LINE>  ・Per proteggere le tue informazioni personali,</LINE>
+	<LINE>  puoi controllare e modificare solo il tuo</LINE>
+	<LINE>  XYZXYZFEEGATOKENXYZUPPERXYZ-ID e la password sulla</LINE>
+	<LINE>  "PlayStation 2" su cui li hai salvati.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_C_6.xml" LnkNum="3"/>
+
+    <TEXT  id="menu_item_03" group="menu_item"  value="Salva XYZXYZFEEGATOKENXYZUPPERXYZ-ID e password" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

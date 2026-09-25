@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" skipline="1" width="380.0" visible="14" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.19 L'invio dell'e-mail non riesce</LINE>
+	<LINE></LINE>
+	<LINE>A.19 →Verificare il contenuto di "Impossibile</LINE>
+	<LINE>inviare e ricevere posta".</LINE>
+	<LINE>  ・"POP before SMTP" o "SMTP AUTH" è impostato su</LINE>
+	<LINE>  "Sì" nel menu delle impostazioni avanzate del</LINE>
+	<LINE>  server, ma il server del servizio di posta in uso</LINE>
+	<LINE>  non supporta POP before SMTP o SMTP AUTH. →Se il</LINE>
+	<LINE>  server del servizio di posta non lo supporta, non</LINE>
+	<LINE>  è possibile utilizzare POP prima di SMTP o AUTH</LINE>
+	<LINE>  SMTP.</LINE>
+	<LINE>  ・"SMTP AUTH" è stato impostato su "Sì" nel menu</LINE>
+	<LINE>  delle impostazioni avanzate del server, ma le</LINE>
+	<LINE>  impostazioni del nome utente e della password SMTP</LINE>
+	<LINE>  AUTH mancano o sono errate. →Se si imposta "SMTP</LINE>
+	<LINE>  AUTH" su "Sì", impostare correttamente il nome</LINE>
+	<LINE>  utente e la password SMTP AUTH specificati.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="19"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.19" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

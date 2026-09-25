@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Puoi inviare e ricevere e-mail con "PlayStation 2".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Per iniziare◆</LINE>
+	<LINE>Seleziona "Mail" dal "Menu Navigatore" e premi il</LINE>
+	<LINE>pulsante ×.</LINE>
+	<LINE></LINE>
+	<LINE>Quando si utilizza l'e-mail per la prima volta,</LINE>
+	<LINE>verrà visualizzata la schermata delle impostazioni</LINE>
+	<LINE>di base. Seguire le istruzioni visualizzate sullo</LINE>
+	<LINE>schermo per completare la configurazione.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Per impostare l'e-mail sono necessarie le</LINE>
+	<LINE>  seguenti informazioni. Utilizza i dettagli forniti</LINE>
+	<LINE>  dal tuo fornitore di servizi di posta elettronica:</LINE>
+	<LINE>·Indirizzo e-mail</LINE>
+	<LINE>  ・Server di posta elettronica in uscita (SMTP).</LINE>
+	<LINE>  ・Server della posta in arrivo (POP3).</LINE>
+	<LINE>・Account di posta elettronica</LINE>
+	<LINE>·Password</LINE>
+	<LINE>  ・A seconda del tuo indirizzo e-mail, oltre alle</LINE>
+	<LINE>  impostazioni di base, potrebbe essere necessario</LINE>
+	<LINE>  configurare impostazioni avanzate come il metodo</LINE>
+	<LINE>  di autenticazione. Queste impostazioni possono</LINE>
+	<LINE>  essere trovate in "Impostazioni server avanzate"</LINE>
+	<LINE>  sotto "Impostazioni" nel menu E-mail.</LINE>
+	<LINE></LINE>
+	<LINE>◆Impostazioni di base◆</LINE>
+	<LINE>·Nome</LINE>
+	<LINE>  Il tuo nome visualizzato.</LINE>
+	<LINE>·Indirizzo e-mail</LINE>
+	<LINE>  ・Server di posta elettronica in uscita (SMTP).</LINE>
+	<LINE>  ・Server della posta in arrivo (POP3).</LINE>
+	<LINE>・Account di posta elettronica</LINE>
+	<LINE>  Conosciuto anche come "ID utente" o "nome utente</LINE>
+	<LINE>  e-mail". Il nome varia a seconda dell'azienda che</LINE>
+	<LINE>  fornisce l'indirizzo e-mail.</LINE>
+	<LINE>·Password</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Potrai modificare le impostazioni di base in un</LINE>
+	<LINE>secondo momento. Per i dettagli, fare riferimento a</LINE>
+	<LINE>"Impostazioni" nella sezione "Applicazione di posta"</LINE>
+	<LINE>di questa Guida operativa.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Esci◆</LINE>
+	<LINE>Premere il pulsante SELECT per visualizzare il menu</LINE>
+	<LINE>e-mail, selezionare "Esci" e premere il pulsante ×.</LINE>
+	<LINE>Oppure premere il pulsante ○ mentre è visualizzato</LINE>
+	<LINE>l'elenco delle e-mail.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_43.xml" LnkNum="1"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Avvia/Esci" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

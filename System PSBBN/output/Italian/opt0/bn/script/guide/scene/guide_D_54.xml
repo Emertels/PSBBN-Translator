@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Eseguire le impostazioni di rete e il test di</LINE>
+	<LINE>connessione per "PlayStation 2". Per sfruttare</LINE>
+	<LINE>appieno le funzioni di "PlayStation BB Navigator",</LINE>
+	<LINE>assicurati di effettuare le impostazioni,</LINE>
+	<LINE>connetterti alla rete e utilizzare sempre la</LINE>
+	<LINE>versione più recente.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Conferma/Cambia◆</LINE>
+	<LINE>Se hai saltato la configurazione della rete al primo</LINE>
+	<LINE>avvio di "PlayStation BB Navigator" dopo</LINE>
+	<LINE>l'installazione, puoi configurarla successivamente</LINE>
+	<LINE>da questa opzione.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Seguire le istruzioni fornite dal proprio</LINE>
+	<LINE>  fornitore di servizi Internet durante la</LINE>
+	<LINE>  configurazione delle impostazioni di rete.</LINE>
+	<LINE>  ・A seconda del software (come i giochi abilitati</LINE>
+	<LINE>  alla rete), potrebbe essere necessario configurare</LINE>
+	<LINE>  le impostazioni di rete all'interno del software</LINE>
+	<LINE>  stesso. Per i dettagli, fare riferimento al</LINE>
+	<LINE>  manuale del software.</LINE>
+	<LINE>  ・Le impostazioni del router vengono memorizzate</LINE>
+	<LINE>  sul router. Se desideri controllare o modificare i</LINE>
+	<LINE>  contenuti, utilizza la schermata di impostazione</LINE>
+	<LINE>  del router.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Informazioni sulle impostazioni del router◆</LINE>
+	<LINE>Se necessario, puoi configurare il tuo router</LINE>
+	<LINE>utilizzando "PlayStation BB Navigator". Per i</LINE>
+	<LINE>dettagli sulle impostazioni, fare riferimento al</LINE>
+	<LINE>manuale di istruzioni del dispositivo e alle</LINE>
+	<LINE>informazioni fornite dal provider di servizi</LINE>
+	<LINE>Internet. Per uscire dalla schermata delle</LINE>
+	<LINE>impostazioni del router, seleziona "Esci" dal menu</LINE>
+	<LINE>"File" nell'angolo in alto a sinistra, quindi premi</LINE>
+	<LINE>il pulsante ×.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>I numeri di porta utilizzati principalmente da</LINE>
+	<LINE>"PlayStation BB Navigator" sono 80, 443, 8080.</LINE>
+	<LINE>Alcuni software come i giochi che utilizzano la rete</LINE>
+	<LINE>potrebbero richiedere un numero di porta dedicato.</LINE>
+	<LINE>Per i dettagli, fare riferimento al manuale del</LINE>
+	<LINE>software.</LINE>
+	<LINE></LINE>
+	<LINE>◆Informazioni sull'immissione dei caratteri nelle</LINE>
+	<LINE>impostazioni del router Utilizza la tastiera su</LINE>
+	<LINE>schermo con un controller analogico (DUALSHOCK 2)</LINE>
+	<LINE></LINE>
+	<LINE>  ・Controller analogico (DUALSHOCK 2)</LINE>
+	<LINE>@@IMG src="../images/router_controller.png" x="0" y="0" w="502" h="169"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>・Tastiera su schermo</LINE>
+	<LINE>@@IMG src="../images/router_SW_KBD.png" x="0" y="0" w="502" h="240"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Puoi anche usare un mouse USB. Fare clic sui tasti</LINE>
+	<LINE>della tastiera su schermo utilizzando il mouse USB.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Test di connessione◆</LINE>
+	<LINE>È possibile eseguire un test di connessione per</LINE>
+	<LINE>verificare se la connessione di rete funziona</LINE>
+	<LINE>correttamente.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>Se la rete è congestionata, il test di connessione</LINE>
+	<LINE>potrebbe fallire. Se ciò accade, riprova più tardi.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_53.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Impostazioni di rete" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

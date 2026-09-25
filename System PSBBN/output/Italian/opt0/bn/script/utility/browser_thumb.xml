@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+	<SCRIPT id="main" src="browser_thumb" type="binary/small"/>
+	<LINK id="bg" href="../common/bg.xml" />
+	<LINK id="infomenu" href="browser_infomenu.xml" />
+	<TEXT id="box" group="" value="■" />
+
+	<SCRIPT id="general_menu"		src="../parts/general_menu"		type="binary/small"/>
+	<SCRIPT id="label_item"			src="browser_label_item"		type="binary/small"/>
+	<SCRIPT id="label_texture"		src="browser_label_texture"		type="binary/small"/>
+	<SCRIPT id="scroll_bar"			src="browser_scroll_bar"		type="binary/small"/>
+	<SCRIPT id="radio_button_v"		src="../parts/radio_button_v"	type="binary/small"/>
+	<SCRIPT id="toolbar"			src="../parts/toolbar"			type="binary/small"/>
+	<SCRIPT id="focus"				src="../parts/focus"			type="binary/small"/>
+	<SCRIPT id="focus_box"			src="browser_focus_box"		type="binary/small"/>
+	<SCRIPT id="device_image" src="../parts/device_image" type="binary/small"/>
+
+	<SCRIPT id="progress_bar"		src="../parts/progress_bar"		type="binary/small"/>
+	<SCRIPT id="progress_window"	src="browser_progress_window"	type="binary/small"/>
+	<SCRIPT id="window"				src="../parts/window"			type="binary/small"/>
+	<SCRIPT id="confirm_ok"			src="browser_confirm_d"			type="binary/small"/>
+	<SCRIPT id="confirm_yesno"		src="browser_confirm_yesno"		type="binary/small"/>
+
+	<SCRIPT id="grid" src="browser_grid" type="binary/small"/>
+	<SCRIPT id="fileinfo" src="browser_fileinfo" type="binary/small"/>
+
+	<IMG id="album_icon" src="texture/album.tm2" />
+	<IMG id="song_icon" src="texture/song.tm2" />
+
+	<LINK id="Back"	href="file:/opt0/bn/script/utility/browser.xml" />
+
+	<MENUGROUP id="option_menu" datatype="xml" menutype="label" menustyle="right" >
+	    <TITLE id="option_menu" label="Opzioni" />
+	    <ITEM id="ccopy" label="Copia" />
+	    <ITEM id="cmove" label="Mossa" />
+	    <ITEM id="cdelete" label="Eliminare" />
+	    <ITEM id="cinfomation" label="Informazioni" />
+	</MENUGROUP>
+
+	<TEXT id="text_MKDIR"		value="Crea nuova cartella." />
+<!-- -->
+	<TEXT id="label_TITLE"		value="Nome del titolo" />
+<!-- -->
+
+	<TEXT id="msgtop_btn_enter"	value="Conferma"/>
+	<TEXT id="msgutil_btn_enter"	value="Conferma"/>
+	<TEXT id="msgutil_btn_back"	value="Indietro"/>
+	<TEXT id="msgutil_btn_ver"	value="Opzioni"/>
+	<TEXT id="msgutil_common_yes"	value="SÌ"/>
+	<TEXT id="msgutil_common_no"	value="NO"/>
+	<TEXT id="msgutil_common_cancel"	value="Interrompere"/>
+	<TEXT id="msgutil_common_ok"	value="OK"/>
+	<TEXT id="msgutil_topmenu_mcmanager"	value="Utilità di salvataggio dei dati"/>
+
+	<TEXT id="msgutil_savedata_menu_hdd"	value="Cartella"/>
+	<TEXT id="msgutil_savedata_menu_mc"	value="Scheda di memoria"/>
+	<TEXT id="msgutil_savedata_chmenu_makefolder"	value="Crea nuova cartella"/>
+	<TEXT id="msgutil_savedata_optmenuhdd_option"	value="Opzioni"/>
+	<TEXT id="msgutil_savedata_optmenuhdd_delete"	value="Eliminare"/>
+	<TEXT id="msgutil_savedata_optmenuhdd_info"	value="Informazioni"/>
+	<TEXT id="msgutil_savedata_optmenumc_option"	value="Opzioni"/>
+	<TEXT id="msgutil_savedata_optmenumc_copy"	value="Copia"/>
+	<TEXT id="msgutil_savedata_optmenumc_rename"	value="Rinominare"/>
+	<TEXT id="msgutil_savedata_optmenumc_move"	value="Mossa"/>
+	<TEXT id="msgutil_savedata_optmenumc_delete"	value="Eliminare"/>
+	<TEXT id="msgutil_savedata_optmenumc_info"	value="Informazioni"/>
+	<TEXT id="msgutil_savedata_optmenuvmc_option"	value="Opzioni"/>
+	<TEXT id="msgutil_savedata_optmenuvmc_copy"	value="Copia"/>
+	<TEXT id="msgutil_savedata_optmenuvmc_move"	value="Mossa"/>
+	<TEXT id="msgutil_savedata_optmenuvmc_delete"	value="Eliminare"/>
+	<TEXT id="msgutil_savedata_optmenuvmc_info"	value="Informazioni"/>
+
+	<TEXT id="msgutil_mcdel_wait"	value="Non rimuovere la scheda di memoria."/>
+	<TEXT id="msgutil_hddcopy_overwrite_wait"	value="Non spegnere la PlayStation® 2."/>
+	<TEXT id="msgutil_warn_wait"	value="Attendere prego."/>
+	<TEXT id="msgutil_vmccopy_device_select"	value="Seleziona Destinazione"/>
+	<TEXT id="msgutil_vmccopy_ask"	value="Copia?"/>
+	<TEXT id="msgutil_vmccopy"	value="Copia..."/>
+	<TEXT id="msgutil_vmccopy_complete"	value="Copia completata."/>
+	<TEXT id="msgutil_vmccopy_fail"	value="Copia non riuscita."/>
+	<TEXT id="msgutil_vmccopy_nospace"	value="Spazio libero insufficiente nella destinazione della copia."/>
+	<TEXT id="msgutil_vmccopy_nospace_delete"	value="Spazio libero insufficiente. Elimina i dati non necessari."/>
+	<TEXT id="msgutil_vmccopy_morefile"	value="Impossibile copiare."/>
+	<TEXT id="msgutil_mccopy_decision"	value="Seleziona la destinazione."/>
+	<TEXT id="msgutil_mccopy_prohibit_"	value="Questi dati non possono essere copiati."/>
+	<TEXT id="msgutil_mccopy_overwrite"	value="Sovrascrivere i dati di destinazione?"/>
+	<TEXT id="msgutil_mccopy_prohibit_media"	value="Non è possibile copiare su questo supporto."/>
+	<TEXT id="msgutil_mcform_ask"	value="Formattare il dispositivo di destinazione?"/>
+	<TEXT id="msgutil_mcform_wait"	value="Formattazione..."/>
+	<TEXT id="msgutil_mcform_fail"	value="Formattazione fallita."/>
+	<TEXT id="msgutil_mcform_unform"	value="Scheda di memoria non formattata"/>
+	<TEXT id="msgutil_mcform_unform_ask"	value="Vuoi formattare?"/>
+	<TEXT id="msgutil_mcform_unform_wait"	value="Formattazione..."/>
+	<TEXT id="msgutil_mcform_unform_complete"	value="Formattazione completata."/>
+	<TEXT id="msgutil_hddcopy_datamany"	value="Troppi dati da copiare."/>
+	<TEXT id="msgutil_hddcopy_longname"	value="Il nome è troppo lungo."/>
+	<TEXT id="msgutil_hddcopy_rename"	value="Inserisci un nome diverso."/>
+	<TEXT id="msgutil_hddcopy_samedata"	value="Esistono già dati con lo stesso nome."/>
+	<TEXT id="msgutil_hddcopy_nodevice"	value="Nessuna destinazione di copia."/>
+	<TEXT id="msgutil_hddcopy_error1"	value="%S"/>
+	<TEXT id="msgutil_hddcopy_error4"	value="dovrebbe essere rimosso."/>
+	<TEXT id="msgutil_hddcopy_error2"	value="è anormale."/>
+	<TEXT id="msgutil_hddcopy_error3"	value="per continuare l'elaborazione"/>
+	<TEXT id="msgutil_hddcopy_complete_prohibit"	value="I dati vietati dalla copia non sono stati copiati."/>
+	<TEXT id="msgutil_hddcopy_fail_media"	value="Impossibile copiare su questo supporto."/>
+	<TEXT id="msgutil_hddcopy_overwrite_ask"	value="Sovrascrivere i dati di destinazione?"/>
+	<TEXT id="msgutil_vmcmove_device_select"	value="Seleziona Destinazione"/>
+	<TEXT id="msgutil_vmcmove_ask"	value="Mossa?"/>
+	<TEXT id="msgutil_vmcmove"	value="Muoversi..."/>
+	<TEXT id="msgutil_vmcmove_complete"	value="Spostamento completato."/>
+	<TEXT id="msgutil_vmcmove_fail"	value="Spostamento non riuscito."/>
+	<TEXT id="msgutil_vmcmove_nospace"	value="Non c'è abbastanza spazio libero nella destinazione."/>
+	<TEXT id="msgutil_vmcmove_morefile"	value="Non puoi più muoverti."/>
+	<TEXT id="msgutil_hddmove_datamany"	value="Troppi dati da spostare."/>
+	<TEXT id="msgutil_hddmove_rename"	value="Inserisci un nuovo nome."/>
+	<TEXT id="msgutil_hddmove_prohibit"	value="Questi dati non possono essere spostati."/>
+	<TEXT id="msgutil_hddmove_prohibit_media"	value="Questo supporto non può essere spostato."/>
+	<TEXT id="msgutil_hddmove_nodevice"	value="Nessuna destinazione."/>
+	<TEXT id="msgutil_hddmove_overwrite_ask"	value="Sovrascrivere i dati di destinazione?"/>
+	<TEXT id="msgutil_hddmove_overwrite_form_ask"	value="Inizializzare la destinazione?"/>
+	<TEXT id="msgutil_hddmove_overwrite_form_wait"	value="Inizializzazione destinazione..."/>
+	<TEXT id="msgutil_vmcdel_ask"	value="Eliminare?"/>
+	<TEXT id="msgutil_vmcdel"	value="Eliminazione..."/>
+	<TEXT id="msgutil_vmcdel_complete"	value="Eliminazione completata."/>
+	<TEXT id="msgutil_vmcdel_fail"	value="Eliminazione non riuscita."/>
+	<TEXT id="msgutil_mcdel_prohibit"	value="Questi dati non possono essere cancellati."/>
+	<TEXT id="msgutil_hddrename_input"	value="Inserisci un nome."/>
+	<TEXT id="msgutil_hddrename_wait"	value="Rinominazione..."/>
+	<TEXT id="msgutil_hddrename_complete"	value="Rinomina completata."/>
+	<TEXT id="msgutil_hddrename_fail" value="Impossibile rinominare."/>
+	<TEXT id="msgutil_hddrename_nodata"	value="Nessun nome inserito."/>
+	<TEXT id="msgutil_hddrename_samedata"	value="Esiste già una cartella con lo stesso nome."/>
+	<TEXT id="msgutil_hddrename_illigaldata"	value="Il nome contiene caratteri non validi."/>
+	<TEXT id="msgutil_hddrename_samesysdata"	value="Esistono già dati di sistema con lo stesso nome."/>
+	<TEXT id="msgutil_hdddelete1"	value="Tutti i dati in questa cartella lo faranno"/>
+	<TEXT id="msgutil_hdddelete2"	value="essere cancellato."/>
+	<TEXT id="msgutil_hdddir_make_ask"	value="Creare una cartella?"/>
+	<TEXT id="msgutil_hdddir_make_inputname"	value="Inserisci il nome di una cartella."/>
+	<TEXT id="msgutil_hdddir_make_wait"	value="Creazione cartella...."/>
+	<TEXT id="msgutil_hdddir_make_complete"	value="Creazione della cartella completata."/>
+	<TEXT id="msgutil_hdddir_make_fail"	value="Impossibile creare la cartella."/>
+	<TEXT id="msgutil_hdddir_make_max"	value="Impossibile creare più cartelle. Elimina le cartelle non necessarie."/>
+	<TEXT id="msgutil_hdddir_rename_prohibit"	value="Questa cartella non può essere rinominata."/>
+	<TEXT id="msgutil_hdddir_delete_prohibit"	value="Questa cartella non può essere eliminata."/>
+	<TEXT id="msgutil_hdddir_new"	value="Nuova cartella %d"/>
+	<TEXT id="msgutil_hdddir_copy"	value="Copia%d%s"/>
+	<TEXT id="msgutil_hdddir_delete_complete"	value="Eliminazione cartella completata"/>
+	<TEXT id="msgutil_hdddir_delete_fail"	value="Impossibile eliminare la cartella."/>
+	<TEXT id="msgutil_hdddir_nospace"	value="Spazio insufficiente per creare questa cartella."/>
+	<TEXT id="msgutil_hdddir_foldername"	value="Nome della cartella"/>
+	<TEXT id="msgutil_hddform_wait"	value="Inizializzazione..."/>
+<!-- -->
+	<TEXT id="msgutil_devinfo_title"	value="Titolo"/>
+	<TEXT id="msgutil_devinfo_location"	value="Posizione"/>
+<!-- -->
+	<TEXT id="msgutil_devinfo_location_ps2"	value="PS2"/>
+	<TEXT id="msgutil_devinfo_location_mc"	value="Scheda di memoria/"/>
+	<TEXT id="msgutil_devinfo_location_mcps2"	value="Scheda di memoria (PS2)/"/>
+	<TEXT id="msgutil_devinfo_location_pocket"	value="PocketStation®/"/>
+	<TEXT id="msgutil_devinfo_location_vmc_e"	value="Scheda di memoria virtuale/"/>
+	<TEXT id="msgutil_devinfo_location1"	value="1"/>
+	<TEXT id="msgutil_devinfo_location2"	value="2"/>
+	<TEXT id="msgutil_devinfo_location1a"	value="1-A"/>
+	<TEXT id="msgutil_devinfo_location2a"	value="2-A"/>
+	<TEXT id="msgutil_devinfo_nodata"	value="Nessun dato."/>
+	<TEXT id="msgutil_devinfo_folder_none"	value="Nessuna cartella."/>
+	<TEXT id="msgutil_devinfo_mc_none1"	value="Scheda di memoria"/>
+	<TEXT id="msgutil_devinfo_mc_none2"	value="non inserito."/>
+	<TEXT id="msgutil_devinfo_unformat"	value="Non inizializzato."/>
+	<TEXT id="msgutil_devinfo_audiocd"	value="CD musicale"/>
+<!-- -->
+	<TEXT id="msgutil_info_size"	value="Misurare"/>
+<!-- -->
+	<TEXT id="msgutil_info_size_kbyte1"	value="%dKB"/>
+	<TEXT id="msgutil_info_size_kbyte2"	value="%d,%03dKB"/>
+	<TEXT id="msgutil_info_size_mbyte1"	value="%d MB"/>
+	<TEXT id="msgutil_info_size_mbyte2"	value="%d,%03d MB"/>
+	<TEXT id="msgutil_info_size_err"	value="Errore durante il recupero della taglia"/>
+	<TEXT id="msgutil_info_space"	value="Capacità"/>
+	<TEXT id="msgutil_info_freespace"	value="Spazio libero"/>
+	<TEXT id="msgutil_info_freespace_kbyte1"	value="Spazio libero %4d KB"/>
+	<TEXT id="msgutil_info_freespace_kbyte2"	value="Spazio libero %d,%03d KB"/>
+	<TEXT id="msgutil_info_freespace_mbyte1"	value="Spazio libero %4d MB"/>
+	<TEXT id="msgutil_info_freespace_mbyte2"	value="Spazio libero %d,%03d MB"/>
+	<TEXT id="msgutil_info_conting"	value="Calcolo"/>
+<!-- -->
+	<TEXT id="msgutil_info_datatype"	value="Tipo"/>
+<!-- -->
+	<TEXT id="msgutil_info_datatype_saveps1"	value="Salvataggio dati (PlayStation®)"/>
+	<TEXT id="msgutil_info_datatype_saveps2"	value="Salva dati (PlayStation®2)"/>
+	<TEXT id="msgutil_info_datatype_pocket"	value="Applicazione (PocketStation®)"/>
+	<TEXT id="msgutil_info_datatype_setting"	value="File di impostazione (PlayStation®2)"/>
+	<TEXT id="msgutil_info_datatype_yourpsbb"	value="Il tuo navigatore PlayStation®BB"/>
+	<TEXT id="msgutil_info_datatype_ps2software"	value="Software standard PlayStation®2"/>
+	<TEXT id="msgutil_info_datatype_systemdrv_title"	value="Driver di sistema"/>
+	<TEXT id="msgutil_info_datatype_systemdrv"	value="Driver di sistema (PlayStation®2)"/>
+	<TEXT id="msgutil_info_datatype_systemdata"	value="Dati di sistema"/>
+	<TEXT id="msgutil_info_datatype_unknown"	value="Sconosciuto"/>
+	<TEXT id="msgutil_info_datatype_broken"	value="Dati corrotti"/>
+	<TEXT id="msgutil_info_datatype_general"	value="Dati generali"/>
+	<TEXT id="msgutil_info_datatype_picture"	value="Dati immagine"/>
+	<TEXT id="msgutil_info_datatype_movie"	value="Dati del film"/>
+	<TEXT id="msgutil_info_datatype_audio"	value="Dati musicali"/>
+	<TEXT id="msgutil_info_datatype_text"	value="Dati di testo"/>
+	<TEXT id="msgutil_info_datatype_html"	value="HTML"/>
+<!-- -->
+	<TEXT id="msgutil_info_date"	value="Data modificata"/>
+<!-- -->
+	<TEXT id="msgutil_info_date_num1"	value="%04d/%02d/%02d %2d:%02d:%02d"/>
+	<TEXT id="msgutil_info_date_bar1"	value="----/--/--  --:--:--"/>
+	<TEXT id="msgutil_info_date_num2"	value="%02d/%02d/%04d %2d:%02d:%02d"/>
+	<TEXT id="msgutil_info_date_bar2"	value="--/--/----  --:--:--"/>
+	<TEXT id="msgutil_info_date_num3"	value="%02d/%02d/%04d %2d:%02d:%02d"/>
+	<TEXT id="msgutil_info_date_bar3"	value="--/--/----  --:--:--"/>
+	<TEXT id="msgutil_info_date_num11"	value="%04d/%02d/%02d %2d:%02d:%02d %s"/>
+	<TEXT id="msgutil_info_date_bar11"	value="----/--/-- --:--:-- --"/>
+	<TEXT id="msgutil_info_date_num12"	value="%02d/%02d/%04d %2d:%02d:%02d %s"/>
+	<TEXT id="msgutil_info_date_bar12"	value="--/--/---- --:--:-- --"/>
+	<TEXT id="msgutil_info_date_num13"	value="%02d/%02d/%04d %2d:%02d:%02d %s"/>
+	<TEXT id="msgutil_info_date_bar13"	value="--/--/---- --:--:-- --"/>
+<!-- -->
+	<TEXT id="msgutil_info_ope"	value="Protezione dei file"/>
+<!-- -->
+	<TEXT id="msgutil_info_ope_none"	value="Nessuno"/>
+	<TEXT id="msgutil_info_ope_copy_prohibit"	value="Copia vietata"/>
+	<TEXT id="msgutil_info_ope_move_prohibit"	value="Spostamento vietato"/>
+	<TEXT id="msgutil_info_ope_delete_prohibit"	value="Eliminazione vietata"/>
+	<TEXT id="msgutil_status_reading_data"	value="Caricamento dati..."/>
+	<TEXT id="msgutil_status_reading_disc"	value="Caricamento disco..."/>
+	<TEXT id="msgutil_status_loading"	value="Caricamento..."/>
+	<TEXT id="msgutil_status_loading_fail"	value="Impossibile caricare il disco."/>
+	<TEXT id="msgutil_status_dvdplayer"	value="Lettore DVD"/>
+	<TEXT id="msgutil_status_dvdplayer_fail"	value="Il lettore DVD non è riuscito ad avviarsi."/>
+
+	<TEXT id="msgutil_error_macadr"	value="Errore di acquisizione"/>
+	<TEXT id="msgutil_error_hdd2"	value="Si è verificato un errore."/>
+	<TEXT id="msgutil_error_hdd3"	value="Si prega di riavviare."/>
+	<TEXT id="msgutil_error_hdd1"	value="Si è verificato un errore mentre"/>
+	<TEXT id="msgutil_error_fsck1" value="C'è un problema con il"/>
+	<TEXT id="msgutil_error_fsck2" value="contenuto dell'unità PlayStation®BB."/>
+	<TEXT id="msgutil_error_fsck3" value="Avviare la &quot;Diagnosi e"/>
+	<TEXT id="msgutil_error_fsck4" value="Repair&quot; dal disco PlayStation®BB Navigator."/>
+	<TEXT id="msgutil_error_copy"	value="Troppi dati da copiare."/>
+	<TEXT id="msgutil_error_smart1"	value="La tua unità PlayStation®BB è guasta."/>
+	<TEXT id="msgutil_error_smart2"	value=""/>
+	<TEXT id="msgutil_error_reinstall1"	value="C'è un problema con il"/>
+	<TEXT id="msgutil_error_reinstall2"	value="contenuto dell'unità PlayStation®BB."/>
+	<TEXT id="msgutil_error_reinstall3"	value="Si prega di reinstallare da"/>
+	<TEXT id="msgutil_error_reinstall4"	value="Disco PlayStation®BB Navigator."/>
+	<TEXT id="msgutil_error_data1"	value="C'è un errore in questi dati."/>
+	<TEXT id="msgutil_error_data2"	value="Per favore cancella."/>
+
+	<TEXT id="msgmusic_album_getinfo"	value="Caricamento dati..."/>
+
+</RESOURCE>

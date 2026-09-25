@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  用語解説　2003 4.14  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="false" width="346.0" visible="10" x="270" y="200" z="0" fontsize="13" valign="center">
+	<LINE>Si riferisce al trasferimento dei dati musicali</LINE>
+	<LINE>memorizzati sull'"Unità PlayStation BB" al lettore</LINE>
+	<LINE>audio.</LINE>
+	<LINE></LINE>
+	<LINE>Ad eccezione dei dati musicali con l'aggiunta di</LINE>
+	<LINE>condizioni di utilizzo speciali, le regole di base</LINE>
+	<LINE>di SDMI consentono di copiare fino a 4 copie di dati</LINE>
+	<LINE>musicali contemporaneamente. Tre possono essere</LINE>
+	<LINE>ascoltati su un lettore audio. Il restante verrà</LINE>
+	<LINE>salvato sulla "PlayStation BB Unit".</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_B_3.xml" LnkNum="17"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Guardare" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

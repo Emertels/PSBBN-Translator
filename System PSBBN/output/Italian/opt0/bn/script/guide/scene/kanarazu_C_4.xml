@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  必ずお読みください　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Nella presente guida "PlayStation BB", l'unità disco</LINE>
+	<LINE>rigido dedicata "PlayStation 2" e l'adattatore di</LINE>
+	<LINE>rete dedicato "PlayStation 2" vengono</LINE>
+	<LINE>collettivamente definiti "Unità PlayStation BB".</LINE>
+	<LINE></LINE>
+	<LINE>  ・Durante l'utilizzo, rispettare i "Termini di</LINE>
+	<LINE>  utilizzo di "PlayStation BB Navigator"" presenti</LINE>
+	<LINE>  in questa guida o il "Contratto di licenza" sul</LINE>
+	<LINE>  retro della confezione del disco "PlayStation BB</LINE>
+	<LINE>  Navigator".</LINE>
+	<LINE>  ・Per proteggere i tuoi dati da perdite o danni,</LINE>
+	<LINE>  fai una copia della scheda di memoria dedicata</LINE>
+	<LINE>  "PlayStation 2" (8 MB) o di qualsiasi dato che</LINE>
+	<LINE>  possa essere salvato su una scheda di memoria.</LINE>
+	<LINE>  ・La riproduzione totale o parziale di "PlayStation</LINE>
+	<LINE>  BB Navigator" (compresi i manuali di istruzioni,</LINE>
+	<LINE>  ecc.) e delle opere fornite per questo, nonché la</LINE>
+	<LINE>  modifica e distribuzione di tali opere senza il</LINE>
+	<LINE>  permesso del titolare dei diritti, l'adattamento,</LINE>
+	<LINE>  la visualizzazione pubblica, l'esecuzione</LINE>
+	<LINE>  pubblica, la trasmissione pubblica (inclusa la</LINE>
+	<LINE>  trasmissione, la trasmissione via cavo e la resa</LINE>
+	<LINE>  trasmissibile), la comunicazione pubblica di tale</LINE>
+	<LINE>  opera trasmessa pubblicamente o il prestito sono</LINE>
+	<LINE>  vietati dalla legge.</LINE>
+	<LINE>  ・Nota: se i dati vengono persi o danneggiati per</LINE>
+	<LINE>  qualche motivo, non potranno essere recuperati o</LINE>
+	<LINE>  riparati. Non saremo ritenuti responsabili per</LINE>
+	<LINE>  eventuali perdite o danni ai dati.</LINE>
+	<LINE>  ・Salvo diversa approvazione da parte della Società</LINE>
+	<LINE>  o quando l'esenzione da responsabilità non è</LINE>
+	<LINE>  consentita dalla legge, la Società non sarà</LINE>
+	<LINE>  responsabile per eventuali danni o spese sostenute</LINE>
+	<LINE>  dal cliente.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="kanarazu_B_3.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_01" group="menu_item"  value="Prima dell'uso" />
+    <TEXT  id="menu_item_02" group="menu_item"  value="" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

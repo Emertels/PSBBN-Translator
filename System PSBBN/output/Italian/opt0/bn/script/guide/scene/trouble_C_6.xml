@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="false" width="380.0" visible="7" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.04 Viene visualizzato il messaggio "Spazio libero</LINE>
+	<LINE>insufficiente" e non è possibile scaricare o</LINE>
+	<LINE>installare contenuti o avviare l'applicazione Mail</LINE>
+	<LINE></LINE>
+	<LINE>A.04 →Seguire le istruzioni visualizzate sullo</LINE>
+	<LINE>schermo per eliminare i contenuti indesiderati e</LINE>
+	<LINE>aumentare lo spazio libero.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="4"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.04" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

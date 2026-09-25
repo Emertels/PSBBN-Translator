@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Assicurati di passare alla modalità standby seguendo</LINE>
+	<LINE>i passaggi seguenti, quindi spegni l'alimentazione</LINE>
+	<LINE>con l'interruttore MAIN POWER sul retro della</LINE>
+	<LINE>console "PlayStation 2".</LINE>
+	<LINE></LINE>
+	<LINE>  ・Per "PlayStation BB Unit" (tipo EXPANSION BAY)</LINE>
+	<LINE>  verificare che la spia di accesso all'HDD</LINE>
+	<LINE>  all'interno del foro di ventilazione sulla parte</LINE>
+	<LINE>  anteriore dell'unità principale "PlayStation 2"</LINE>
+	<LINE>  non stia lampeggiando, quindi premere una volta il</LINE>
+	<LINE>  pulsante ON/STANDBY/RESET sulla parte anteriore</LINE>
+	<LINE>  dell'unità principale "PlayStation 2". La spia di</LINE>
+	<LINE>  accensione/standby sulla parte anteriore</LINE>
+	<LINE>  dell'unità "PlayStation 2" si illumina in rosso,</LINE>
+	<LINE>  indicando che l'unità è in modalità standby. Se</LINE>
+	<LINE>  ancora non entra in modalità standby, tieni</LINE>
+	<LINE>  premuto il pulsante per un po'.</LINE>
+	<LINE></LINE>
+	<LINE>  ・Per "PlayStation BB Unit" (tipo ESTERNO)</LINE>
+	<LINE>  verificare che la spia di accesso al disco rigido</LINE>
+	<LINE>  di "PlayStation BB Unit" non stia lampeggiando e</LINE>
+	<LINE>  premere per un po' il pulsante ON/STANDBY/RESET</LINE>
+	<LINE>  sulla parte anteriore di "PlayStation 2". La spia</LINE>
+	<LINE>  di accensione/standby sulla parte anteriore</LINE>
+	<LINE>  dell'unità "PlayStation 2" si illumina in rosso,</LINE>
+	<LINE>  indicando che l'unità è in modalità standby.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>Non spegnere improvvisamente l'alimentazione con</LINE>
+	<LINE>l'interruttore MAIN POWER sul retro della</LINE>
+	<LINE>"PlayStation 2". Ciò potrebbe causare il</LINE>
+	<LINE>malfunzionamento dell'"Unità PlayStation BB" o</LINE>
+	<LINE>causare danni o perdita di dati o software salvati.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_8.xml" LnkNum="7"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Spegni la &quot;PlayStation 2&quot;" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

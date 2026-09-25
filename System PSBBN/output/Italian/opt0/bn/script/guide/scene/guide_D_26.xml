@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>È possibile visualizzare e modificare le</LINE>
+	<LINE>informazioni sull'album e sulla traccia da</LINE>
+	<LINE>"Informazioni" nel menu Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>  ・Una volta effettuato il check-out di una traccia,</LINE>
+	<LINE>  sarai anche in grado di vedere la dimensione dei</LINE>
+	<LINE>  dati al momento del check-out. Verrà visualizzato</LINE>
+	<LINE>  dopo "/" nella colonna "Dimensione".</LINE>
+	<LINE>  ・Quando si controllano le informazioni di un brano</LINE>
+	<LINE>  estratto su Net MD, il formato file viene</LINE>
+	<LINE>  visualizzato come segue in base al bit rate</LINE>
+	<LINE>  impostato durante la registrazione sull'"Unità</LINE>
+	<LINE>  PlayStation BB".</LINE>
+	<LINE>  ・ATRAC3 (LP2 Stereo): quando impostato su 132 kbps</LINE>
+	<LINE>  o 105 kbps.</LINE>
+	<LINE>  ・ATRAC3 (stereo LP4): quando impostato su 66kbps.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_22.xml" LnkNum="6"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Controllare/modificare le informazioni" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

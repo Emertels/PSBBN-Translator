@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Seleziona "Disco" nella "Raccolta". Nella schermata</LINE>
+	<LINE>in cui sono elencati i brani del CD audio,</LINE>
+	<LINE>selezionare 「→」(Registra) dal menu operativo in</LINE>
+	<LINE>basso a destra sullo schermo. Nella "Collezione"</LINE>
+	<LINE>viene creato un nuovo album in cui vengono salvate</LINE>
+	<LINE>tutte le tracce del CD audio.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Quando si registra un CD audio per la prima volta</LINE>
+	<LINE>  dopo l'installazione di "PlayStation BB</LINE>
+	<LINE>  Navigator", viene creata una partizione utilizzata</LINE>
+	<LINE>  per il canale musicale sull'"Unità PlayStation BB"</LINE>
+	<LINE>  prima dell'inizio della registrazione. Se la</LINE>
+	<LINE>  creazione fallisce per mancanza di spazio libero,</LINE>
+	<LINE>  elimina i giochi installati sulla "PlayStation BB</LINE>
+	<LINE>  Unit" dal Canale Giochi per aumentare lo spazio</LINE>
+	<LINE>  libero. Per ulteriori informazioni sulle</LINE>
+	<LINE>  partizioni all'interno di una "Unità PlayStation</LINE>
+	<LINE>  BB", consultare "Partizione" nel Glossario della</LINE>
+	<LINE>  Guida "PlayStation BB".</LINE>
+	<LINE>  ・Se premi il pulsante ○ durante la registrazione,</LINE>
+	<LINE>  la registrazione verrà annullata. Non verrà creato</LINE>
+	<LINE>  un nuovo album sulla "PlayStation BB Unit".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Impostazione della qualità audio della musica da controllare◆</LINE>
+	<LINE>Quando si registra un CD audio sull'"Unità</LINE>
+	<LINE>PlayStation BB", è possibile impostare la qualità</LINE>
+	<LINE>audio (bitrate) dei dati musicali. Imposta la</LINE>
+	<LINE>qualità del suono dei dati musicali trasferiti</LINE>
+	<LINE>(estratti) al lettore audio. Il bitrate è</LINE>
+	<LINE>preimpostato su 132kbps. Nella schermata principale</LINE>
+	<LINE>"Raccolta", seleziona "Lettore audio" sul lato</LINE>
+	<LINE>sinistro dello schermo e premi il pulsante △.</LINE>
+	<LINE>Seleziona "Impostazioni" nel menu Opzioni.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>La velocità in bit dei dati musicali registrati</LINE>
+	<LINE>sull'"Unità PlayStation BB" non può essere</LINE>
+	<LINE>modificata dopo la registrazione.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>  ・I dati musicali registrati con una velocità in</LINE>
+	<LINE>  bit più elevata ed estratti avranno una qualità</LINE>
+	<LINE>  audio migliore rispetto ai dati musicali</LINE>
+	<LINE>  registrati con una qualità audio inferiore ed</LINE>
+	<LINE>  estratti, e la dimensione dei dati sarà maggiore.</LINE>
+	<LINE>  ・Durante la riproduzione sull'"Unità PlayStation</LINE>
+	<LINE>  BB", la qualità del suono dei dati musicali è</LINE>
+	<LINE>  costante indipendentemente dall'impostazione della</LINE>
+	<LINE>  velocità in bit.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_22.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Registra CD audio su &quot;Playstation BB Unit&quot;" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

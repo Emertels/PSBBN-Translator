@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" width="380.0" visible="14" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.11 Il dispositivo esterno collegato alla porta USB</LINE>
+	<LINE>non viene riconosciuto</LINE>
+	<LINE></LINE>
+	<LINE>A.11</LINE>
+	<LINE>  ・Il dispositivo esterno non è collegato</LINE>
+	<LINE>  correttamente oppure l'alimentazione del</LINE>
+	<LINE>  dispositivo esterno non è accesa. →Controllare il</LINE>
+	<LINE>  collegamento e l'alimentazione del dispositivo</LINE>
+	<LINE>  esterno.</LINE>
+	<LINE>  ・È collegato un dispositivo che non supporta</LINE>
+	<LINE>  "PlayStation BB Navigator". →Collegare un</LINE>
+	<LINE>  dispositivo che supporti "PlayStation BB</LINE>
+	<LINE>  Navigator". Puoi controllare le informazioni più</LINE>
+	<LINE>  recenti sui dispositivi compatibili sulla pagina</LINE>
+	<LINE>  di supporto del nostro sito Web</LINE>
+	<LINE>  (http://www.playstation.jp/info/).</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="11"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.11" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

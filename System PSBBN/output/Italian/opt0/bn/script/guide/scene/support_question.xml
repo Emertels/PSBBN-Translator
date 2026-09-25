@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<SCRIPT	id="main"		src="../text_nofocus"		type="binary/small"/> 
+	<SCRIPT	id="focus"		src="../common/focus"		type="binary/small"/>
+	<SCRIPT	id="scroll_bar"		src="../common/scroll_bar"	type="binary/small"/>
+	<SCRIPT	id="textarea"		src="../common/textarea"	type="binary/small"/>
+	<SCRIPT id="trim_tex"		src="../common/trim_tex"    	type="binary/small" />
+    	<SCRIPT	id="dialogbox"		src="../dialogbox"          	type="binary/small" />
+
+	<TEXTAREA id="textvalue" scrollbar="false" skipline="1" width="346.0" visible="11" x="82" y="107" z="0" align="left" fontsize="15" margin="5">
+	<LINE>Sony Computer Entertainment Inc.</LINE>
+	<LINE></LINE>
+	<LINE>@@IMG src="../images/info_logo.png" x="0" y="-4" w="73" h="39"@@　　　　　Centro informazioni</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>TEL 0570-000-929 （Cellulare・ＰＨＳ 03-3475-7444） Orari</LINE>
+	<LINE>di apertura: 10:00～18:00 URL</LINE>
+	<LINE>http://www.playstation.jp/info/</LINE>
+	<LINE></LINE>
+	<LINE>@@ACTION number="2"@@Informazioni sulle informazioni</LINE>
+	<LINE>personali</LINE>
+    </TEXTAREA>
+
+	<!-- リンク -->
+	<LINK	id="ln_back"	href="support_top.xml" LnkNum ="3" />
+	<LINK	id="ln_3"	href="support_question_personal.xml" />
+
+	<!-- アクション設定 -->
+    	<ACTION number="2" group="link" href="support_question_personal.xml" />
+
+	<!-- Ringに記述するラベル、MAX 3行 -->
+	<TEXT	id="menu_item_1"	group="menu_item"	value="Informazioni sui contatti"  />
+	
+</RESOURCE>

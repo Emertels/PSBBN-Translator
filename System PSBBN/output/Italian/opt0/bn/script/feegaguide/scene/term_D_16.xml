@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド・用語解説(feega)　2003.5.7  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="12"  valign="center">
+	<LINE>Dati della carta di credito utilizzata per il</LINE>
+	<LINE>pagamento. Se acquisti un Corso Continuativo, devi</LINE>
+	<LINE>registrare i dati della tua carta di credito presso</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ. Sony Finance</LINE>
+	<LINE>International Co. Ltd. confermerà alla società</LINE>
+	<LINE>emittente della carta di credito se la carta di</LINE>
+	<LINE>credito registrata è valida o non valida al momento</LINE>
+	<LINE>della registrazione e a intervalli regolari dopo la</LINE>
+	<LINE>registrazione. Se la carta di credito registrata</LINE>
+	<LINE>risulta non valida mentre stai utilizzando il Corso</LINE>
+	<LINE>Continuativo, il tuo utilizzo dei Contenuti/Servizi</LINE>
+	<LINE>per il Corso Continuativo sarà sospeso finché non</LINE>
+	<LINE>registrerai un'altra carta di credito valida.</LINE>
+	<LINE>Inoltre, puoi controllare/modificare i dati della</LINE>
+	<LINE>tua carta di credito in qualsiasi momento</LINE>
+	<LINE>selezionando "Verifica/Cambia" Dettagli di</LINE>
+	<LINE>registrazione XYZXYZFEEGATOKENXYZUPPERXYZ" nel menu</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_C_12.xml" LnkNum="5"/>
+
+    <TEXT  id="menu_item_03" group="menu_item"  value="Informazioni sulla carta di credito" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

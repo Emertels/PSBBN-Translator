@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは　2004.5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" skipline="1" width="380.0" visible="14" x="270" y="110" z="0" fontsize="13" >
+	<LINE>Q.18 L'invio e la ricezione della posta elettronica</LINE>
+	<LINE>non riescono</LINE>
+	<LINE></LINE>
+	<LINE>A.18</LINE>
+	<LINE>  ・Sono presenti omissioni o errori nel contenuto</LINE>
+	<LINE>  delle impostazioni di base →Verificare le</LINE>
+	<LINE>  impostazioni in "Impostazioni di base" di</LINE>
+	<LINE>  "Impostazioni" nel menu e-mail. Per dettagli sui</LINE>
+	<LINE>  contenuti da impostare, fai riferimento ai</LINE>
+	<LINE>  materiali forniti dall'operatore commerciale da</LINE>
+	<LINE>  cui hai ottenuto il tuo indirizzo email.</LINE>
+	<LINE>  ・Sono presenti omissioni o errori nelle</LINE>
+	<LINE>  impostazioni dettagliate del server. →A seconda</LINE>
+	<LINE>  del tuo indirizzo e-mail, potrebbe essere</LINE>
+	<LINE>  necessario impostare il metodo di autenticazione</LINE>
+	<LINE>  del server. Controllare le impostazioni in</LINE>
+	<LINE>  "Impostazioni server avanzate" sotto</LINE>
+	<LINE>  "Impostazioni" nel menu E-mail. Per i dettagli</LINE>
+	<LINE>  sugli elementi che devono essere impostati, fare</LINE>
+	<LINE>  riferimento ai materiali forniti dall'operatore</LINE>
+	<LINE>  commerciale da cui hai ottenuto il tuo indirizzo</LINE>
+	<LINE>  e-mail.</LINE>
+	<LINE>  ・A causa della mancanza di spazio libero,</LINE>
+	<LINE>  l'applicazione Mail è stata chiusa forzatamente</LINE>
+	<LINE>  durante il percorso. →Seguire le istruzioni</LINE>
+	<LINE>  visualizzate sullo schermo per eliminare i</LINE>
+	<LINE>  contenuti non necessari, quindi avviare</LINE>
+	<LINE>  l'applicazione Mail e riprovare.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="18"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.18" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

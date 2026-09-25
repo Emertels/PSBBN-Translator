@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE version="1.1" screen_w="640" screen_h="480" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<SCRIPT id="main" src="navimenu/navimenu" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="list" src="navimenu/list" type="binary/small"/>
+	<SCRIPT id="earth" src="navimenu/earth" type="binary/small"/>
+
+	<!-- テクスチャ -->
+	<IMG id="title_tex" src="navimenu/texture/title.tm2" />
+	<IMG id="earth_tex" src="navimenu/texture/earth128.tm2" />
+	<IMG id="earth_back" src="navimenu/texture/earth_back.tm2" />
+	<IMG id="earth_fore" src="navimenu/texture/earth_fore.tm2" />
+
+	<!-- リンク -->
+	<LINK id="home" href="../top.xml" />
+	<LINK id="mailer" href="../mailer/main.xml" />
+	<LINK id="mailerwrite" href="../mailer/write.xml" />
+	<LINK id="about" href="about.xml" />
+
+	<!-- トップメニューも飛び先 -->
+	<TEXT id="top_menu_id" value="MENU PRINCIPALE DEL GRUPPO" />
+
+	<!-- メニュー -->
+	<LIST id="navi_menu" >
+		<!-- 
+		<TEXT id="msgcom_navi_reload" value="Ricaricare" />
+		 -->
+		<TEXT id="msgcom_navi_topmenu" value="Menù in alto" />
+		<TEXT id="msgcom_navi_mailer" value="Posta" />
+		<TEXT id="msgcom_navi_about" value="Informazioni su PlayStation®BB Navigator" />
+	</LIST>
+
+	<LIST id="option_menu" >
+		<TEXT id="msgcom_navi_remove_shortcut" value="Rimuovi dal menu Navigatore" />
+	</LIST>
+
+	<LIST id="category" >
+		<TEXT id="msgcom_navi_shortcut_category_game" value="Collezione di giochi" />
+	</LIST>
+
+	<TEXT id="msgcom_navi_optionmenu_title" value="Opzioni" />
+	<TEXT id="msgcom_navi_delete_ask" value="Rimuovi dal menu Navigatore.\n\nSei sicuro?" />
+	<TEXT id="megcom_common_yes" value="SÌ" />
+	<TEXT id="megcom_common_no" value="NO" />
+
+</RESOURCE>
+

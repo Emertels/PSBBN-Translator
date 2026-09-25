@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  必ずお読みください　2003.5.1  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Restrizioni dovute alla protezione del copyright in</LINE>
+	<LINE>OpenMG X</LINE>
+	<LINE></LINE>
+	<LINE>Music Channel utilizza la tecnologia di protezione</LINE>
+	<LINE>del copyright "OpenMG X" sviluppata da Sony</LINE>
+	<LINE>Corporation come meccanismo per la protezione del</LINE>
+	<LINE>copyright dei contenuti musicali. Per gestire i dati</LINE>
+	<LINE>musicali protetti da copyright su "PlayStation 2",</LINE>
+	<LINE>OpenMG X utilizza una tecnologia di crittografia</LINE>
+	<LINE>avanzata secondo le convenzioni SDMI. Pertanto, ti</LINE>
+	<LINE>preghiamo di comprendere che esistono le seguenti</LINE>
+	<LINE>restrizioni quando si utilizza questo servizio.</LINE>
+	<LINE></LINE>
+	<LINE>  ・I dati musicali salvati sull'"Unità PlayStation</LINE>
+	<LINE>  BB" utilizzando Music Channel non possono essere</LINE>
+	<LINE>  riprodotti anche se copiati su un'altra</LINE>
+	<LINE>  "PlayStation 2".</LINE>
+	<LINE></LINE>
+	<LINE>  ・I dati musicali trasferiti (estratti) da una</LINE>
+	<LINE>  "PlayStation 2" a un dispositivo/supporto esterno</LINE>
+	<LINE>  non possono essere riprodotti anche se copiati su</LINE>
+	<LINE>  un'altra "PlayStation 2".</LINE>
+	<LINE></LINE>
+	<LINE>  ・I dati musicali che sono stati trasferiti</LINE>
+	<LINE>  (registrati) su un dispositivo/supporto esterno</LINE>
+	<LINE>  possono essere trasferiti (registrati) solo sulla</LINE>
+	<LINE>  PlayStation 2 originale.</LINE>
+	<LINE></LINE>
+	<LINE>  ・Regole di utilizzo per i dati musicali Se ai dati</LINE>
+	<LINE>  musicali vengono aggiunte regole di utilizzo per</LINE>
+	<LINE>  volontà del detentore del copyright o del</LINE>
+	<LINE>  fornitore di servizi, saranno possibili solo le</LINE>
+	<LINE>  operazioni conformi a tali regole. Nel caso di</LINE>
+	<LINE>  dati musicali come i CD musicali a cui non sono</LINE>
+	<LINE>  allegate condizioni di utilizzo, sono possibili</LINE>
+	<LINE>  solo le operazioni secondo le regole di base SDMI</LINE>
+	<LINE>  (regole di utilizzo predefinite). Secondo questa</LINE>
+	<LINE>  regola di base "il numero di check-out per ogni</LINE>
+	<LINE>  brano musicale è limitato a 3".</LINE>
+	<LINE></LINE>
+	<LINE>  ・Dati musicali che non possono essere gestiti da</LINE>
+	<LINE>  MUSIC CHANNEL a causa delle normative SDMI, MUSIC</LINE>
+	<LINE>  CHANNEL non può gestire dati musicali incorporati</LINE>
+	<LINE>  con segnali di divieto di copia.</LINE>
+	<LINE></LINE>
+	<LINE>  ・Aggiornamento canale musicale Il canale musicale</LINE>
+	<LINE>  si basa sulle attuali convenzioni SDMI. Se in</LINE>
+	<LINE>  futuro questa regola verrà modificata in una</LINE>
+	<LINE>  nuova, alcune funzionalità di Music Channel</LINE>
+	<LINE>  potrebbero non essere disponibili. In questo caso,</LINE>
+	<LINE>  prevediamo di fornire un aggiornamento.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="kanarazu_B_3.xml" LnkNum="6"/>
+
+    <TEXT  id="menu_item_01" group="menu_item"  value="Restrizioni dovute alla protezione del copyright" />
+    <TEXT  id="menu_item_02" group="menu_item"  value="" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

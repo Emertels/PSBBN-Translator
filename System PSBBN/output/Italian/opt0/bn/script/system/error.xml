@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE version="1.1" xmlns="http://www.scei.co.jp/bn/2002/" screen_w="640" screen_h="480">
+
+	<SCRIPT id="main" src="error" type="binary/small"/>
+	<SCRIPT id="confirm_err" src="../parts/confirm_err" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="../parts/confirm_d" type="binary/small"/>
+
+	<TEXT id="msgcom_error_read" value="Impossibile caricare la pagina.\n(%ERRORNO)" />
+	<TEXT id="msgcom_error_reload" value="Impossibile ricaricare la pagina.\n(%ERRORNO)" />
+	<TEXT id="msgcom_error_description" value="C'è un errore nella descrizione della pagina.\n(%ERRORNO)" />
+	<TEXT id="msgcom_error_runtime" value="Si è verificato un errore durante la visualizzazione della pagina." />
+	<TEXT id="msgcom_error_old_version" value="PlayStation®BB Navigator non è l'ultima versione.\nAggiorna per visualizzare la pagina.\n(%ERRORNO)" />
+	<TEXT id="msgcom_error_network_connect_verify" value="Impossibile caricare la pagina.\nAssicurati che il cavo Ethernet sia collegato correttamente.\nDopodiché, controlla le impostazioni da &quot;Verifica/Cambia&quot; nel menu delle impostazioni di rete e connettiti alla rete."/>
+	<TEXT id="msgcom_error_network_update" value="Impossibile caricare la pagina.\nAggiorna PlayStation®BB Navigator."/>
+
+	<TEXT id="msgcom_error_read_cancel" value="Il caricamento della pagina è stato interrotto." />
+	<TEXT id="msgcom_error_network_timeout" value="Timeout." />
+
+	<TEXT id="msgcom_error_http" value="Errore HTTP" />
+	<TEXT id="msgcom_error_system" value="Errore di sistema" />
+	<TEXT id="msgcom_error_internal" value="Errore interno" />
+
+    <TEXT id="text_error_solution-1006" value="Assicurati che le impostazioni di rete siano corrette." />
+
+</RESOURCE>

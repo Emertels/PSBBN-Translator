@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<!-- スクリプト -->
+
+	<SCRIPT id="main" src="dbconvert" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="window" src="menu/window" type="binary/small"/>
+	<SCRIPT id="dialog" src="../parts/dialog" type="binary/small"/>
+
+	<!-- リンク -->
+
+	<LINK id="bg" href="../common/bg.xml"/>
+	<LINK id="init_setup" href="init_setup.xml"/>
+
+	<!-- 共通 -->
+	<TEXT id="msgutil_common_ok" value="OK" />
+
+	<!-- dialog:コンバート中 -->
+	<dialog id="dbconvert_progress" type="progress">
+		<msg id="msgutil_db_convert_renew"/>
+	</dialog>
+
+	<!-- コンバート中進捗確認ダイアログ -->
+	<TEXT id="msgutil_db_convert_renew"	value="Aggiornamento delle informazioni sulla gestione dei contenuti in corso...\n\nNon spegnere la PlayStation®2." />
+
+	<!-- コンバート上書きエラー確認ダイアログ -->
+	<TEXT id="msgutil_db_convert_complete"	value="L'aggiornamento è completo.\nLe informazioni sui contenuti aggiunti nella versione precedente non possono essere aggiornate." />
+
+	<!-- コンバート上限エラー確認ダイアログ -->
+	<TEXT id="msgutil_db_convert_warn_fail_max"	value="Aggiornamento non riuscito.\nIl numero di elementi di contenuto ha superato il limite.\nContattare il Centro informazioni di Sony Computer Entertainment Inc." />
+
+	<!-- コンバート失敗ダイアログ -->
+	<TEXT id="msgutil_db_convert_warn_fail"	value="Aggiornamento non riuscito. \n\nSpegni la PlayStation®2 e riavviala." />
+
+</RESOURCE>

@@ -1,0 +1,313 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>Input/Conversion 1</title>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#0000bb" alink="#ff0000" vlink="#800080">
+<a name="top"></a>
+
+<table><tr>
+<td align="center" valign="top">
+<font size="+1" color="#0000bb"><b>Input/Conversion 1</b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="center" valign="top"><a href="index.html">
+<img src="to.gif" width="130" height="18" border="0" alt=""></a></td>
+</tr></table>
+
+<p>
+Configure settings for how to input and convert characters, such as how to input and convert characters and how to add okurikana.
+</p>
+&#9632;Explanation of setting items
+<ol>
+<li>Kanji input mode<br>
+Select the method for entering characters from the keyboard when creating a kanji-kana mixture sentence.
+<p>
+<li>Input character type<br>
+Select how the entered characters are displayed when in Kanji input mode.
+<p>
+<li>Kanji conversion mode<br>
+Select the method to convert the entered characters into kanji and kana mixed sentences.
+<dl>
+<dt>Conjunction clause<dd>Used for normal input/conversion. It is useful for converting long sentences containing compound words, number words, foreign words, suffixes, punctuation marks, etc.
+<dt>Compound word <dd> Used to convert compound words followed by kanji, such as address, name, company name, department name, etc. If there are conversion candidates for a full name and a place name with the same reading, you can also set which one to give priority to conversion.
+<dt>Automatic <dd> Determines clause breaks and conversion candidates, and automatically converts and confirms input characters. You can create kanji-kana mixed sentences without having to worry about pressing the conversion (next candidate) key.
+</dl>
+<p>
+<li>Compound word conversion details<br>
+You can select details about compound word preferences. Valid only when Kanji conversion mode is set to Compound word.
+<p>
+<li>Colloquialism preferred<br>
+Select Yes if you want to convert spoken words preferentially. Words that cannot be converted normally (such as "I made it", "It's great", "Let's say it", etc.) can be converted.
+<p>
+<li>Fukukana mode<br>
+Select how to send the okurigana.
+<dl>
+<dt>Main Rules<dd>This is the method of sending based on the Cabinet notification "How to assign okuri kana."
+<dt>Omit<dd>This is a method of sending by omitting the okigana that does not need to be written in the "main rules".
+<dt>Send<dd>Contrary to "omit", this is a method of sending without omitting.
+<dt>All<dd>Displays how to "omit" and "send" all at once.
+<TABLE BORDER="1">
+<TR><TD></TD><TH>End(wa)ru</TH><TH>Table(wa)su</TH></TR>
+<TR><TH>Main rules</TH><TD>End</TD><TD>Represent</TD></TR>
+<TR><TH>Omit</TH><TD>End</TD><TD>Represent</TD></TR>
+<TR><TH>Send</TH><TD>End</TD><TD>Represent</TD></TR>
+</TABLE>
+</dl>
+<p>
+<li>Punctuation mode<br>
+Select which punctuation mark or parentheses (,,) (..) (/) ("" []) to input when you press the key.
+<p>
+<li>Input support/<a href="#input">[Settings]</a><br>
+Select whether to use the AI input support function that automatically corrects common input errors and the function that replaces long sounds (-) and hyphens (-) when inputting. <br>
+You can also click Settings to configure details.
+<p>
+<li>Proofreading support/<a href="#kosei">[Settings]</a><br>
+Set whether to use the proofreading support function (JUST MEDDLER2) that points out omissions, misuse, and errors in kana. <br>
+You can also click Settings to configure details.
+<p>
+<li>Half-width full-width conversion/<a href="#hanzen">[Settings]</a><br>
+Set the function to convert the conversion result of katakana, alphanumeric characters, and symbols into half-width or full-width. By using this function, you can convert to half-width or full-width characters by simply pressing the space key without having to do any post-conversion or learning. <br>
+You can also click Settings to configure details.
+<p>
+<li>Punctuation conversion/[Settings]<br>
+Set whether to use the punctuation mark conversion function that performs conversion when punctuation marks are entered. This is valid when the kanji conversion mode is set to continuous clause or compound word conversion mode. <br>
+You can also click Settings to configure details.
+<p>
+<li>Word comments<br>
+When turned on, comments set for words will be displayed behind the conversion candidates. It also shows possible replacements for other words. <br>
+<p>
+<li>[Return to initial value]<br>
+Returns the settings of the input/conversion 1 sheet to the state immediately after installation.
+</ol>
+<p> <p>
+
+<table><tr>
+<td align="center" valign="top"><a href="#top">
+<img src="to_top.gif" width="16" height="18" border="0" align="bottom" alt="">
+<b>Top of this page</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="center" valign="top"><a href="index.html">
+<img src="to.gif" width="130" height="18" border="0" alt=""></a></td>
+</tr></table>
+
+<p><hr><p>
+
+<a name="input"></a>
+<img src="button2.gif" width="12" height="11" border="0" align="top" alt="">
+<font size="+1"><b>Input support [Settings]</b></font>
+<p>
+&#9632;Explanation of setting items
+<ol>
+<li>Automatic input error repair<br>
+ATOK automatically corrects input errors specific to Romaji input and Kana input and converts them into correct words.
+<ul>
+<li>Romaji input<br>
+<dl>
+<dt>Excess/deficiency of vowels
+<dd>When vowels are consecutive, such as "(consonant + vowel) + vowel" or "(vowel) + (vowel)", incorrect conversion due to too many or insufficient vowels has been automatically corrected. I will correct it to <br>
+[Example] NYURYOKU &rarr; Input (NYUURYOKU)
+<dt>Excess of consonants
+<dd>Automatically corrects excessive consonant input when inputting consonants consecutively to input the consonant 'tsu'. <br>
+[Example] Kitte (KITTTE) &rarr; Stamp (KITTE)
+<dt>Excess or deficiency of "N"
+<dd>Automatically corrects incorrect conversions caused by inputting too much or not enough "N" to input "NN". <br>
+[Example] SIZENNNNO &rarr; nature (SIZENNNO)
+</dl>
+<p>
+<li>Kana input
+<dl>
+<dt>[]']&rarr;[']
+If you enter <dd>' (voiced mark) by mistake and enter ' (handakuten), it will be corrected automatically. <br>
+[Example] Raku<u>ka'</u>ki &rarr; Graffiti
+<dt>"tsu" &rarr; "tsu"
+<dd>If you enter "tsu" by mistake instead of "tsu", it will be corrected automatically. <br>
+[Example] Ra<u>tsu</u>key &rarr; Lucky
+<dt>"Wa" &rarr; "wo"
+<dd>If you type "wa" instead of "wo", it will be corrected automatically. <br>
+[Example] To send a letter &rarr; send a letter
+</dl>
+</ul>
+<p>
+<li>Automatic replacement of long sounds and punctuation marks<br>
+If the character before the long sound (-) is a letter, number, or symbol, replace the long sound (-) with a hyphen (-). You can easily enter hyphens on keyboards that do not have a numeric keypad, such as on laptops.
+Similarly, you can replace a comma (,) with a comma (,), a full stop (.) with a period (.), and a bullet (・) with a slash (/). <br>
+<dl>
+<dt> [Example] Convert long sound to hyphen
+<dd>Input "Yuubin Bangou 770-0189"<br>
+Conversion "Postal code 770-0189"
+</dl>
+</ol>
+
+<p> <p>
+
+<table><tr>
+<td align="center" valign="top"><a href="#top">
+<img src="to_top.gif" width="16" height="18" border="0" align="bottom" alt="">
+<b>Top of this page</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="center" valign="top"><a href="index.html">
+<img src="to.gif" width="130" height="18" border="0" alt=""></a></td>
+</tr></table>
+
+<p><hr><p>
+
+<a name="kosei"></a>
+<img src="button2.gif" width="12" height="11" border="0" align="top" alt="">
+<font size="+1"><b>Proofreading support [Settings]</b></font>
+<p>
+&rarr;Explanation of setting items</p>
+<ol>
+<li>Pointing out continuous particles<br>
+Point out places where the case particles ``no'', ``de'', ``ga'', and ``wo'' are repeated excessively. Point out when "no" and "ga" are used three or more times in a row, and "de" and "wo" are used two or more times in a row.
+<dl>
+<dt> [Example]
+<dd>We'll meet at the park behind my <u></u> house. <br>
+I hurriedly took a taxi and went home. <br>
+This is the book that I wrote with the pen that he gave me. <br>
+Make a cake using strawberries.
+</dl>
+<p>
+<li>Pointing out the blank expression<br>
+Point out and correct loose expressions such as "you can see".
+<dl>
+<dt>Do (point out)
+<dd>Points out blank expressions in sentences.
+<dt>Do (correct)
+<dd>We will point out blank expressions in sentences and correct them to the correct expressions when confirmed.
+</dl>
+<p>
+<li>Unification of writing style<br>
+In order to unify the writing style into ``desu masu style'' and ``da dearu style'', we will point out areas of inconsistency.
+<dl>
+<dt>When writing style changes
+<dd>It will be pointed out if the writing style changes from "desu-masu style" to "da-desaru style" or from "da-desaru style" to "desu-masu style" in one sentence. Sentences that end with a punctuation mark (,.) are targeted. <br>
+[Example] The weather is nice, but he is in a bad mood. (Style changes)
+<dt>is key
+<dd>I'll point out the part where it says "desu masu style".
+<dt>Sumasu style
+<dd>I will point out the part of "da deru key". Sentences that end with a punctuation mark (,.) are targeted.
+</dl>
+<p>
+<li>Identification of modification relationships<br>
+Points out places where the meaning of a sentence may be ambiguous due to consecutive modifiers.
+<dl>
+<dt> [Example]
+<dd>Girl with big black eyes. <br>
+A new friend's house in Tokushima. <br>
+Baggage for a sudden heavy business trip.
+</dl>
+<p>
+<li>Pointing out difficult-to-understand negative expressions<br>
+Point out ``sequences of negative expressions,'' such as double negatives, that can easily confuse readers.
+<dl>
+<dt> [Example]
+<dd>I don't even think about it. <br>
+It's not that I don't know.
+</dl>
+<p>
+<li>Identification of misuse<br>
+Point out idioms and proverbs that seem to be incorrectly used. <br>
+<dl>
+<dt> [Example]
+<dd>
+<table>
+<tr><td>Get the target<td>&rarr;<td>hit the target, get the hit</tr>
+<tr><td>Graze the upper front<td>&rarr;<td>Bounce the upper front</tr>
+<tr><td>Neither pushed nor pushed<td>&rarr;<td>Neither pushed nor pushed</tr>
+<tr><td>Set a white arrow<td>&rarr;<td>Set a white arrow</tr>
+</table>
+</dl>
+<p>
+<li>Identification of errors in kana usage<br>
+Based on the ``Modern Kana Usage'' announced by the Cabinet in 1986, we will point out easily mistaken kana usage. <br>
+<dl>
+<dt> [Example]
+<dd>
+<table>
+<tr><td>As usual <td>&rarr;<td>As usual</tr>
+<tr><td>Jishin<td>&rarr;<td>Jishin (earthquake)<tr>
+<tr><td>Skills<td>&rarr;<td>Skills</tr>
+<tr><td>Organize<td>&rarr;<td>Organize</tr>
+</table>
+</dl>
+<p>
+<li>Identification of trademark name<br>
+Point out trademarks and product names that are easily confused with common nouns.
+<p>
+<li>Identification of model-dependent characters<br>
+Points out problematic characters such as those that cannot be seen in Internet e-mail or other types of computers.
+<dl>
+<dt>No
+<dd>Does not point out model-dependent characters.
+Other than <dt>/JIS code
+<dd>Points out characters that cause problems in e-mail, computer communication, etc.
+Other than <dt>/shift JIS code
+<dd>It points out characters that cause problems in applications that do not support Unicode.
+<dt>Gaiji
+<dd>Points out user-created external characters.
+<dt>Shift other than JIS code + external characters
+<dd>Identifies characters and user-created external characters that cause problems in applications that do not support Unicode.
+</dl>
+</ol>
+<p> <p>
+
+<table><tr>
+<td align="center" valign="top"><a href="#top">
+<img src="to_top.gif" width="16" height="18" border="0" align="bottom" alt="">
+<b>Top of this page</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="center" valign="top"><a href="index.html">
+<img src="to.gif" width="130" height="18" border="0" alt=""></a></td>
+</tr></table>
+<p><hr><p>
+
+<a name="hanzen"></a>
+<img src="button2.gif" width="12" height="11" border="0" align="top" alt="">
+<font size="+1"><b>Half-width full-width conversion [Settings]</b></font>
+<p>
+&#9632;Explanation of setting items</p>
+<ol>
+<p>
+<li>Katakana<br>
+Select whether to always enter katakana in half-width or full-width. When you press the space key to convert, all katakana characters are converted to half-width or full-width characters.
+<p>
+<li>English characters<br>
+Select whether to always enter alphabets in half-width or full-width. When you press the space key to convert, all alphabets will be converted to half-width or full-width characters.
+<p>
+<li>Numbers<br>
+Select whether to always enter numbers in half-width or full-width. All numbers are converted to half-width or full-width characters when you press the space bar to convert.
+<p>
+<li>Symbols<br>
+Choose whether to always enter certain symbols in half-width or full-width characters. When you press the space bar to convert, certain symbols are converted to half-width or full-width characters.
+<p>
+<li>[All half-width]<br>
+Set all symbols to be entered in half-width characters.
+<p>
+<li>[All double-byte]<br>
+Set all symbols to be entered in full-width characters.
+<p>
+<li>[All release]<br>
+Set all symbols to No.
+<p>
+<li>Expansion of adaptation to characters being input<br>
+Set whether to replace katakana, alphabets, numbers, and symbols with specified half-width or full-width characters, giving priority to the input character type from the characters being input before conversion. This setting is also applied to candidates for input saving and fixed repeat.
+<p>
+<li>Adaptation extension to user words<br>
+Set whether to replace katakana, alphabets, numbers, and symbols in the converted string with the specified full-width or half-width characters for words registered by the user.
+<p>
+<li>Adaptive extension to post-transform operations<br>
+Set whether to replace katakana, alphabetic characters, numbers, and symbols in the string with the specified half-width or full-width characters for post-converted characters. <br>
+This is used to strongly suppress input of half-width katakana in Internet e-mails, etc.
+</ol>
+
+<p> <p>
+
+<table><tr>
+<td align="center" valign="top"><a href="#top">
+<img src="to_top.gif" width="16" height="18" border="0" align="bottom" alt="">
+<b>Top of this page</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="center" valign="top"><a href="index.html">
+<img src="to.gif" width="130" height="18" border="0" alt=""></a></td>
+</tr></table>
+
+</body>
+</html>

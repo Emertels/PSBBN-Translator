@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  用語解説　2004 5.28  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="200" z="0" fontsize="13" valign="center">
+	<LINE>Si riferisce a una posizione su un disco diviso</LINE>
+	<LINE>logicamente.</LINE>
+	<LINE></LINE>
+	<LINE>In "PlayStation BB Navigator", si riferisce alla</LINE>
+	<LINE>posizione in cui i dati (contenuti) utilizzati da</LINE>
+	<LINE>ciascun canale vengono archiviati sull'"Unità</LINE>
+	<LINE>PlayStation BB". Le partizioni sono le seguenti:</LINE>
+	<LINE></LINE>
+	<LINE>@@IMG src="../images/partitionA.png" x="0" y="0" w="474" h="436"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>Ogni canale gestisce i propri contenuti all'interno</LINE>
+	<LINE>di una partizione dedicata. Poiché le partizioni non</LINE>
+	<LINE>possono essere espanse, non sarà possibile salvare</LINE>
+	<LINE>nuovi contenuti se lo spazio libero non è</LINE>
+	<LINE>sufficiente. Se hai bisogno di più spazio, elimina i</LINE>
+	<LINE>contenuti indesiderati dalla "Raccolta" del canale</LINE>
+	<LINE>appropriato.</LINE>
+	<LINE></LINE>
+	<LINE>@@IMG src="../images/partitionB.png" x="0" y="0" w="403" h="195"@@</LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>L'eliminazione dei contenuti nei "Preferiti" non</LINE>
+	<LINE>libera spazio.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="term_B_3.xml" LnkNum="19"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Partizione" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

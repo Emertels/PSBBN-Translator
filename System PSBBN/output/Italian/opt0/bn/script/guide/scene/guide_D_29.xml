@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="true" width="346.0" visible="14" x="270" y="240" z="0" fontsize="13" margin="5" valign="center">
+	<LINE>Collega una fotocamera digitale alla porta USB sulla</LINE>
+	<LINE>parte anteriore della "PlayStation 2".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・Prima di trasferire le immagini, assicurati che</LINE>
+	<LINE>  la tua fotocamera digitale sia nelle seguenti</LINE>
+	<LINE>  condizioni:</LINE>
+	<LINE>・Acceso.</LINE>
+	<LINE>・Supporto scrivibile inserito.</LINE>
+	<LINE>  ・A seconda del formato dell'immagine, potrebbe non</LINE>
+	<LINE>  essere possibile effettuare il trasferimento.</LINE>
+	<LINE>  ・Non collegare più fotocamere digitali a</LINE>
+	<LINE>  "PlayStation 2".</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@◆Trasferire immagini da una fotocamera digitale◆</LINE>
+	<LINE>Seleziona "Fotocamera digitale" nella "Collezione".</LINE>
+	<LINE>Nella schermata in cui viene visualizzato l'elenco</LINE>
+	<LINE>delle immagini presenti sulla fotocamera,</LINE>
+	<LINE>selezionare 「→」(Trasferisci) in basso a destra.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Nota】</LINE>
+	<LINE>  ・A seconda delle dimensioni e del numero di</LINE>
+	<LINE>  immagini, il trasferimento potrebbe richiedere del</LINE>
+	<LINE>  tempo.</LINE>
+	<LINE>  ・Le immagini non possono essere trasferite dalla</LINE>
+	<LINE>  "PlayStation BB Unit" alla fotocamera digitale.</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0""@@【Suggerimenti】</LINE>
+	<LINE>Le fotocamere digitali che supportano Photo Channel</LINE>
+	<LINE>sono reperibili sulla pagina di supporto del nostro</LINE>
+	<LINE>sito Web: (http://www.playstation.jp/info/)</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_C_28.xml" LnkNum="2"/>
+
+    <TEXT  id="menu_item_02" group="menu_item"  value="Trasferisci immagini" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

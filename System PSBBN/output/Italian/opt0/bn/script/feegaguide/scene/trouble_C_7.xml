@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  困ったときは(feega)　2003.4.22  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../text_nofocus"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+    <TEXTAREA id="textvalue" scrollbar="true" skipline="1" width="380.0" visible="14" x="270" y="110" z="0" fontsize="12"  >
+	<LINE>Q.05 Informazioni sulla home page</LINE>
+	<LINE>"XYZXYZFEEGATOKENXYZUPPERXYZ".</LINE>
+	<LINE></LINE>
+	<LINE>A.05 → Puoi anche iscriverti o annullare</LINE>
+	<LINE>l'iscrizione a XYZXYZFEEGATOKENXYZUPPERXYZ,</LINE>
+	<LINE>verificare o modificare i dati di registrazione o</LINE>
+	<LINE>annullare il servizio sul sito</LINE>
+	<LINE>"XYZXYZFEEGATOKENXYZUPPERXYZ". Per annullare</LINE>
+	<LINE>l'iscrizione, controllare e modificare i dettagli</LINE>
+	<LINE>registrati e annullare i servizi, sono necessari un</LINE>
+	<LINE>XYZXYZFEEGATOKENXYZUPPERXYZ-ID e una password.</LINE>
+	<LINE></LINE>
+	<LINE>    Home page "XYZXYZFEEGATOKENXYZUPPERXYZ"</LINE>
+	<LINE>    http://www.sonyfinance.co.jp/XYZXYZFEEGATOKENXYZUPPERXYZ/</LINE>
+	<LINE></LINE>
+	<LINE>@@FONT r="246" g="181" b="59" a="1.0"@@ 【Nota bene】</LINE>
+	<LINE>Non è possibile accedere alla home page</LINE>
+	<LINE>"XYZXYZFEEGATOKENXYZUPPERXYZ" dai telefoni</LINE>
+	<LINE>cellulari.</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="trouble_B_3.xml" LnkNum="5"/>
+
+    <TEXT  id="menu_item_0" group="menu_item" value="D.05" />
+    <TEXT  id="menu_item_1" group="menu_item" value="" />
+    <TEXT  id="menu_item_2" group="menu_item" value="" />
+    <TEXT  id="menu_item_3" group="menu_item" value="" />
+    <TEXT  id="menu_item_4" group="menu_item" value="" />
+    <TEXT  id="menu_item_5" group="menu_item" value="" />
+
+</RESOURCE>

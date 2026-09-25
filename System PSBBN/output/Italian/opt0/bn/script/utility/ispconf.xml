@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+	<!-- スクリプト -->
+	<SCRIPT id="main" src="ispconf" type="binary/small"/>
+	<SCRIPT id="netconf_page" src="netconf_page" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="progress_bar" src="../parts/progress_bar" type="binary/small"/>
+	<SCRIPT id="dialog" src="../parts/dialog" type="binary/small"/>
+
+	<!-- リンクリソース -->
+	<LINK id="bg" href="../common/bg.xml"/>
+	<LINK id="Init" href="init_setup.xml"/>
+	<LINK id="Update" href="sysupdate.xml"/>
+	<LINK id="Back" href="../top.xml"/>
+
+	<!-- テクスチャ -->
+	<IMG id="page" src="texture/page.tm2"/>
+
+	<!-- page:取得中 -->
+	<page id="page_0">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="-16" value="msgutil_netconf_get_provider"/>
+		<item x="0" y="16" type="progress"/>
+	</page>
+
+	<!-- page:接続成功 -->
+	<page id="page_1">
+		<item type="window" width="432.0" height="236.0" pad="x"/>
+		<item x="0" y="0" value="msgutil_netconf_get_provider_success"/>
+	</page>
+
+	<!-- 文字リソース -->
+	<TEXT id="msgutil_common_cancel" value="Cancellare"/>
+	<TEXT id="msgutil_netconf_get_provider" value="Recupero informazioni sul server..."/>
+	<TEXT id="msgutil_netconf_get_provider_success" value="Informazioni sul server recuperate con successo."/>
+	<TEXT id="msgutil_netconf_warn_provider" value="Impossibile ottenere le informazioni sul server."/>
+	<TEXT id="msgutil_netconf_warn_http" value="Errore HTTP"/>
+	<TEXT id="msgutil_netconf_warn_authen" value="Errore di autenticazione"/>
+	<TEXT id="msgutil_netconf_warn_system" value="Errore di sistema"/>
+	<TEXT id="msgutil_netconf_warn_dnas" value="Errore di autenticazione &quot;DNAS&quot;."/>
+	<TEXT id="msgutil_netconf_warn_internal" value="Errore interno"/>
+	<TEXT id="msgutil_netconf_warn_download" value="Errore di download"/>
+	<TEXT id="msgutil_netconf_warn_dnas_infocenter" value="Autenticazione &quot;DNAS&quot; non riuscita. Si prega di contattare il centro informazioni di Sony Computer Entertainment Inc."/>
+	<TEXT id="msgutil_netconf_warn_provider_infocancel" value="Impossibile ottenere le informazioni sul server."/>
+	<TEXT id="msgutil_netconf_warn_dnas_authen" value="Errore di autenticazione &quot;DNAS&quot;."/>
+
+</RESOURCE>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  操作ガイド　2004.5.31  -->
+
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+
+    <SCRIPT id="main"        src="../menu"       type="binary/small" />
+    <SCRIPT id="focus"       src="../common/focus"       type="binary/small" />
+    <SCRIPT id="scroll_bar"  src="../common/scroll_bar"  type="binary/small" />
+    <SCRIPT id="textarea"    src="../common/textarea"    type="binary/small" />
+    <SCRIPT id="trim_tex"    src="../common/trim_tex"    type="binary/small" />
+   	<SCRIPT	id="dialogbox"	 src="../dialogbox"			 type="binary/small" />
+
+
+    <TEXTAREA id="textvalue" skipline="1" scrollbar="false" width="346.0" visible="5" x="270" y="240" z="0" align="center" fontsize="15" margin="5" valign="center">
+	<LINE>Cosa puoi fare nel canale musicale Registrare CD</LINE>
+	<LINE>audio sull'unità "Playstation BB" Ascoltare musica</LINE>
+	<LINE>Creare una raccolta dei tuoi brani preferiti</LINE>
+	<LINE>Check-in/Check-out Visualizzare/modificare</LINE>
+	<LINE>informazioni Eliminare album e brani</LINE>
+    </TEXTAREA>
+
+    <!-- リンク -->
+    <LINK id="ln_back" href="guide_B_3.xml" LnkNum="6"/>
+    <LINK id="ln_1"   href="guide_D_22.xml" />
+    <LINK id="ln_2"   href="guide_D_23.xml" />
+    <LINK id="ln_3"   href="guide_D_24.xml" />
+    <LINK id="ln_4"   href="guide_D_25.xml" />
+    <LINK id="ln_5"   href="guide_D_58.xml" />
+    <LINK id="ln_6"   href="guide_D_26.xml" />
+    <LINK id="ln_7"   href="guide_D_27.xml" />
+
+    <TEXT  id="menu_item_01" group="menu_item"  value="Canale musicale" />
+    <TEXT  id="menu_item_02" group="menu_item"  value="" />
+    <TEXT  id="menu_item_03" group="menu_item"  value="" />
+    <TEXT  id="menu_item_04" group="menu_item"  value="" />
+    <TEXT  id="menu_item_05" group="menu_item"  value="" />
+    <TEXT  id="menu_item_06" group="menu_item"  value="" />
+    <TEXT  id="menu_item_07" group="menu_item"  value="" />
+    <TEXT  id="menu_item_08" group="menu_item"  value="" />
+    <TEXT  id="menu_item_09" group="menu_item"  value="" />
+    <TEXT  id="menu_item_10" group="menu_item"  value="" />
+    <TEXT  id="menu_item_11" group="menu_item"  value="" />
+    <TEXT  id="menu_item_12" group="menu_item"  value="" />
+    <TEXT  id="menu_item_13" group="menu_item"  value="" />
+    <TEXT  id="menu_item_14" group="menu_item"  value="" />
+
+</RESOURCE>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESOURCE screen_w="640" screen_h="480" version="1.1" xmlns="http://www.scei.co.jp/bn/2002/">
+	<SCRIPT id="main" src="psbbdisc" type="binary/small"/>
+	<SCRIPT id="focus" src="../parts/focus" type="binary/small"/>
+	<SCRIPT id="confirm_err" src="../parts/confirm_err" type="binary/small"/>
+	<SCRIPT id="confirm_d" src="../parts/confirm_d" type="binary/small"/>
+	<SCRIPT id="confirm_moment" src="../parts/confirm_moment" type="binary/small"/>
+
+	<TEXT id="msggame_error_nodisc"	value="Nessun disco." />
+	<TEXT id="msggame_error_notplaydisc"	value="Il disco non è avviabile." />
+	<TEXT id="msggame_warn_wait"	value="Attendi l'avvio del gioco." />
+	<TEXT id="msggame_warn_wait2"	value="" />
+	<TEXT id="msggame_warn_console_power"	value="Non spegnere la PlayStation®2." />
+	<TEXT id="msggame_warn_console_disctray"	value="Non aprire il vassoio del disco." />
+	<TEXT id="msggame_input_fail_noname"	value="Nessun nome inserito." />
+	<TEXT id="msggame_execdisc_loadingfail"	value="Impossibile caricare il disco." />
+	<TEXT id="msggame_execdisc_insertdisc"	value="Si prega di inserire il disco." />
+	<TEXT id="msggame_execdisc_wrongdisc"	value="Disco sbagliato." />
+
+	<TEXT id="msgmovie_dvd_none"	value="Nessun disco." />
+	<TEXT id="msgmovie_dvd_error"	value="Impossibile leggere il disco." />
+	<TEXT id="msgmovie_dvd_notplay"	value="Non è possibile riprodurre il disco." />
+	<TEXT id="msgmovie_dvd_noboot"	value="Impossibile avviare il lettore DVD." />
+	<TEXT id="msgmovie_warn_wait"	value="Attendi qualche istante affinché il film venga riprodotto." />
+	<TEXT id="msgmovie_warn_wait2"	value="" />
+	<TEXT id="msgmovie_warn_console_power"	value="Non spegnere la PlayStation®2." />
+	<TEXT id="msgmovie_warn_console_disctray"	value="Non aprire il vassoio del disco." />
+
+	<TEXT id="msgtop_localdisk_nodisc">Nessun disco.</TEXT>
+
+	<TEXT id="text_error_not_psbbdisc">Disco sbagliato.
+Inserisci un disco PlayStation®BB.</TEXT>
+
+	<TEXT id="text_error_unknown">Si è verificato un errore durante la lettura del disco.
+(%ERRORE)</TEXT>
+
+	<LINK id="top" href="../top.xml" />
+
+</RESOURCE>
