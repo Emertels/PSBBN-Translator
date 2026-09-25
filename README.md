@@ -13,7 +13,6 @@
 [![Idiomas](https://img.shields.io/badge/Idiomas-40%20Suportados-success.svg)](#-matriz-global-de-40-idiomas)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%20%2B-blue?logo=powershell&logoColor=white)](https://microsoft.com/powershell)
 [![Autor](https://img.shields.io/badge/Autor-Emerson%20Teles-blueviolet)](https://github.com/Emertels)
-[![Colaborador](https://img.shields.io/badge/Colaborador-CosmicScale-ff69b4)](https://github.com/CosmicScale)
 
 <br/>
 
@@ -23,7 +22,7 @@
 
 ---
 
-A **Suíte de Tradução Multilíngue do PSBBN** é um conjunto de ferramentas corporativas de localização, tradução e empacotamento automatizado desenvolvido por **Emerson Teles** especificamente para o **PSBBN Definitive Project** do **CosmicScale** (PlayStation Broadband Navigator para PlayStation 2, montado e modificado pelo CosmicScale).
+A **Suíte de Tradução Multilíngue do PSBBN** é um ecossistema completo de ferramentas de localização, tradução e empacotamento automatizado desenvolvido exclusivamente por **Emerson Teles** para traduzir, localizar e empacotar o sistema operacional **PSBBN** (PlayStation Broadband Navigator para PlayStation 2, criado originalmente pela Sony e compatível com a modificação moderna PSBBN Definitive Project).
 
 A suíte traduz, formata, verifica e empacota todo o sistema operacional PSBBN, scripts de instalação, inicializadores, históricos de alterações (changelogs) e documentação técnica em **40 idiomas** com zero intervenção manual.
 
@@ -192,8 +191,9 @@ powershell.exe -ExecutionPolicy Bypass -File "Readme\Translate-README.ps1"
 
 ## 👨‍💻 Créditos e Agradecimentos
 
-* **Emerson Teles** — Desenvolvedor principal, arquiteto da Suíte de Tradução Multilíngue do PSBBN, criador do injetor binário POSIX, dos algoritmos de ajuste de linha para terminal, da auditoria de integridade AST e do pipeline automatizado.
-* **CosmicScale** — Fundador, idealizador e mantenedor do **PSBBN Definitive Project**, modder principal do PS2 e autor dos scripts, guias e ecossistema de patches oficiais upstream.
+* **Emerson Teles** — Desenvolvedor principal e autor exclusivo da Suíte de Tradução Multilíngue do PSBBN, criador do injetor binário POSIX, dos algoritmos de ajuste de linha para terminal, da auditoria de integridade AST e do pipeline automatizado.
+* **Sony Computer Entertainment** — Desenvolvedora original do sistema operacional PlayStation Broadband Navigator (PSBBN) para PlayStation 2.
+* **CosmicScale** — Autor da modificação moderna PSBBN Definitive Project para PS2 (projeto alvo das traduções).
 
 ---
 
@@ -204,7 +204,7 @@ Desenvolvido e mantido por **Emerson Teles** (conhecido na comunidade como **Eme
 Apaixonado por tecnologia, informática, jogos, manutenção de sistemas e tradução/localização de softwares e emuladores para o Português do Brasil (PT-BR).
 
 ### 🛠️ Projetos & Contribuições Notáveis:
-- **Emulação & Consoles:** Criador e arquiteto da **Suíte de Tradução Multilíngue do PSBBN** para o PS2 (40 idiomas) em colaboração com CosmicScale; localização e suporte a emuladores como **PSBBN** (PlayStation Broadband Navigator do PS2), **PCSX2**, **Dolphin**, **shadPS4**, **Azahar** e **RetroArch**.
+- **Emulação & Consoles:** Criador e arquiteto da **Suíte de Tradução Multilíngue do PSBBN** para o PS2 (40 idiomas); localização e suporte a emuladores como **PSBBN** (PlayStation Broadband Navigator do PS2), **PCSX2**, **Dolphin**, **shadPS4**, **Azahar** e **RetroArch**.
 - **Softwares & Utilitários:** Tradução 100% de **DSX** (DualSense X - Trusted Translator), **ASUS GPU Tweak III**, **dnGrep**, **XWidget** e ferramentas web (**DualSense Tester**, **DualShock Tools**).
 - **Jogos:** Tradução de **Silent Hill 5: Homecoming**, projetos em andamento em **Silent Hill 4: The Room** e diversos outros aplicativos.
 

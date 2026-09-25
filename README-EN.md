@@ -13,7 +13,6 @@
 [![Languages](https://img.shields.io/badge/Languages-40%20Supported-success.svg)](#-global-40-languages-matrix)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%20%2B-blue?logo=powershell&logoColor=white)](https://microsoft.com/powershell)
 [![Author](https://img.shields.io/badge/Author-Emerson%20Teles-blueviolet)](https://github.com/Emertels)
-[![Collaborator](https://img.shields.io/badge/Collaborator-CosmicScale-ff69b4)](https://github.com/CosmicScale)
 
 <br/>
 
@@ -193,8 +192,9 @@ powershell.exe -ExecutionPolicy Bypass -File "Readme\Translate-README.ps1"
 
 ## 👨‍💻 Credits & Acknowledgments
 
-* **Emerson Teles** — Lead developer, architect of the PSBBN Multilingual Translation Suite, POSIX binary header injector, dynamic line-fitting algorithms, AST syntax auditor, and translation pipeline automation.
-* **CosmicScale** — Founder, visionary, and maintainer of the **PSBBN Definitive Project**, lead PS2 modder, and author of the official upstream scripts, guides, and patch ecosystem.
+* **Emerson Teles** — Lead developer and sole creator of the PSBBN Multilingual Translation Suite, author of the POSIX binary injector, terminal line-wrapping algorithms, AST integrity auditor, and automated pipeline.
+* **Sony Computer Entertainment** — Original developer of the PlayStation Broadband Navigator (PSBBN) operating system for PlayStation 2.
+* **CosmicScale** — Author of the modern PSBBN Definitive Project modification for PS2 (target platform of the translation suite).
 
 ---
 
@@ -205,7 +205,7 @@ Developed and maintained by **Emerson Teles** (known in the community as **Emert
 Passionate about technology, PC computing, gaming, system maintenance, and open software/emulator localization into Brazilian Portuguese (PT-BR).
 
 ### 🛠️ Notable Projects & Contributions:
-- **Emulation & Consoles:** Architect & creator of the **PSBBN Multilingual Translation Suite** (40 languages) for PS2 in collaboration with CosmicScale; localization and community support for **PSBBN** (PlayStation Broadband Navigator), **PCSX2**, **Dolphin**, **shadPS4**, **Azahar**, and **RetroArch**.
+- **Emulation & Consoles:** Architect & creator of the **PSBBN Multilingual Translation Suite** (40 languages) for PS2; localization and community support for **PSBBN** (PlayStation Broadband Navigator), **PCSX2**, **Dolphin**, **shadPS4**, **Azahar**, and **RetroArch**.
 - **Software & Utilities:** 100% Brazilian localization for **DSX** (DualSense X - Trusted Translator), **ASUS GPU Tweak III**, **dnGrep**, **XWidget**, and web utilities (**DualSense Tester**, **DualShock Tools**).
 - **Games & Apps:** Localization of **Silent Hill 5: Homecoming**, ongoing translation for **Silent Hill 4: The Room**, and various Android & PC applications.
 
