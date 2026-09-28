@@ -1,9 +1,12 @@
 # Documentos internos e relatorios de desenvolvimento
 /_Docs/
 
-# Caches de traducao temporarios
+# Caches de traducao temporarios e pastas de saida
 cache_*.json
 *.zip
+*.tar.gz
+**/output/
+/System PSBBN/output/
 
 # Arquivos temporarios e lixo do Windows
 *.tmp
