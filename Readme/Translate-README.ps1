@@ -1,6 +1,6 @@
 ﻿<#
 ========================================================================================
-PSBBN CHANGELOG MAIN TRANSLATOR - V1
+PSBBN README TRANSLATOR - V1.1 [v1.1.0]
 Author: Emerson Teles (CosmicScale)
 Standalone Modular Implementation (40 Languages, Self-Contained)
 ========================================================================================
@@ -261,7 +261,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Копиране на пълна структура и двоични файлове...'
         "Step2TranslatingXml" = '[*] [2/3] Превеждам {0} системни XML файлове...'
         "Step3TranslatingAtok" = '[*] [3/3] Превод на {0} ATOK HTML помощни файлове...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Системен PSBBN преводач [By Emerson Teles]'
         "TextureDisclaimer" = 'Забележка: Текстури (.tm2 / .png) съдържат вградени графики и изискват   ръчно редактиране; те не се променят от скрипта. Системните текстови   файлове (XML, HTML, txt) са 100% преведени.'
         "Translating" = 'Превод'
@@ -357,7 +357,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] সম্পূর্ণ কাঠামো এবং বাইনারি অনুলিপি করা...'
         "Step2TranslatingXml" = '[*] [2/3] {0} সিস্টেম এক্সএমএল ফাইল অনুবাদ করা হচ্ছে...'
         "Step3TranslatingAtok" = '[*] [3/3] অনুবাদ করা হচ্ছে {0} ATOK HTML সহায়তা ফাইল...'
-        "SuiteTitle" = 'PSBBN বহুভাষিক অনুবাদ স্যুট - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN বহুভাষিক অনুবাদ স্যুট - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'বিজ্ঞপ্তি: টেক্সচার (.tm2 / .png) এম্বেডেড গ্রাফিক্স ধারণ কর��� এবং   ম্যানুয়াল এডিটিং প্রয়োজন; তারা স্ক্রিপ্ট দ্বারা পরিবর্তিত হয় না.   সিস্টেম টেক্সট ফাইল (XML, HTML, txt) 100% অনূদিত।'
         "Translating" = 'অনুবাদ করছে'
@@ -453,7 +453,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kopírování kompletní struktury a binárních souborů...'
         "Step2TranslatingXml" = '[*] [2/3] Překlad {0} systémových souborů XML...'
         "Step3TranslatingAtok" = '[*] [3/3] Překlad {0} souborů nápovědy HTML ATOK...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite – V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite – V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Upozornění: Textury (.tm2 / .png) vyžadují ruční grafickou úpravu (mimo skript). Sada překládá 100 % textů systémových souborů (XML, HTML, nabídky a skripty).'
         "Translating" = 'Překlad'
@@ -549,7 +549,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kopierer komplet struktur og binære filer...'
         "Step2TranslatingXml" = '[*] [2/3] Oversættelse af {0} system-XML-filer...'
         "Step3TranslatingAtok" = '[*] [3/3] Oversættelse af {0} ATOK HTML-hjælpefiler...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Notice .pngdgraphics (.pngd) em kræver manuel redigering; de ændres   ikke af scriptet. Systemtekstfiler (XML, HTML, txt) er 100 % oversat.'
         "Translating" = 'Oversættelse'
@@ -645,7 +645,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kopieren der vollständigen Struktur und Binärdateien...'
         "Step2TranslatingXml" = '[*] [2/3] Übersetzen von {0} System-XML-Dateien...'
         "Step3TranslatingAtok" = '[*] [3/3] Übersetzen von {0} ATOK-HTML-Hilfedateien...'
-        "SuiteTitle" = 'PSBBN Mehrsprachige Übersetzungs-Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Mehrsprachige Übersetzungs-Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Übersetzer [By Emerson Teles]'
         "TextureDisclaimer" = 'Hinweis: Texturen (.tm2 / .png) erfordern manuelle Grafikbearbeitung. Die Suite übersetzt 100 % der Systemdateitexte (XML, HTML, Menüs und Skripte).'
         "Translating" = 'Übersetze'
@@ -741,7 +741,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Αντιγραφή πλήρους δομής και δυαδικών αρχείων...'
         "Step2TranslatingXml" = '[*] [2/3] Μετάφραση {0} αρχείων XML συστήματος...'
         "Step3TranslatingAtok" = '[*] [3/3] Μετάφραση {0} ATOK HTML αρχείων βοήθειας...'
-        "SuiteTitle" = 'PSBBN Πολυγλωσσική Σουίτα μετάφρασης - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Πολυγλωσσική Σουίτα μετάφρασης - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Μεταφραστής συστήματος PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Σημείωση: Οι υφές (.tm2 / .png) περιέχουν ενσωματωμένα γραφικά και   απαιτούν μη αυτόματη επεξεργασία. δεν αλλοιώνονται από το σενάριο. Τα   αρχεία κειμένου συστήματος (XML, HTML, txt) μεταφράζονται 100%.'
         "Translating" = 'Μετάφραση'
@@ -837,7 +837,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Copying complete structure and binaries...'
         "Step2TranslatingXml" = '[*] [2/3] Translating {0} system XML files...'
         "Step3TranslatingAtok" = '[*] [3/3] Translating {0} ATOK HTML help files...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Notice: Textures (.tm2 / .png) require manual graphic editing (not via script). The suite translates 100% of system file texts (XML, HTML, menus and scripts).'
         "Translating" = 'Translating'
@@ -933,7 +933,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Copiando estructura completa y binarios...'
         "Step2TranslatingXml" = '[*] [2/3] Traduciendo {0} archivos XML del sistema...'
         "Step3TranslatingAtok" = '[*] [3/3] Traduciendo {0} archivos HTML de ayuda de ATOK...'
-        "SuiteTitle" = 'Suite Multilingüe de Traducción PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'Suite Multilingüe de Traducción PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Traductor System PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Aviso: Las texturas (.tm2 / .png) requieren edición gráfica manual (no por script). La suite traduce el 100% de los textos del sistema (XML, HTML, menús y scripts).'
         "Translating" = 'Traduciendo'
@@ -1029,7 +1029,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] کپی ساختار کامل و باینری ها...'
         "Step2TranslatingXml" = '[*] [2/3] ترجمه فایل های XML سیستم {0}...'
         "Step3TranslatingAtok" = '[*] [3/3] ترجمه فایل های راهنمای {0} ATOK HTML...'
-        "SuiteTitle" = 'مجموعه ترجمه چند زبانه PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'مجموعه ترجمه چند زبانه PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'مترجم سیستم PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'توجه: بافت‌ها (tm2. / .png) حاوی گرافیک‌های تعبیه‌شده هستند و نیاز به   ویرایش دستی دارند. آنها توسط فیلمنامه تغییر نمی کنند. فایل های متنی   سیستم (XML، HTML، txt) 100٪ ترجمه شده اند.'
         "Translating" = 'در حال ترجمه'
@@ -1125,7 +1125,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kopioidaan koko rakennetta ja binääritiedostoja...'
         "Step2TranslatingXml" = '[*] [2/3] Käännetään {0} järjestelmän XML-tiedostoja...'
         "Step3TranslatingAtok" = '[*] [3/3] Käännetään {0} ATOK HTML -aputiedostoja...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Järjestelmän PSBBN-kääntäjä [By Emerson Teles]'
         "TextureDisclaimer" = 'Huomautus: Tekstuurit (.tm2 / .png) sisältävät upotettua grafiikkaa ja   vaativat manuaalisen muokkauksen; käsikirjoitus ei muuta niitä.   Järjestelmän tekstitiedostot (XML, HTML, txt) käännetään   100-prosenttisesti.'
         "Translating" = 'Kääntäminen'
@@ -1221,7 +1221,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Copie de la structure complète et des binaires...'
         "Step2TranslatingXml" = '[*] [2/3] Traduction de {0} fichiers XML système...'
         "Step3TranslatingAtok" = '[*] [3/3] Traduction de {0} fichiers HTML d''aide ATOK...'
-        "SuiteTitle" = 'Suite de Traduction Multilingue PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'Suite de Traduction Multilingue PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Traducteur System PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Remarque : Les textures (.tm2 / .png) nécessitent une retouche manuelle. La suite traduit 100% des textes système (XML, HTML, menus et scripts).'
         "Translating" = 'Traduction en cours'
@@ -1317,7 +1317,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] संपूर्ण संरचना और बायनेरिज़ की प्रतिलिपि बनाना...'
         "Step2TranslatingXml" = '[*] [2/3] {0} सिस्टम XML फ़ाइलों का अनुवाद...'
         "Step3TranslatingAtok" = '[*] [3/3] {0} ATOK HTML सहायता फ़ाइलों का अनुवाद...'
-        "SuiteTitle" = 'PSBBN बहुभाषी अनुवाद सूट - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN बहुभाषी अनुवाद सूट - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'सिस्टम PSBBN अनुवादक [By Emerson Teles]'
         "TextureDisclaimer" = 'सूचना: बनावट (.tm2 / .png) में एम्बेडेड ग्राफिक्स होते हैं और मैन्युअल   संपादन की आवश्यकता होती है; उन्हें स्क्रिप्ट द्वारा बदला नहीं जाता है।   सिस्टम टेक्स्ट फ़ाइलें (XML, HTML, txt) 100% अनुवादित हैं।'
         "Translating" = 'अनुवाद करना'
@@ -1413,7 +1413,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kopiranje kompletne strukture i binarnih datoteka...'
         "Step2TranslatingXml" = '[*] [2/3] Prevođenje {0} sistemskih XML datoteka...'
         "Step3TranslatingAtok" = '[*] [3/3] Prijevod {0} ATOK HTML datoteka pomoći...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Prevoditelj sustava PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Obavijest: Teksture (.tm2 / .png) sadrže ugrađenu grafiku i   zahtijevaju ručno uređivanje; skripta ih ne mijenja. Sistemske   tekstualne datoteke (XML, HTML, txt) su 100% prevedene.'
         "Translating" = 'Prijevod'
@@ -1509,7 +1509,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Teljes szerkezet és binárisok másolása...'
         "Step2TranslatingXml" = '[*] [2/3] {0} rendszer XML-fájlok fordítása...'
         "Step3TranslatingAtok" = '[*] [3/3] {0} ATOK HTML súgófájlok fordítása...'
-        "SuiteTitle" = 'PSBBN többnyelvű fordítócsomag – V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN többnyelvű fordítócsomag – V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Rendszer PSBBN fordító [By Emerson Teles]'
         "TextureDisclaimer" = 'Megjegyzés: A textúrák (.tm2 / .png) beágyazott grafikát tartalmaznak,   és kézi szerkesztést igényelnek; ezeket nem változtatja meg a   forgatókönyv. A rendszer szöveges fájlok (XML, HTML, txt) 100%-ban le   vannak fordítva.'
         "Translating" = 'Fordítás'
@@ -1605,7 +1605,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Menyalin struktur dan biner lengkap...'
         "Step2TranslatingXml" = '[*] [2/3] Menerjemahkan {0} file XML sistem...'
         "Step3TranslatingAtok" = '[*] [3/3] Menerjemahkan {0} file bantuan ATOK HTML...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Sistem PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Pemberitahuan: Tekstur (.tm2 / .png) berisi grafik tertanam dan   memerlukan pengeditan manual; tidak diubah oleh skrip. File teks   sistem (XML, HTML, txt) 100% diterjemahkan.'
         "Translating" = 'Menerjemahkan'
@@ -1701,7 +1701,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Copia della struttura completa e dei binari...'
         "Step2TranslatingXml" = '[*] [2/3] Traduzione di {0} file XML di sistema...'
         "Step3TranslatingAtok" = '[*] [3/3] Traduzione di {0} file HTML di guida ATOK...'
-        "SuiteTitle" = 'Suite Multilingue di Traduzione PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'Suite Multilingue di Traduzione PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Traduttore System PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Avviso: Le texture (.tm2 / .png) richiedono modifiche grafiche manuali. La suite traduce al 100% i testi di sistema (XML, HTML, menu e script).'
         "Translating" = 'Traduzione in corso'
@@ -1797,7 +1797,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] העתקת מבנה מלא וקבצים בינאריים...'
         "Step2TranslatingXml" = '[*] [2/3] תרגום {0} קבצי XML של מערכת...'
         "Step3TranslatingAtok" = '[*] [3/3] תרגום {0} ATOK HTML קבצי עזרה...'
-        "SuiteTitle" = 'ערכת תרגום רב-לשונית PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'ערכת תרגום רב-לשונית PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'מתרגם מערכת PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'הערה: טקסטורות (.tm2 / .png) מכילות גרפיקה מוטמעת ודורשות   עריכה ידנית; הן אינן משתנות על ידי הסקריפט. קובצי טקסט של המערכת   (XML, HTML, txt) מתורגמים ב-100%.'
         "Translating" = 'מתרגם'
@@ -1893,7 +1893,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] 完全な構造とバイナリをコピーしています...'
         "Step2TranslatingXml" = '[*] [2/3] {0} 個のシステムXMLファイルを翻訳しています...'
         "Step3TranslatingAtok" = '[*] [3/3] {0} 個のATOK HTMLヘルプファイルを翻訳しています...'
-        "SuiteTitle" = 'PSBBN 多言語翻訳スイート - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN 多言語翻訳スイート - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN 翻訳機 [By Emerson Teles]'
         "TextureDisclaimer" = '注意: テクスチャ(.tm2 / .png)は手動での画像編集が必要です。 システムテキスト(XML, HTML, メニュー, スクリプト)は100%翻訳されます。'
         "Translating" = '翻訳中'
@@ -1989,7 +1989,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] 전체 구조 및 바이너리 복사 중...'
         "Step2TranslatingXml" = '[*] [2/3] __0___ 시스템 XML 파일을 번역하는 중...'
         "Step3TranslatingAtok" = '[*] [3/3] __0___ ATOK HTML 도움말 파일 번역 중...'
-        "SuiteTitle" = 'PSBBN 다국어 번역 제품군 - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN 다국어 번역 제품군 - V1.1 [By Emerson Teles]'
         "SystemTitle" = '시스템 PSBBN 번역기 [By Emerson Teles]'
         "TextureDisclaimer" = '주의 사항: 텍스처(.tm2 / .png)에는 내장 그래픽이 포함되어 있으며 수동 편집이 필요합니다. 스크립트에 의해 변경되지   않습니다. 시스템 텍스트 파일(XML, HTML, txt)은 100% 번역됩니다.'
         "Translating" = '번역 중'
@@ -2085,7 +2085,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [१/३] संपूर्ण रचना आणि बायनरी कॉपी करणे...'
         "Step2TranslatingXml" = '[*] [२/३] {0} सिस्टीम एक्सएमएल फाइल्सचे भाषांतर करत आहे...'
         "Step3TranslatingAtok" = '[*] [३/३] {0} एटीओके एचटीएमएल मदत फाइल्सचे भाषांतर करत आहे...'
-        "SuiteTitle" = 'PSBBN बहुभाषिक भाषांतर सूट - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN बहुभाषिक भाषांतर सूट - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'सिस्टम PSBBN अनुवादक [By Emerson Teles]'
         "TextureDisclaimer" = 'सूचना: टेक्सचर (.tm2 / .png) मध्ये एम्बेडेड ग्राफिक्स असतात आणि   मॅन्युअल एडिटिंग आवश्यक असते; ते लिपीद्वारे बदललेले नाहीत. सिस्टम   मजकूर फाइल्स (XML, HTML, txt) 100% अनुवादित आहेत.'
         "Translating" = 'भाषांतर करत आहे'
@@ -2181,7 +2181,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Menyalin struktur lengkap dan binari...'
         "Step2TranslatingXml" = '[*] [2/3] Menterjemah {0} fail XML sistem...'
         "Step3TranslatingAtok" = '[*] [3/3] Menterjemah {0} fail bantuan HTML ATOK...'
-        "SuiteTitle" = 'Suit Terjemahan Berbilang Bahasa PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'Suit Terjemahan Berbilang Bahasa PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Penterjemah Sistem PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Nota: Tekstur (.tm2 / .png) mengandungi grafik terbenam dan memerlukan   penyuntingan manual; ia tidak diubah suai oleh skrip. Fail teks   sistem (XML, HTML, txt) 100% diterjemahkan.'
         "Translating" = 'Menterjemah'
@@ -2277,7 +2277,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Volledige structuur en binaire bestanden kopiëren...'
         "Step2TranslatingXml" = '[*] [2/3] {0} systeem-XML-bestanden vertalen...'
         "Step3TranslatingAtok" = '[*] [3/3] {0} ATOK HTML-helpbestanden vertalen...'
-        "SuiteTitle" = 'PSBBN Meertalige vertaalsuite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Meertalige vertaalsuite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Systeem PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Opmerking: Texturen (.tm2 / .png) bevatten ingebedde afbeeldingen en   vereisen handmatige bewerking; ze worden niet gewijzigd door het   script. Systeemtekstbestanden (XML, HTML, txt) zijn 100% vertaald.'
         "Translating" = 'Vertalen'
@@ -2373,7 +2373,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kopierer fullstendig struktur og binærfiler...'
         "Step2TranslatingXml" = '[*] [2/3] Oversetter {0} system XML-filer...'
         "Step3TranslatingAtok" = '[*] [3/3] Oversetter {0} ATOK HTML hjelpefiler...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Merk: Teksturer (.tm2 / .png) inneholder innebygd grafikk og krever   manuell redigering; they are not altered by the script. System text   files (XML, HTML, txt) are 100% translated.'
         "Translating" = 'Oversettelse'
@@ -2565,7 +2565,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Copiando estrutura completa e binários...'
         "Step2TranslatingXml" = '[*] [2/3] Traduzindo {0} arquivos XML de sistema...'
         "Step3TranslatingAtok" = '[*] [3/3] Traduzindo {0} arquivos HTML de ajuda do ATOK...'
-        "SuiteTitle" = 'PSBBN Suíte Multilíngue de Tradução - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Suíte Multilíngue de Tradução - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Aviso: Texturas (.tm2 / .png) requerem edição gráfica manual e não via script. A suíte traduz 100% dos textos dos arquivos de sistema (XML, HTML, menus e scripts).'
         "Translating" = 'Traduzindo'
@@ -2661,7 +2661,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] A copiar a estrutura completa e os binários...'
         "Step2TranslatingXml" = '[*] [2/3] A traduzir {0} ficheiros XML do sistema...'
         "Step3TranslatingAtok" = '[*] [3/3] A traduzir {0} ficheiros HTML de ajuda do ATOK...'
-        "SuiteTitle" = 'PSBBN Suíte Multilíngue de Tradução - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Suíte Multilíngue de Tradução - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Aviso: Ficheiros de textura (.tm2 / .png) requerem edição gráfica manual (fora de script). A suíte traduz 100% dos textos dos ficheiros de sistema (XML, HTML, menus e scripts).'
         "Translating" = 'A traduzir'
@@ -2757,7 +2757,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Se copiează structura completă și binarele...'
         "Step2TranslatingXml" = '[*] [2/3] Se traduc {0} fișiere XML de sistem...'
         "Step3TranslatingAtok" = '[*] [3/3] Se traduc {0} ATOK fișiere de ajutor HTML...'
-        "SuiteTitle" = 'Suită de traducere multilingvă PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'Suită de traducere multilingvă PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Notă: Texturile (.tm2 / .png) conțin elemente grafice încorporate și   necesită editare manuală; they are not altered by the script. System   text files (XML, HTML, txt) are 100% translated.'
         "Translating" = 'Traducerea'
@@ -2853,7 +2853,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Копирование полной структуры и двоичных файлов...'
         "Step2TranslatingXml" = '[*] [2/3] Перевод {0} системных XML-файлов...'
         "Step3TranslatingAtok" = '[*] [3/3] Перевод файлов справки {0} ATOK HTML...'
-        "SuiteTitle" = 'Многоязычный пакет перевода PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'Многоязычный пакет перевода PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Переводчик системы PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Примечание: Текстуры (.tm2 / .png) требуют ручного редактирования. Пакет переводит 100% системных текстов (XML, HTML, меню и скрипты).'
         "Translating" = 'Перевод'
@@ -2949,7 +2949,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kopíruje sa úplná štruktúra a binárne súbory...'
         "Step2TranslatingXml" = '[*] [2/3] Preklad {0} systémových súborov XML...'
         "Step3TranslatingAtok" = '[*] [3/3] Prekladá sa {0} ATOK HTML súbory pomocníka...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite – V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite – V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Upozornenie: Textúry (.tm2 / .png) obsahujú vloženú grafiku a vyžadujú   ručnú úpravu; nie sú zmenené scenárom. Systémové textové súbory (XML,   HTML, txt) sú 100% preložené.'
         "Translating" = 'Preklad'
@@ -3141,7 +3141,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kopierar fullständig struktur och binärer...'
         "Step2TranslatingXml" = '[*] [2/3] Översätter {0} system-XML-filer...'
         "Step3TranslatingAtok" = '[*] [3/3] Översätter {0} ATOK HTML-hjälpfiler...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Observera: Texturer (.tm2 / .png) innehåller inbäddad grafik och   kräver manuell redigering; de ändras inte av manuset. Systemtextfiler   (XML, HTML, txt) är 100 % översatta.'
         "Translating" = 'Översätter'
@@ -3237,7 +3237,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] முழுமையான கட்டமைப்பு மற்றும் பைனரிகளை நகலெடுக்கிறது...'
         "Step2TranslatingXml" = '[*] [2/3] {0} சிஸ்டம் எக்ஸ்எம்எல் கோப்புகளை மொழிபெயர்க்கிறது...'
         "Step3TranslatingAtok" = '[*] [3/3] {0} ATOK HTML உதவி கோப்புகளை மொழிபெயர்க்கிறது...'
-        "SuiteTitle" = 'PSBBN பன்மொழி மொழிபெயர்ப்பு தொகுப்பு - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN பன்மொழி மொழிபெயர்ப்பு தொகுப்பு - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'கணினி PSBBN மொழிபெயர்ப்பாளர் [By Emerson Teles]'
         "TextureDisclaimer" = 'குறிப்பு: இழைமங்கள் (.tm2 / .png) உட்பொதிக்கப்பட்ட கிராபிக்ஸ் மற்றும்   கைமுறையாகத் திருத்தம் செய்ய வேண்டும்; அவை ஸ்கிரிப்ட் மூலம்   மாற்றப்பட���ில்லை. கணினி உரை கோப்புகள் (XML, HTML, txt) 100%   மொழிபெயர்க்கப்பட்டுள்ளன.'
         "Translating" = 'மொழிபெயர்த்தல்'
@@ -3333,7 +3333,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] పూర్తి నిర్మాణం మరియు బైనరీలను కాపీ చేస్తోంది...'
         "Step2TranslatingXml" = '[*] [2/3] {0} సిస్టమ్ XML ఫైల్‌లను అనువదిస్తోంది...'
         "Step3TranslatingAtok" = '[*] [3/3] {0} ATOK HTML సహాయ ఫైళ్లను అనువదిస్తోంది...'
-        "SuiteTitle" = 'PSBBN బహుభాషా అనువాద సూట్ - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN బహుభాషా అనువాద సూట్ - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'సిస్టమ్ PSBBN అనువాదకుడు [By Emerson Teles]'
         "TextureDisclaimer" = 'గమనిక: అల్లికలు (.tm2 / .png) పొందుపరిచిన గ్రాఫిక్‌లను కలిగి ఉంటాయి   మరియు మాన్యువల్ సవరణ అవసరం; అవి స్క్రిప్ట్ ద్వారా మార్చబడవు. సిస్టమ్   టెక్స్ట్ ఫైల్‌లు (XML, HTML, txt) 100% అనువదించబడ్డాయి.'
         "Translating" = 'అనువదిస్తోంది'
@@ -3429,7 +3429,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] กำลังคัดลอกโครงสร้างและไบนารีที่สมบูรณ์...'
         "Step2TranslatingXml" = '[*] [2/3] กำลังแปลไฟล์ XML ระบบ {0}...'
         "Step3TranslatingAtok" = '[*] [3/3] กำลังแปล {0} ATOK ไฟล์วิธีใช้ HTML...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN นักแปล [By Emerson Teles]'
         "TextureDisclaimer" = 'ประกาศ: พื้นผิว (.tm2 / .png)   มีกราฟิกฝังอยู่และต้องมีการแก้ไขด้วยตนเอง   สคริปต์จะไม่มีการเปลี่ยนแปลงใดๆ ไฟล์ข้อความระบบ (XML, HTML, txt)   ได้รับการแปลแล้ว 100%'
         "Translating" = 'การแปล'
@@ -3525,7 +3525,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Kinokopya ang kumpletong istraktura at binary...'
         "Step2TranslatingXml" = '[*] [2/3] Nagsasalin ng {0} system XML file...'
         "Step3TranslatingAtok" = '[*] [3/3] Nagsasalin ng {0} ATOK HTML na mga help file...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Tagasalin ng System PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Notice: Textures (.tm2 / .png) contain embedded graphics and require   manual editing; hindi sila binabago ng script. Ang mga text file ng   system (XML, HTML, txt) ay 100% isinalin.'
         "Translating" = 'Pagsasalin'
@@ -3621,7 +3621,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Tüm yapı ve ikili dosyalar kopyalanıyor...'
         "Step2TranslatingXml" = '[*] [2/3] __0___ sistem XML dosyaları çevriliyor...'
         "Step3TranslatingAtok" = '[*] [3/3] __0___ ATOK HTML yardım dosyaları çevriliyor...'
-        "SuiteTitle" = 'PSBBN Çok Dilde Çeviri Paketi - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Çok Dilde Çeviri Paketi - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Sistem PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Dikkat: Dokular (.tm2 / .png) gömülü grafikler içerir ve manuel   düzenleme gerektirir; komut dosyası tarafından değiştirilmezler.   Sistem metin dosyaları (XML, HTML, txt) %100 çevrilmiştir.'
         "Translating" = 'Çeviri'
@@ -3717,7 +3717,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Копіювання повної структури та двійкових файлів...'
         "Step2TranslatingXml" = '[*] [2/3] Переклад {0} системних файлів XML...'
         "Step3TranslatingAtok" = '[*] [3/3] Переклад файлів довідки {0} ATOK HTML...'
-        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN Multilingual Translation Suite - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'Перекладач системного PSBBN [By Emerson Teles]'
         "TextureDisclaimer" = 'Примітка: текстури (.tm2 / .png) містять вбудовану графіку ��а   потребують редагування вручну; вони не змінюються сценарієм. Системні   текстові файли (XML, HTML, txt) перекладено на 100%.'
         "Translating" = 'Переклад'
@@ -3813,7 +3813,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] Sao chép cấu trúc hoàn chỉnh và nhị phân...'
         "Step2TranslatingXml" = '[*] [2/3] Dịch {0} tệp XML hệ thống...'
         "Step3TranslatingAtok" = '[*] [3/3] Dịch {0} Tệp trợ giúp HTML ATOK...'
-        "SuiteTitle" = 'Bộ dịch đa ngôn ngữ PSBBN - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'Bộ dịch đa ngôn ngữ PSBBN - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = 'Lưu ý: Hoạ tiết (.tm2 / .png) chứa đồ họa nhúng và yêu cầu chỉnh sửa   thủ công; chúng không bị thay đổi bởi tập lệnh. Các tệp văn bản hệ   thống (XML, HTML, txt) được dịch 100%.'
         "Translating" = 'Dịch'
@@ -3909,7 +3909,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] 复制完整的结构和二进制文件...'
         "Step2TranslatingXml" = '[*] [2/3] 正在翻译 {0} 系统 XML 文件...'
         "Step3TranslatingAtok" = '[*] [3/3] 翻译 {0} ATOK HTML 帮助文件...'
-        "SuiteTitle" = 'PSBBN 多语言翻译套件 - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN 多语言翻译套件 - V1.1 [By Emerson Teles]'
         "SystemTitle" = 'System PSBBN Translator [By Emerson Teles]'
         "TextureDisclaimer" = '注意：纹理（.tm2 / .png）需要手动图像编辑，不受脚本处理。 本套件100%翻译系统文件文本（XML、HTML、菜单和脚本）。'
         "Translating" = '正在翻译'
@@ -4005,7 +4005,7 @@ $Global:UI_Translations40 = @{
         "Step1Copying" = '[*] [1/3] 複製完整的結構和二進位檔案...| 技術公告]：'
         "Step2TranslatingXml" = '[*] [2/3] 正在翻譯 {0} 系統 XML 檔案...'
         "Step3TranslatingAtok" = '[*] [3/3] 正在翻譯 {0} ATOK HTML 說明文件...'
-        "SuiteTitle" = 'PSBBN 多語言翻譯套件 - V1 [By Emerson Teles]'
+        "SuiteTitle" = 'PSBBN 多語言翻譯套件 - V1.1 [By Emerson Teles]'
         "SystemTitle" = '系統 PSBBN 翻譯器 [By Emerson Teles]'
         "TextureDisclaimer" = '注意：紋理 (.tm2 / .png) 需要手動圖像編輯，不受腳本處理。 本套件100%翻譯系統文字檔案 (XML, HTML, 功能表和腳本)。'
         "Translating" = '正在翻譯'
@@ -4792,6 +4792,24 @@ function Apply-TermReplacements($text, $targetLangObj, [bool]$isChangelog = $fal
     $res = $res -replace '(?i)XYZ[A-Z0-9_]*NAVIGA[A-Z0-9_]*', 'Navigator Menu'
     $res = $res -replace '(?i)XYZ\s*(_\s*)?HOSDMENU[A-Z0-9_]*', 'HOSDMenu'
 
+    # Developer Name (CosmicScale) - Never translate in any language
+    $res = $res -replace 'XYZ\s*(_\s*)?COSMIC_?SCALE\s*(_\s*)?XYZ', 'CosmicScale'
+    $res = $res -replace '(?i)\b(?:Escala\s+C[oó]smica|Kosmische\s+Skala|Echelle\s+Cosmique|Scala\s+Cosmica|Cosmic\s+Scale)\b', 'CosmicScale'
+
+    # Controller Buttons (START / SELECT) - Protected in English across all languages
+    $res = $res -replace 'XYZ\s*(_\s*)?BTN_?START\s*(_\s*)?XYZ', 'START'
+    $res = $res -replace 'XYZ\s*(_\s*)?BTN_?SELECT\s*(_\s*)?XYZ', 'SELECT'
+    $res = [regex]::Replace($res, '(?i)\b(?:SELECCIONAR|SELECIONAR|SÉLECTIONNER)\s*\+\s*(?:INICIO|COMENZAR|INICIAR|DÉMARRER)\b', 'SELECT + START')
+    $res = [regex]::Replace($res, '(?i)\b(?:INICIO|COMENZAR|INICIAR|DÉMARRER)\s*\+\s*(?:SELECCIONAR|SELECIONAR|SÉLECTIONNER)\b', 'START + SELECT')
+    $res = [regex]::Replace($res, '(?i)(?<=\b(?:botón|botão|bouton|taste|knapp|pulsante|button)\s+)(?:INICIO|COMENZAR|INICIAR|DÉMARRER)\b', 'START')
+    $res = [regex]::Replace($res, '(?i)(?<=\b(?:botón|botão|bouton|taste|knapp|pulsante|button)\s+)(?:SELECCIONAR|SELECIONAR|SÉLECTIONNER)\b', 'SELECT')
+    $res = [regex]::Replace($res, '(?i)\b(?:INICIO|COMENZAR|INICIAR|DÉMARRER)\s+(?=botón|botão|bouton|taste|knapp|pulsante|button\b)', 'START ')
+
+    # Fail-safe tokens sweep
+    $res = $res -replace '(?i)XYZ\s*(_\s*)?COSMIC[A-Z0-9_]*', 'CosmicScale'
+    $res = $res -replace '(?i)XYZ\s*(_\s*)?BTN_?START[A-Z0-9_]*', 'START'
+    $res = $res -replace '(?i)XYZ\s*(_\s*)?BTN_?SELECT[A-Z0-9_]*', 'SELECT'
+
     return $res
 }
 
@@ -4809,10 +4827,12 @@ function Tokenize-MarkdownTokens([string]$text, [ref]$tokensMap) {
 
     $c = $text
 
-    # 1. Inline code: `...` -> <code>...</code>
+    # 1. Inline code: `...` -> XYZICODE_0_XYZ (Keeps backticked code in memory untouched by translation)
     $c = [regex]::Replace($c, '`([^`\r\n]+)`', {
         param($m)
-        return "<code>" + $m.Groups[1].Value + "</code>"
+        $idx = $map.codes.Count
+        $map.codes.Add($m.Groups[1].Value)
+        return "XYZICODE_${idx}_XYZ"
     })
 
     # 2. Markdown link URLs: ](url) -> ](https://uN.link)
@@ -4846,6 +4866,15 @@ function Tokenize-MarkdownTokens([string]$text, [ref]$tokensMap) {
 function Protect-TermsBeforeTranslation([string]$text) {
     if ([string]::IsNullOrWhiteSpace($text)) { return $text }
     $c = $text
+
+    # Developer name protection (CosmicScale) - Never translate into any language
+    $c = $c -replace '\bCosmicScale\b', 'XYZ_COSMIC_SCALE_XYZ'
+    $c = $c -replace '\bCosmic\s+Scale\b', 'XYZ_COSMIC_SCALE_XYZ'
+
+    # Controller buttons: START and SELECT (Case-sensitive shield: ALL-CAPS = Controller Button)
+    # Natural language uses ('to start', 'Select which', 'Start menu') are in lower/TitleCase and will translate naturally.
+    $c = $c -creplace '\bSTART\b', 'XYZ_BTN_START_XYZ'
+    $c = $c -creplace '\bSELECT\b', 'XYZ_BTN_SELECT_XYZ'
 
     # 1. Project & Tools
     $c = $c -replace 'PSBBN Definitive Project', 'XYZ_PSBBN_DEF_PROJECT_XYZ'
@@ -4900,11 +4929,11 @@ function Restore-MarkdownTokens([string]$text, $map) {
     if ([string]::IsNullOrWhiteSpace($text) -or $null -eq $map) { return $text }
     $c = $text
 
-    # 1. Restore HTML tags
+    # 1. Restore HTML tags (strictly bounded regex to avoid swallowing adjacent tags like <p></p>)
     if ($map.tags -and $map.tags.Count -gt 0) {
-        $c = [regex]::Replace($c, '(?i)XYZ\s*HTML\s*TAG\D*(\d+)\D*(?:XYZ)?', {
+        $c = [regex]::Replace($c, '(?i)XYZ\s*HTML\s*TAG\s*(_\s*)?(\d+)\s*(_\s*)?XYZ', {
             param($m)
-            $idx = [int]$m.Groups[1].Value
+            $idx = [int]$m.Groups[2].Value
             if ($idx -lt $map.tags.Count) { return $map.tags[$idx] }
             return $m.Value
         })
@@ -4930,10 +4959,39 @@ function Restore-MarkdownTokens([string]$text, $map) {
         })
     }
 
-    # 4. Restore inline code: <code>...</code> -> `...`
-    $c = [regex]::Replace($c, '</?code>', '`')
+    # 4. Restore inline code from memory: XYZICODE_${idx}_XYZ -> `original_code`
+    if ($map.codes -and $map.codes.Count -gt 0) {
+        $c = [regex]::Replace($c, '(?i)XYZ\s*ICODE\s*(_\s*)?(\d+)\s*(_\s*)?XYZ', {
+            param($m)
+            $idx = [int]$m.Groups[2].Value
+            if ($idx -lt $map.codes.Count) { return '`' + $map.codes[$idx] + '`' }
+            return $m.Value
+        })
+        $c = [regex]::Replace($c, '(?i)XYZ\s*CODE\s*(_\s*)?(\d+)\s*(_\s*)?XYZ', {
+            param($m)
+            $idx = [int]$m.Groups[2].Value
+            if ($idx -lt $map.codes.Count) { return '`' + $map.codes[$idx] + '`' }
+            return $m.Value
+        })
+    }
+    # Fail-safe cleanup: If any <code> or <código> or <codigo> survived
+    $c = [regex]::Replace($c, '(?i)</?(?:code|código|codigo)>', '`')
 
-    # 5. Legacy token fallback recovery
+    # 5. Restore Developer Name (CosmicScale)
+    $c = $c -replace '(?i)XYZ\s*(_\s*)?COSMIC_?SCALE\s*(_\s*)?XYZ', 'CosmicScale'
+
+    # 6. Restore Controller Buttons (START / SELECT)
+    $c = $c -replace '(?i)XYZ\s*(_\s*)?BTN_?START\s*(_\s*)?XYZ', 'START'
+    $c = $c -replace '(?i)XYZ\s*(_\s*)?BTN_?SELECT\s*(_\s*)?XYZ', 'SELECT'
+
+    # 7. Post-translation Controller Button Fail-Safe Sweeps
+    $c = [regex]::Replace($c, '(?i)\b(?:SELECCIONAR|SELECIONAR|SÉLECTIONNER)\s*\+\s*(?:INICIO|COMENZAR|INICIAR|DÉMARRER)\b', 'SELECT + START')
+    $c = [regex]::Replace($c, '(?i)\b(?:INICIO|COMENZAR|INICIAR|DÉMARRER)\s*\+\s*(?:SELECCIONAR|SELECIONAR|SÉLECTIONNER)\b', 'START + SELECT')
+    $c = [regex]::Replace($c, '(?i)(?<=\b(?:botón|botão|bouton|taste|knapp|pulsante|button)\s+)(?:INICIO|COMENZAR|INICIAR|DÉMARRER)\b', 'START')
+    $c = [regex]::Replace($c, '(?i)(?<=\b(?:botón|botão|bouton|taste|knapp|pulsante|button)\s+)(?:SELECCIONAR|SELECIONAR|SÉLECTIONNER)\b', 'SELECT')
+    $c = [regex]::Replace($c, '(?i)\b(?:INICIO|COMENZAR|INICIAR|DÉMARRER)\s+(?=botón|botão|bouton|taste|knapp|pulsante|button\b)', 'START ')
+
+    # 8. Legacy token fallback recovery
     if ($map.urls -and $map.urls.Count -gt 0) {
         $c = [regex]::Replace($c, '(?i)\]\s*\(\s*(?:XYZ)?\s*(?:MD|XMD|XYX|YMD)?\s*URL\D*(\d+)[^)]*\)', {
             param($m)
@@ -4951,14 +5009,6 @@ function Restore-MarkdownTokens([string]$text, $map) {
             param($m)
             $idx = [int]$m.Groups[1].Value
             if ($idx -lt $map.urls.Count) { return $map.urls[$idx] }
-            return $m.Value
-        })
-    }
-    if ($map.codes -and $map.codes.Count -gt 0) {
-        $c = [regex]::Replace($c, '(?i)XYZ\s*CODE\D*(\d+)\D*(?:XYZ)?', {
-            param($m)
-            $idx = [int]$m.Groups[1].Value
-            if ($idx -lt $map.codes.Count) { return '`' + $map.codes[$idx] + '`' }
             return $m.Value
         })
     }
@@ -5133,8 +5183,8 @@ function Invoke-ModuleReadme($targetLangObj, $noWait = $false) {
             continue
         }
 
-        # 1. Blank lines or pure markdown syntax elements
-        if ([string]::IsNullOrWhiteSpace($line) -or $line -match '^\s*[-*_]{3,}\s*$' -or $line -match '^\s*</?(details|summary|div|p|span|pre|blockquote|table|tbody|thead|tr|td|th)[^>]*>\s*$') {
+        # 1. Blank lines or pure markdown syntax elements / pure HTML spacer lines (e.g. <p></p>, <br/>, <div></div>)
+        if ([string]::IsNullOrWhiteSpace($line) -or $line -match '^\s*[-*_]{3,}\s*$' -or $line -match '^\s*(?:</?(?:details|summary|div|p|span|pre|blockquote|table|tbody|thead|tr|td|th|br|hr)[^>]*>\s*)+$') {
             & $flushBatch
             $translatedLines.Add($line)
             continue

@@ -1,4 +1,4 @@
-# 🎮 PSBBN Multilingual Translation Suite — PSBBN Definitive Project
+﻿# 🎮 PSBBN Multilingual Translation Suite — PSBBN Definitive Project
 
 <div align="center">
 
@@ -190,6 +190,40 @@ powershell.exe -ExecutionPolicy Bypass -File "Readme\Translate-README.ps1"
 
 ---
 
+---
+
+## 📜 Version History (Changelog)
+
+### [v1.1.0] — 2026-09-28
+
+* **🎮 PlayStation Controller Physical Buttons Protection (START & SELECT):**
+  * Intelligent differentiation between hardware controller buttons and natural language verbs/menus across all 40 languages.
+  * Uppercase buttons (START, SELECT) and controller button combinations (SELECT + START + L1, L1 + ... + START) remain strictly in English, exactly as stamped on original Sony hardware worldwide.
+  * Natural verbs and phrases (To start a graphical interface..., Select which titles appear..., Start menu, Start Mode) localize smoothly and naturally.
+  * Post-translation fail-safe sweeps prevent button combinations or qualifiers like otón START from being localized to INICIO or SELECCIONAR.
+
+* **👤 Developer Name Immunity (CosmicScale):**
+  * The upstream developer and reverse engineer's name **CosmicScale** (or **Cosmic Scale**) is strictly shielded across all 6 submodules and the master suite, preventing literal translation errors (e.g., *"Escala Cósmica"*, *"Kosmische Skala"*, *"Échelle Cosmique"*).
+
+* **💻 Literal Inline Code Preservation (XYZICODE):**
+  * Inline backticked code (` list-builder.py `) is now held directly in memory during Markdown tokenization without HTML <code ...> tags.
+  * Prevents Google Translate from mutating tags to <código> or capitalizing/modifying filenames and commands.
+
+* **🧱 Pure HTML Spacer Lines Bugfix:**
+  * Lines containing solely HTML layout tags (<p></p>, <div></div>) are recognized and bypassed prior to translation engine calls.
+  * Fixed regex greed (\D*) in token restoration, preventing adjacent tag collisions like <p>1_XYZ.
+
+* **🏷️ Visual Identity and Version Bump (v1.1.0 / V1.1):**
+  * Bumped suite version to **v1.1.0** (V1.1 in launcher batch and interactive console banners across all 40 languages).
+  * Updated Autonomous AI Agent Guidelines (AGENTS.md and AGENTS_PTBR.md) with the formal definition of Invariant 19.
+
+---
+
+### [v1.0.0] — 2026-09-25
+* Official launch of the PSBBN Multilingual Translation Suite supporting 40 languages and 6 integrated modules.
+* Direct Windows POSIX 0755 binary permission injection for nupdate.tar.gz.
+* Universal quote normalization for XML attributes with apostrophe/elision immunity in Romance languages.
+
 ## 👨‍💻 Credits & Acknowledgments
 
 * **Emerson Teles** — Lead developer and sole creator of the PSBBN Multilingual Translation Suite, author of the POSIX binary injector, terminal line-wrapping algorithms, AST integrity auditor, and automated pipeline.
@@ -216,11 +250,12 @@ Passionate about technology, PC computing, gaming, system maintenance, and open 
 <div align="left">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Emertels-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emertels)
-[![Discord](https://img.shields.io/badge/Discord-Emertels%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/eRGFqQkvj)
+[![Discord](https://img.shields.io/badge/Discord-Emertels%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/cnTxQhWWQp)
 [![X / Twitter](https://img.shields.io/badge/X_Twitter-@emertels-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/emertels)
 [![YouTube](https://img.shields.io/badge/YouTube-Emerson_Teles-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@emersonteles2379)
 [![Telegram](https://img.shields.io/badge/Telegram-Aplicativos%20Mods-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/apksmodsandroid)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Project-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/emertels)
 
 </div>
+
 

@@ -1,4 +1,4 @@
-# 🎮 Suíte de Tradução Multilíngue do PSBBN — PSBBN Definitive Project
+﻿# 🎮 Suíte de Tradução Multilíngue do PSBBN — PSBBN Definitive Project
 
 <div align="center">
 
@@ -11,6 +11,7 @@
 [![PlayStation 2](https://img.shields.io/badge/Platform-PlayStation%202-003791?logo=playstation&logoColor=white)](https://pt.wikipedia.org/wiki/PlayStation_2)
 [![PSBBN](https://img.shields.io/badge/SO-PSBBN%20v0.32-blue.svg)](https://github.com/CosmicScale/PSBBN-Definitive-Project)
 [![Idiomas](https://img.shields.io/badge/Idiomas-40%20Suportados-success.svg)](#-matriz-global-de-40-idiomas)
+[![Versão](https://img.shields.io/badge/Vers%C3%A3o-v1.1.0-orange.svg)](#-histórico-de-versões-changelog)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%20%2B-blue?logo=powershell&logoColor=white)](https://microsoft.com/powershell)
 [![Autor](https://img.shields.io/badge/Autor-Emerson%20Teles-blueviolet)](https://github.com/Emertels)
 
@@ -189,6 +190,40 @@ powershell.exe -ExecutionPolicy Bypass -File "Readme\Translate-README.ps1"
 
 ---
 
+---
+
+## 📜 Histórico de Versões (Changelog)
+
+### [v1.1.0] — 28/09/2026
+
+* **🎮 Proteção dos Botões Físicos do Controle PlayStation (START e SELECT):**
+  * Implementada diferenciação inteligente entre botões físicos de hardware e termos em linguagem natural em todos os 40 idiomas.
+  * Botões em caixa alta (START, SELECT) e combinações de botões (SELECT + START + L1, L1 + ... + START) permanecem estritamente em inglês conforme gravados nos controles originais da Sony.
+  * Frases e verbos em linguagem natural (To start a graphical interface..., Select which titles appear..., Start menu, Start Mode) continuam sendo traduzidos com total naturalidade e fluidez linguística.
+  * Adicionadas varreduras de segurança pós-tradução para evitar que expressões como otón START ou combinações de controle sejam traduzidas indevidamente para INICIO ou SELECCIONAR.
+
+* **👤 Imunidade Absoluta ao Nome do Desenvolvedor (CosmicScale):**
+  * O nome do desenvolvedor e engenheiro reverso upstream **CosmicScale** (ou **Cosmic Scale**) foi blindado em todos os 6 submódulos e na suíte mestre, impedindo qualquer tradução literal inadequada (ex.: *"Escala Cósmica"*, *"Kosmische Skala"*, *"Échelle Cosmique"*).
+
+* **💻 Preservação Literal de Código Inline (XYZICODE):**
+  * O código inline com crases (` list-builder.py `) agora é armazenado diretamente em memória durante a tokenização Markdown, sem o uso de tags <code ...>.
+  * Elimina a tradução errônea de tags para <código> pelo Google Tradutor e impede a capitalização ou alteração indesejada de nomes de arquivos e comandos.
+
+* **🧱 Correção de Linhas Espaçadoras de HTML Puro:**
+  * Linhas contendo exclusivamente elementos HTML (como <p></p>, <div></div> ou tags de layout) agora são detectadas e preservadas integralmente antes do envio ao motor de tradução.
+  * Corrigida a expressão regular de restauração que causava ganância de caracteres (\D*), prevenindo o surgimento de anomalias como <p>1_XYZ.
+
+* **🏷️ Atualização da Identidade Visual e Versão da Suíte (v1.1.0 / V1.1):**
+  * Versão da suíte atualizada para **v1.1.0** (V1.1 no executável batch e nos títulos de console de todos os 40 idiomas).
+  * Atualização completa das diretrizes para agentes autônomos (AGENTS.md e AGENTS_PTBR.md) com a inclusão formal da Invariante 19.
+
+---
+
+### [v1.0.0] — 25/09/2026
+* Lançamento oficial da Suíte de Tradução Multilíngue do PSBBN com suporte a 40 idiomas e 6 módulos integrados.
+* Injeção binária de permissões POSIX 0755 no pacote nupdate.tar.gz diretamente no Windows.
+* Normalização universal de aspas em atributos XML com imunidade a apóstrofos e elisões em idiomas românicos.
+
 ## 👨‍💻 Créditos e Agradecimentos
 
 * **Emerson Teles** — Desenvolvedor principal e autor exclusivo da Suíte de Tradução Multilíngue do PSBBN, criador do injetor binário POSIX, dos algoritmos de ajuste de linha para terminal, da auditoria de integridade AST e do pipeline automatizado.
@@ -215,11 +250,12 @@ Apaixonado por tecnologia, informática, jogos, manutenção de sistemas e tradu
 <div align="left">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Emertels-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emertels)
-[![Discord](https://img.shields.io/badge/Discord-Emertels%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/eRGFqQkvj)
+[![Discord](https://img.shields.io/badge/Discord-Emertels%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/cnTxQhWWQp)
 [![X / Twitter](https://img.shields.io/badge/X_Twitter-@emertels-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/emertels)
 [![YouTube](https://img.shields.io/badge/YouTube-Emerson_Teles-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@emersonteles2379)
 [![Telegram](https://img.shields.io/badge/Telegram-Aplicativos%20Mods-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/apksmodsandroid)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Apoiar%20Projeto-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/emertels)
 
 </div>
+
 
