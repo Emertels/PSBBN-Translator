@@ -1,4 +1,4 @@
-﻿# 🎮 PSBBN Multilingual Translation Suite — PSBBN Definitive Project
+# 🎮 PSBBN Multilingual Translation Suite — PSBBN Definitive Project
 
 <div align="center">
 
@@ -236,16 +236,21 @@ powershell.exe -ExecutionPolicy Bypass -File "Readme\Translate-README.ps1"
 
 Developed and maintained by **Emerson Teles** (known in the community as **Emertels**).
 
-Passionate about technology, PC computing, gaming, system maintenance, and open software/emulator localization into Brazilian Portuguese (PT-BR).
+Passionate about technology, hardware, gaming, system maintenance, and software/emulator translation & localization into Brazilian Portuguese (PT-BR).
 
 ### 🛠️ Notable Projects & Contributions:
-- **Emulation & Consoles:** Architect & creator of the **PSBBN Multilingual Translation Suite** (40 languages) for PS2; localization and community support for **PSBBN** (PlayStation Broadband Navigator), **PCSX2**, **Dolphin**, **shadPS4**, **Azahar**, and **RetroArch**.
-- **Software & Utilities:** 100% Brazilian localization for **DSX** (DualSense X - Trusted Translator), **ASUS GPU Tweak III**, **dnGrep**, **XWidget**, and web utilities (**DualSense Tester**, **DualShock Tools**).
+- **Automation Suites & GitHub Utilities:**
+  - **[Suite-Emuladores](https://github.com/Emertels/Suite-Emuladores)** — Intelligent PowerShell suite for autonomous downloading and updating of 56 game emulators and frontends.
+  - **[AI-Chat-Vault](https://github.com/Emertels/AI-Chat-Vault)** — Portable backup and recovery for local conversations across 20 agentic AI and coding tools.
+  - **[Microsoft-Photos-Fix](https://github.com/Emertels/Microsoft-Photos-Fix)** — Advanced PowerShell & C# fix for launch route and wallpaper associations in Microsoft Photos.
+  - **[Roccat-Syn-Pro-Air-Fix](https://github.com/Emertels/Roccat-Syn-Pro-Air-Fix)** — Definitive audio management, stabilization, and cycling fix suite for wireless headsets.
+- **Emulation & Systems:** Creator and architect of the **[PSBBN-Translator](https://github.com/Emertels/PSBBN-Translator)** for PS2 (40 languages); localization and support for emulators including **PSBBN**, **PCSX2**, **Dolphin**, **shadPS4**, **Azahar**, and **RetroArch**.
+- **Software & Utilities:** Complete 100% translation of **DSX** (DualSense X - Trusted Translator), **ASUS GPU Tweak III**, **dnGrep**, **XWidget**, and web utilities (**DualSense Tester**, **DualShock Tools**).
 - **Games & Apps:** Localization of **Silent Hill 5: Homecoming**, ongoing translation for **Silent Hill 4: The Room**, and various Android & PC applications.
 
 ---
 
-### 🌐 Connect with me:
+### 🌐 Connect with me & Official Communities:
 
 <div align="left">
 
@@ -257,5 +262,3 @@ Passionate about technology, PC computing, gaming, system maintenance, and open 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Project-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/emertels)
 
 </div>
-
-
